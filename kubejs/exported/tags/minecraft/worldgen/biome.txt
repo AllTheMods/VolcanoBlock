@@ -1,0 +1,684 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 15, 2023, 12:54:53 AM
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether (from Default)
+
+#forge:is_slope
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:water_on_map_outlines
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:is_river
+- minecraft:river (from Default)
+- minecraft:frozen_river (from Default)
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_beach (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_hill (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:desert (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+
+#forge:is_hot/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+
+#ae2:has_meteorites
+- #minecraft:is_overworld? (from appliedenergistics2-forge-12.9.2.jar)
+
+#allthemodium:has_structure/piglin_village_biomes
+- allthemodium:crimson_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:the_other (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#forge:is_hot/overworld
+- minecraft:desert (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:warm_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_cold
+- #forge:is_cold/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_cold/nether? (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_cold/end (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_sparse/overworld
+- minecraft:windswept_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach (from Default)
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+
+#minecraft:produces_corals_from_bonemeal
+- minecraft:warm_ocean (from Default)
+
+#forge:is_desert
+- minecraft:desert (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/stronghold
+- #minecraft:is_overworld (from Default)
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands (from Default)
+
+#minecraft:has_structure/ancient_city
+- minecraft:deep_dark (from Default)
+
+#forge:is_peak
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:stony_peaks (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean (from Default)
+
+#forge:is_wet/overworld
+- minecraft:swamp (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:lush_caves (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:is_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+
+#forge:is_hot
+- #forge:is_hot/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_hot/nether (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_hot/end? (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_slopes (from Default)
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach (from Default)
+
+#minecraft:is_hill
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+
+#forge:is_wet
+- #forge:is_wet/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_wet/nether? (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_wet/end? (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_cold/end
+- minecraft:the_end (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.4-universal.jar)
+
+#waystones:is_desert
+- minecraft:desert (from waystones-forge-1.19-11.1.0.jar)
+
+#minecraft:allows_surface_slime_spawns
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#waystones:is_swamp
+- minecraft:swamp (from waystones-forge-1.19-11.1.0.jar)
+- minecraft:mangrove_swamp (from waystones-forge-1.19-11.1.0.jar)
+
+#forge:is_plains
+- minecraft:plains (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:required_ocean_monument_surrounding
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#forge:is_mountain
+- #forge:is_peak (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_slope (from forge-1.19.2-43.2.4-universal.jar)
+
+#mob_grinding_utils:hostile_override
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean (from Default)
+
+#forge:is_sandy
+- minecraft:desert (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:beach (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle (from Default)
+
+#minecraft:plays_underwater_music
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert (from Default)
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean (from Default)
+
+#forge:is_rare
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:sparse_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:sunflower_plains (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_gravelly_hills (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:flower_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:bamboo_jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_plateau
+- minecraft:savanna_plateau (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:meadow (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#minecraft:is_nether
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:crimson_forest (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:basalt_deltas (from Default)
+
+#forge:is_lush
+- minecraft:lush_caves (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_dry/overworld
+- minecraft:desert (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:wooded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:windswept_savanna (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:eroded_badlands (from forge-1.19.2-43.2.4-universal.jar)
+
+#powah:has_dry_ice
+- #c:icy? (from Powah-4.0.6.jar)
+- #forge:is_cold/overworld? (from Powah-4.0.6.jar)
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest (from Default)
+
+#forge:is_void
+- minecraft:the_void (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_dry
+- #forge:is_dry/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_dry/nether (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_dry/end (from forge-1.19.2-43.2.4-universal.jar)
+
+#allthemodium:has_structure/dungeon_biomes
+- allthemodium:warped_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#forge:is_cave
+- minecraft:lush_caves (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:dripstone_caves (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_mushroom
+- minecraft:mushroom_fields (from forge-1.19.2-43.2.4-universal.jar)
+
+#allthemodium:other_biomes
+- allthemodium:soul_sand_valley (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert_hills (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:warped_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:crimson_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:the_other (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:basalt_deltas (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#minecraft:more_frequent_drowned_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/village_desert
+- minecraft:desert (from Default)
+
+#minecraft:is_forest
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:grove (from Default)
+
+#minecraft:is_overworld
+- minecraft:mushroom_fields (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:grove (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:taiga (from Default)
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:beach (from Default)
+- minecraft:forest (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:desert (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:deep_dark (from Default)
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna (from Default)
+
+#minecraft:without_patrol_spawns
+- minecraft:mushroom_fields (from Default)
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga (from Default)
+
+#minecraft:allows_tropical_fish_spawns_at_any_height
+- minecraft:lush_caves (from Default)
+
+#minecraft:polar_bears_spawn_on_alternate_blocks
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+
+#minecraft:has_closer_water_fog
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:has_structure/village_plains
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+
+#forge:is_coniferous
+- minecraft:taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.4-universal.jar)
+
+#waystones:is_mushroom
+- minecraft:mushroom_fields (from waystones-forge-1.19-11.1.0.jar)
+
+#minecraft:without_wandering_trader_spawns
+- minecraft:the_void (from Default)
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert (from Default)
+
+#forge:is_snowy
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_dense
+- #forge:is_dense/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_dense/nether? (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_dense/end? (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp (from Default)
+
+#minecraft:spawns_cold_variant_frogs
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:grove (from Default)
+- minecraft:deep_dark (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_beach (from Default)
+- #minecraft:is_end (from Default)
+
+#forge:is_water
+- #minecraft:is_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- #minecraft:is_river (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether (from Default)
+
+#mob_grinding_utils:passive_override
+- #forge:is_cave (from mob_grinding_utils-1.19.2-0.4.47.jar)
+- #minecraft:is_river (from mob_grinding_utils-1.19.2-0.4.47.jar)
+
+#minecraft:only_allows_snow_and_gold_rabbits
+- minecraft:desert (from Default)
+
+#minecraft:is_end
+- minecraft:the_end (from Default)
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:small_end_islands (from Default)
+- minecraft:end_barrens (from Default)
+
+#minecraft:stronghold_biased_to
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:desert (from Default)
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:meadow (from Default)
+- minecraft:grove (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+
+#forge:is_underground
+- #forge:is_cave (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:without_zombie_sieges
+- minecraft:mushroom_fields (from Default)
+
+#forge:is_dry/nether
+- minecraft:nether_wastes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:soul_sand_valley (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:crimson_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:warped_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:basalt_deltas (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:is_beach
+- minecraft:beach (from Default)
+- minecraft:snowy_beach (from Default)
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert (from Default)
+- minecraft:plains (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:taiga (from Default)
+- #minecraft:is_mountain (from Default)
+- minecraft:grove (from Default)
+
+#minecraft:is_taiga
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+
+#minecraft:spawns_warm_variant_frogs
+- minecraft:desert (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_savanna (from Default)
+- #minecraft:is_nether (from Default)
+- #minecraft:is_badlands (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:mineshaft_blocking
+- minecraft:deep_dark (from Default)
+
+#forge:is_sparse
+- #forge:is_sparse/overworld (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_sparse/nether? (from forge-1.19.2-43.2.4-universal.jar)
+- #forge:is_sparse/end? (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_swamp
+- minecraft:swamp (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:mangrove_swamp (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:is_wasteland
+- minecraft:snowy_plains (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:is_mountain
+- minecraft:meadow (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+
+#allthemodium:has_structure/ancient_pyramid_biomes
+- allthemodium:soul_sand_valley (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains (from Default)
+
+#minecraft:is_badlands
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+
+#forge:is_dry/end
+- minecraft:the_end (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:small_end_islands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_midlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_highlands (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:end_barrens (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley (from Default)
+
+#forge:is_cold/overworld
+- minecraft:taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_river (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_plains (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_beach (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_pine_taiga (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:grove (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:snowy_slopes (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:jagged_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:frozen_peaks (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:cold_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:deep_cold_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:deep_frozen_ocean (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:ice_spikes (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+
+#allthemodium:mining_features/other_features
+- allthemodium:soul_sand_valley (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert_hills (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:warped_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:crimson_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:the_other (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#forge:is_dense/overworld
+- minecraft:jungle (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:dark_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_birch_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:old_growth_spruce_taiga (from forge-1.19.2-43.2.4-universal.jar)
+
+#allthemodium:mining_features/mining_biomes
+- allthemodium:mining (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:soul_sand_valley (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert_hills (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:desert (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:warped_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:crimson_forest (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:the_other (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#minecraft:reduce_water_ambient_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest (from Default)
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:warped_forest (from Default)
+
+#forge:is_spooky
+- minecraft:dark_forest (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:deep_dark (from forge-1.19.2-43.2.4-universal.jar)
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_hill (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:stony_shore (from Default)
+- #minecraft:is_mountain (from Default)

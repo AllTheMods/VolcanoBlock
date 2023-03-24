@@ -1,0 +1,43 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 15, 2023, 12:54:52 AM
+
+#forge:relocation_not_supported
+- mekanism:cardboard_box (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:bounding_block (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:security_desk (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:digital_miner (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:seismic_vibrator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:solar_neutron_activator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:modification_station (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:isotopic_centrifuge (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pigment_mixer (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:radioactive_waste_barrel (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pressurized_reaction_chamber (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:basic_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:advanced_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:elite_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:ultimate_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:advanced_solar_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:wind_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#mekanism:cardboard_blacklist
+- #forge:immovable (from Mekanism-1.19.2-10.3.8.477.jar)
+- #forge:relocation_not_supported (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:immovable
+- mekanism:cardboard_box (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:bounding_block (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:security_desk (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:digital_miner (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:seismic_vibrator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:solar_neutron_activator (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:modification_station (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:isotopic_centrifuge (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pigment_mixer (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:radioactive_waste_barrel (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:pressurized_reaction_chamber (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:basic_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:advanced_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:elite_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:ultimate_pressurized_tube (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:advanced_solar_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:wind_generator (from MekanismGenerators-1.19.2-10.3.8.477.jar)

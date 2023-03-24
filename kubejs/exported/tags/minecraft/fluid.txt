@@ -1,0 +1,227 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 15, 2023, 12:54:53 AM
+
+#forge:oxygen
+- mekanism:oxygen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_oxygen (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:crude_oil
+- thermal:crude_oil (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+
+#forge:redstone
+- thermal:redstone (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.4-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.4-universal.jar)
+
+#forge:tritium
+- mekanismgenerators:tritium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_tritium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_uranium_hexafluoride (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:pink_slime
+- industrialforegoing:pink_slime (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:biofuel
+- industrialforegoing:biofuel (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- allthemodium:soul_lava (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:flowing_soul_lava (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#forge:ethene
+- mekanism:ethene (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_ethene (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfur_dioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:gaseous
+- mekanism:steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- ic2:woodgas (from )
+- ic2:steam (from )
+
+#forge:hydrogen
+- mekanism:hydrogen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrogen (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#create:bottomless/deny
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_uranium_oxide (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:soul_lava
+- allthemodium:soul_lava (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+- allthemodium:flowing_soul_lava (from allthemodium-2.1.5-1.19.2-43.1.1.jar)
+
+#forge:meat
+- industrialforegoing:meat (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_fusion_fuel (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#forge:chlorine
+- mekanism:chlorine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_chlorine (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp (from mob_grinding_utils-1.19.2-0.4.47.jar)
+
+#forge:sewage
+- industrialforegoing:sewage (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_superheated_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:sodium
+- mekanism:sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfur_trioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfuric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:steam
+- advgenerators:steam (from advgenerators-1.4.0.5-mc1.19.2.jar)
+- mekanism:steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- ic2:steam (from )
+
+#forge:ender
+- thermal:ender (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.38.203.jar)
+- mob_grinding_utils:fluid_xp (from mob_grinding_utils-1.19.2-0.4.47.jar)
+- pneumaticcraft:memory_essence? (from mob_grinding_utils-1.19.2-0.4.47.jar)
+- cofh_core:experience? (from mob_grinding_utils-1.19.2-0.4.47.jar)
+- industrialforegoing:essence (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+- cofh_core:experience (from cofh_core-1.19.2-10.2.1.40.jar)
+- reliquary:xp_juice_still (from reliquary-1.19.2-2.0.20.1166.jar)
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrogen_chloride (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:glowstone
+- thermal:glowstone (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#forge:lithium
+- mekanism:lithium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_lithium (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:deuterium
+- mekanismgenerators:deuterium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_deuterium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrofluoric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:brine
+- mekanism:brine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_brine (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:latex
+- industrialforegoing:latex (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+- thermal:latex (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_bioethanol (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.2.1.40.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#forge:creosote
+- thermal:creosote (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#forge:sludge
+- industrialforegoing:sludge (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#create:no_infinite_draining
+- mekanism:hydrogen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrogen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:oxygen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_oxygen (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:chlorine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_chlorine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:sulfur_dioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfur_dioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:sulfur_trioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfur_trioxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:sulfuric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sulfuric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:hydrogen_chloride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrogen_chloride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:hydrofluoric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_hydrofluoric_acid (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:uranium_oxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_uranium_oxide (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:uranium_hexafluoride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_uranium_hexafluoride (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:ethene (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_ethene (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:superheated_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_superheated_sodium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:brine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_brine (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:lithium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_lithium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:heavy_water (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_heavy_water (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:nutritional_paste (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_nutritional_paste (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:bioethanol (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_bioethanol (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:deuterium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_deuterium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:fusion_fuel (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_fusion_fuel (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:tritium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+- mekanismgenerators:flowing_tritium (from MekanismGenerators-1.19.2-10.3.8.477.jar)
+
+#forge:heavy_water
+- mekanism:heavy_water (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:flowing_heavy_water (from Mekanism-1.19.2-10.3.8.477.jar)
