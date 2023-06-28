@@ -1,0 +1,7 @@
+{
+  "generationRate": 80,
+  "transferRate": 4096,
+  "consumptionRate": 8,
+  "bufferCapacity": 800000,
+  "fuelType": "FOOD"
+}

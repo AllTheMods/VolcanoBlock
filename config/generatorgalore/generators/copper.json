@@ -1,0 +1,8 @@
+{
+  "generationRate": 8,
+  "transferRate": 32,
+  "consumptionRate": 1,
+  "bufferCapacity": 5000,
+  "fuelType": "SOLID",
+  "requiredMod": "somethingthatdoesntexist"
+}

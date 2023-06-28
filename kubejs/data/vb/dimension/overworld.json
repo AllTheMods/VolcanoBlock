@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:overworld",
+  "type": "vb:overworld",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:desert",
+      "biome": "vb:desert",
       "lakes": false,
       "features": false,
       "layers": [

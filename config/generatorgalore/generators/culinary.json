@@ -1,0 +1,8 @@
+{
+  "generationRate": 10,
+  "transferRate": 512,
+  "consumptionRate": 1,
+  "previousTier": "iron",
+  "bufferCapacity": 250000,
+  "fuelType": "FOOD"
+}
