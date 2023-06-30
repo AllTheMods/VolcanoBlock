@@ -138,7 +138,7 @@
   "Utility": {
   
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
