@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     U: '#forge:ingots/unobtainium',
     D: 'mysticalagriculture:speed_iii_augment',
     L: 'minecraft:lapis_lazuli',
-    C: 'productivebees:upgrade_time',
+    C: 'minecraft:clock',
     B: 'minecraft:experience_bottle'
   })
 })
