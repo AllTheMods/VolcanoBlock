@@ -2,7 +2,7 @@
   "generationRate": 261888,
   "transferRate": 523776,
   "consumptionRate": 40,
-  "previousTier": "netherite",
+  "previousTier": "8xnetherstar",
   "bufferCapacity": 40000000,
   "fuelType": "SOLID",
   "fuelTag": "forge:nether_stars"
