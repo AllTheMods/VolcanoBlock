@@ -19,7 +19,7 @@
     "Overworld": {
     
       // Should overworld generate as in default world type? [default: false]
-      "Default": false
+      "Default": true
     }
   },
   
@@ -228,7 +228,7 @@
     "seaHeight": 63,
     
     // Should a surface be generated in the dimensions? [default: false]
-    "surface": true,
+    "surface": false,
     
     // The block settings for generating the different dimensions surfaces.
     // Same format as flat world generation settings (blocks only)
