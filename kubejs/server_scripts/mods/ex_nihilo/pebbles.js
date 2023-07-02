@@ -14,5 +14,5 @@ BlockEvents.rightClicked(event => {
     let random = Math.floor(Math.random() * 2 * loot.length)
     let dropItem = Item.of(loot[random] ?? "exnihilosequentia:stone_pebble")
     block.popItemFromFace(dropItem, facing)
-    player.swingArm(hand)
+    player.swing(hand)
 })
