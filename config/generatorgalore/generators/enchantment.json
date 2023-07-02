@@ -2,7 +2,7 @@
   "generationRate": 40,
   "transferRate": 1024,
   "consumptionRate": 1,
-  "previousTier": "obsidian",
+  "previousTier": "iron",
   "bufferCapacity": 1000000,
   "fuelType": "ENCHANTMENT"
 }
