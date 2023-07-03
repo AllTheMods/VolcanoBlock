@@ -1,0 +1,21 @@
+{
+	"displayName": "Water Chicken",
+	"dropItem": "resourcechickens:water_egg",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block", "minecraft:ice", "minecraft:packed_ice", "minecraft:blue_ice"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "3390463",
+	"eggColorForeground": "35020",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

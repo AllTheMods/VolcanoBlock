@@ -1,0 +1,21 @@
+{
+	"displayName": "Ghast Chicken",
+	"dropItem": "minecraft:ghast_tear",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": ["minecraft:netherrack"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "16777164",
+	"eggColorForeground": "16777215",
+	"hasTrait": 7,
+	"parentA": "resourcechickens:dye_white",
+	"parentB": "resourcechickens:blaze",
+	"enabled": true
+}

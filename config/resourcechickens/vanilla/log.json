@@ -1,0 +1,21 @@
+{
+	"displayName": "Log Chicken",
+	"dropItem": "minecraft:oak_log",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "9995373",
+	"eggColorForeground": "5407576",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

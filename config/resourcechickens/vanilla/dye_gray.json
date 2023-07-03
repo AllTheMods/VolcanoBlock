@@ -1,0 +1,21 @@
+{
+	"displayName": "Gray Dye Chicken",
+	"dropItem": "minecraft:gray_dye",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "4673362",
+	"eggColorForeground": "15921906",
+	"hasTrait": 0,
+	"parentA": "resourcechickens:dye_white",
+	"parentB": "resourcechickens:dye_black",
+	"enabled": true
+}

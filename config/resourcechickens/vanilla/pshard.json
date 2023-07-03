@@ -1,0 +1,21 @@
+{
+	"displayName": "Prismarine Shard Chicken",
+	"dropItem": "minecraft:prismarine_shard",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "4423790",
+	"eggColorForeground": "10472380",
+	"hasTrait": 0,
+	"parentA": "resourcechickens:dye_blue",
+	"parentB": "resourcechickens:water",
+	"enabled": true
+}

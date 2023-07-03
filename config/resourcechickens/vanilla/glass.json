@@ -1,0 +1,21 @@
+{
+	"displayName": "Glass Chicken",
+	"dropItem": "minecraft:glass",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "16777215",
+	"eggColorForeground": "15658751",
+	"hasTrait": 6,
+	"parentA": "resourcechickens:quartz",
+	"parentB": "resourcechickens:redstone",
+	"enabled": true
+}

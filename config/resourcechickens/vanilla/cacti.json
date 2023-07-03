@@ -1,0 +1,21 @@
+{
+	"displayName": "Cactus Chicken",
+	"dropItem": "minecraft:cactus",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:sand"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "13751162",
+	"eggColorForeground": "6592562",
+	"hasTrait": 4,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

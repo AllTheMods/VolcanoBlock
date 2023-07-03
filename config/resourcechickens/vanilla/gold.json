@@ -1,0 +1,21 @@
+{
+	"displayName": "Gold Chicken",
+	"dropItem": "minecraft:gold_ingot",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 0,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "13421568",
+	"eggColorForeground": "16777088",
+	"hasTrait": 0,
+	"parentA": "resourcechickens:iron",
+	"parentB": "resourcechickens:dye_yellow",
+	"enabled": true
+}

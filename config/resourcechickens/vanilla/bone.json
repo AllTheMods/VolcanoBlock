@@ -1,0 +1,21 @@
+{
+	"displayName": "Bone Chicken",
+	"dropItem": "minecraft:bone_meal",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 0,
+	"spawnLight": -7,
+	"spawnBlocks": ["minecraft:netherrack"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "15921906",
+	"eggColorForeground": "10329495",
+	"hasTrait": 8,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}
