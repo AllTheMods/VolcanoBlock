@@ -14,8 +14,8 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:vibranium_seeds',
   ])
 
-  event.add('industrialforegoing:dryrubber', '#forge:black_sand')
-  event.add('ic2:rubber', '#forge:black_sand')
+  event.add('industrialforegoing:dryrubber', '#forge:rubber')
+  event.add('ic2:rubber', '#forge:rubber')
 })
 
 ServerEvents.tags('block', event => {
