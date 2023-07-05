@@ -3,6 +3,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:plastic', 'pneumaticcraft:plastic')
   event.add('forge:dusts/ender', 'ae2:ender_dust')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
+  event.add('forge:rubber', ['ic2:rubber', 'industrialforegoing:dryrubber', 'thermal:cured_rubber'])
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:allthemodium_essence',
     'mysticalagriculture:unobtainium_essence',
@@ -13,9 +14,6 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
   ])
-
-  event.add('industrialforegoing:dryrubber', '#forge:rubber')
-  event.add('ic2:rubber', '#forge:rubber')
 })
 
 ServerEvents.tags('block', event => {
