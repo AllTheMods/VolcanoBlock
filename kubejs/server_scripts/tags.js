@@ -14,12 +14,8 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:vibranium_seeds',
   ])
 
-  //temp byg fix until above 2.0.0.13
-  event.add('c:black_sand', '#forge:black_sand')
-  event.add('c:white_sand', '#forge:white_sand')
-  event.add('c:blue_sand', '#forge:blue_sand')
-  event.add('c:purple_sand', '#forge:purple_sand')
-  event.add('c:pink_sand', '#forge:pink_sand')
+  event.add('industrialforegoing:dryrubber', '#forge:black_sand')
+  event.add('ic2:rubber', '#forge:black_sand')
 })
 
 ServerEvents.tags('block', event => {
