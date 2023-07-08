@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     //Basalt
     sieve(`netherite`, 0.2, 'minecraft:basalt', 'ae2:sky_dust', null)
     sieve(`netherite`, 0.2, 'minecraft:basalt', 'minecraft:amethyst_shard', null)
-    sieve(`netherite`, 0.35, 'minecraft:basalt', 'fluxnetworks:flux_dust', null)
+    //sieve(`netherite`, 0.35, 'minecraft:basalt', 'fluxnetworks:flux_dust', null)
 
     //Oak Leaves
     sieve(`flint`, 0.2, '#minecraft:leaves', 'integrateddynamics:menril_sapling', null)
