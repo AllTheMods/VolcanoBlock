@@ -1,0 +1,542 @@
+{
+	"thermal:nickel_nugget": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:storage_aluminum": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:iron_dust": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"create:zinc_block": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:ingot_uranium": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
+		}
+	],
+	"immersiveengineering:dust_uranium": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
+		}
+	],
+	"mekanism:ingot_osmium": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"create:copper_nugget": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:iron_nugget": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:silver_ingot": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:nugget_uranium": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
+		}
+	],
+	"thermal:silver_plate": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:gold_nugget": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:gold_ingot": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:copper_block": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"mekanism:dust_osmium": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:lead_block": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:nickel_dust": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:lead_dust": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:nickel_ingot": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"mekanism:nugget_osmium": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:sulfur_dust": [
+		{
+			"color": "aqua",
+			"text": "S (16)"
+		},
+		{
+			"color": "gray",
+			"text": "Reactive Non-Metals"
+		}
+	],
+	"create:zinc_nugget": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:tin_plate": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"immersiveengineering:nugget_aluminum": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:tin_nugget": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"minecraft:iron_block": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:silver_dust": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"mekanism:block_osmium": [
+		{
+			"color": "aqua",
+			"text": "Os (76)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:lead_plate": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:nickel_block": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"create:zinc_ingot": [
+		{
+			"color": "aqua",
+			"text": "Zn (30)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:plate_aluminum": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"immersiveengineering:storage_uranium": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
+		}
+	],
+	"thermal:silver_block": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:nickel_plate": [
+		{
+			"color": "aqua",
+			"text": "Ni (28)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:tin_block": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:silver_nugget": [
+		{
+			"color": "aqua",
+			"text": "Ag (47)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"create:iron_sheet": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"minecraft:copper_ingot": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"create:copper_sheet": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:lead_nugget": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:lead_ingot": [
+		{
+			"color": "aqua",
+			"text": "Pb (82)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"minecraft:gold_block": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:dust_aluminum": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:tin_dust": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"thermal:gold_dust": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:copper_dust": [
+		{
+			"color": "aqua",
+			"text": "Cu (29)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"immersiveengineering:ingot_aluminum": [
+		{
+			"color": "aqua",
+			"text": "Al (13)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"create:golden_sheet": [
+		{
+			"color": "aqua",
+			"text": "Au (79)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:sulfur_block": [
+		{
+			"color": "aqua",
+			"text": "S (16)"
+		},
+		{
+			"color": "gray",
+			"text": "Reactive Non-Metals"
+		}
+	],
+	"minecraft:iron_ingot": [
+		{
+			"color": "aqua",
+			"text": "Fe (26)"
+		},
+		{
+			"color": "gray",
+			"text": "Transition Metals"
+		}
+	],
+	"thermal:tin_ingot": [
+		{
+			"color": "aqua",
+			"text": "Sn (50)"
+		},
+		{
+			"color": "gray",
+			"text": "Post-Transition Metals"
+		}
+	],
+	"immersiveengineering:plate_uranium": [
+		{
+			"color": "aqua",
+			"text": "U (92)"
+		},
+		{
+			"color": "gray",
+			"text": "Actinides"
+		}
+	]
+}
