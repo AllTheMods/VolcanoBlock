@@ -1,0 +1,14 @@
+{
+	icon: "thermal:apple_block"
+	id: "56B42FC7CD90B856"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "minecraft:apple", random_bonus: 8 }
+		{ count: 4, item: "minecraft:cooked_beef", random_bonus: 4 }
+		{ count: 4, item: "minecraft:cooked_porkchop", random_bonus: 4 }
+		{ count: 8, item: "minecraft:bread", random_bonus: 8 }
+	]
+	title: "Random Food Crate"
+	use_title: true
+}
