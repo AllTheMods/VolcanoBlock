@@ -12,8 +12,7 @@ ServerEvents.recipes(event => {
     'industrialforegoing:essence',
     'mob_grinding_utils:fluid_xp',
     'pneumaticcraft:memory_essence',
-    'reliquary:xp_juice_still',
-    'sophisticatedcore:xp_still'
+    'reliquary:xp_juice_still'
   ]
   xpFluid.sort()
   let woolOrder = [

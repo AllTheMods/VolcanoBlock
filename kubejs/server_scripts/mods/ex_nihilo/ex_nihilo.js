@@ -50,7 +50,11 @@ ServerEvents.recipes(event => {
     }
 
     function crushEm(result, crush) {
-        event.recipes.mekanism.crushing(Item.of(result), crush)
+        event.custom({
+            type: 'mekanism:crushing',
+            input: { ingredient: Ingredient.of(crush).toJson() },
+            output: Item.of(result).toJson()
+        })
         event.recipes.thermal.pulverizer(Item.of(result), crush)
         event.recipes.immersiveengineering.crusher(Item.of(result), crush)
         event.custom({

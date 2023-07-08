@@ -6,7 +6,7 @@ JEIEvents.hideItems(event => {
   event.hide('mekanism:upgrade_anchor')
   event.hide(['mysticalagradditions:gaia_spirit_crux', 'mysticalagradditions:awakened_draconium_crux'])
   event.hide('ars_nouveau:glyph_animate_block')
-  event.hide('generatorgalore:*_upgrade')
+  event.hide(/generatorgalore:.*_upgrade/)
   event.hide([
     'absentbydesign:slab_tuff',
     'absentbydesign:stairs_tuff',
@@ -20,4 +20,14 @@ JEIEvents.hideItems(event => {
     event.hide('mekanism:dimensional_stabilizer')
     event.hide('ae2:spatial_anchor')
   }
+})
+
+
+const $CreatingFluxRecipe = Java.loadClass('sonar.fluxnetworks.client.jei.CreatingFluxRecipe')
+const $CreatingFluxRecipeCategory = Java.loadClass('sonar.fluxnetworks.client.jei.CreatingFluxRecipeCategory')
+
+JEIEvents.addItems(event => {
+  let RecipeManager = global.jeiRuntime.getRecipeManager()
+  let customFlux = new $CreatingFluxRecipe('minecraft:crying_obsidian', 'minecraft:obsidian', 'minecraft:redstone', 'fluxnetworks:flux_dust')
+  RecipeManager.addRecipes($CreatingFluxRecipeCategory.RECIPE_TYPE, [customFlux])
 })
