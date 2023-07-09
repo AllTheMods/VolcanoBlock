@@ -122,8 +122,6 @@ ServerEvents.recipes(event => {
     fluidItem(`exnihilosequentia:witch_water`, `mysticalagriculture:soulium_dust`, `mysticalagriculture:soulstone`)
 
     event.remove({ id: `minecraft:ens_ancient_debris` })
-    event.remove({ id: `/exnihilosequentia:ens_raw/` })
-    event.remove({ id: `exnihilomekanism:ens_raw_osmium` })
     event.remove({ id: `exnihiloae:sieve/ens_certus_seed` })
 
 })
