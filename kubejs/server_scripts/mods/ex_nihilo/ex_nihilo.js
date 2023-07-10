@@ -93,7 +93,8 @@ ServerEvents.recipes(event => {
 
     //Oak Leaves
     sieve(`flint`, 0.2, '#minecraft:leaves', 'integrateddynamics:menril_sapling', null)
-
+    sieve(`flint`, 0.2, '#minecraft:leaves', 'ic2:rubber_sapling', null)
+    
     //Nether sieve
     sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
     sieve(`diamond`, 0.15, exRack, `create:rose_quartz`, null)
