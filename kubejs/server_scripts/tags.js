@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts/ender', 'ae2:ender_dust')
   event.add('ars_nouveau:golem/shard', ['minecraft:amethyst_shard', 'ae2:certus_quartz_crystal'])
   event.add('forge:rubber', ['ic2:rubber', 'industrialforegoing:dryrubber', 'thermal:cured_rubber'])
+  event.add('forge:soul_sand', 'minecraft:soul_sand')
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:allthemodium_essence',
     'mysticalagriculture:unobtainium_essence',
