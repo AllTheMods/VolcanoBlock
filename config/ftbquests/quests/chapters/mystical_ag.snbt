@@ -3,10 +3,10 @@
 	default_min_width: 200
 	default_quest_shape: ""
 	filename: "mystical_ag"
-	group: ""
+	group: "38AC79C5F3F80F46"
 	icon: "mysticalagriculture:inferium_essence"
 	id: "5C764279146E5E66"
-	order_index: 10
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

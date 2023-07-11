@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: ""
+	group: "421D0EE0E1C67D5A"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

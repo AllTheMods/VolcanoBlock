@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "powah"
-	group: ""
+	group: "34092FD19560F2D7"
 	icon: "powah:player_transmitter_nitro"
 	id: "2A6EBEEBAB882679"
 	images: [
@@ -462,7 +462,7 @@
 			y: 18.5d
 		}
 	]
-	order_index: 13
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "food_and_farming"
-	group: ""
+	group: "38AC79C5F3F80F46"
 	icon: "minecraft:cake"
 	id: "05E614FDA677D85E"
 	images: [
@@ -151,7 +151,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -400,19 +400,11 @@
 				":)"
 			]
 			id: "1D2EF12FD7FDD217"
-			rewards: [
-				{
-					count: 2
-					id: "75D8B76E11F272AC"
-					item: "croptopia:scrambled_eggs"
-					type: "item"
-				}
-				{
-					id: "25D2B3D4AE631792"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "25D2B3D4AE631792"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "or am I?"
 			tasks: [{
 				count: 3L
@@ -427,18 +419,11 @@
 		{
 			dependencies: ["1D2EF12FD7FDD217"]
 			id: "1697CC05D08B388D"
-			rewards: [
-				{
-					id: "7A84544510F1D4EE"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "6ABAD303E8397549"
-					item: "croptopia:fried_chicken"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7A84544510F1D4EE"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "How else do you think Fried Chicken is made?"
 			tasks: [
 				{
@@ -522,19 +507,11 @@
 		{
 			dependencies: ["0A1C2A7A8617D3E4"]
 			id: "659A903F97F93BE2"
-			rewards: [
-				{
-					count: 2
-					id: "1C449D2589FD1836"
-					item: "croptopia:toast"
-					type: "item"
-				}
-				{
-					id: "382B2B8DF207F44F"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "382B2B8DF207F44F"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Quick and Simple"
 			tasks: [{
 				count: 3L
@@ -797,12 +774,6 @@
 					xp: 10
 				}
 				{
-					count: 2
-					id: "2264EDF3B1BC3075"
-					item: "croptopia:vanilla_ice_cream"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "48E3792992035011"
 					table_id: 487623848494439020L
@@ -983,152 +954,6 @@
 			y: -1.0d
 		}
 		{
-			description: ["But he usually closes by 5, so who cares."]
-			id: "1DCAA0310AA55F1C"
-			rewards: [{
-				id: "7BB398F5B3A25045"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "diamond"
-			size: 1.25d
-			subtitle: "Willy would be Proud."
-			tasks: [{
-				id: "5CB4746CCB2E2363"
-				item: {
-					Count: 1b
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "The Start of a Fisher"
-			x: -1.57d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1DCAA0310AA55F1C"]
-			id: "16D0F1E3CEB60ABF"
-			rewards: [
-				{
-					id: "03247C933128C015"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AD805EF5C994DC3"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "13E86D23DA98D8E9"
-				item: {
-					Count: 1b
-					id: "aquaculture:iron_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["16D0F1E3CEB60ABF"]
-			id: "0A64D0937A5F7513"
-			rewards: [
-				{
-					id: "7664E2CF599F9E96"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F864C7AA00CC8A9"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "144B351F77F0B08F"
-				item: {
-					Count: 1b
-					id: "aquaculture:gold_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0A64D0937A5F7513"]
-			id: "511562EA5811306B"
-			rewards: [
-				{
-					id: "3F6CD2A029F5FC11"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7DF9A8B80872B680"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "3FECA1F49F588499"
-				item: {
-					Count: 1b
-					id: "aquaculture:diamond_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["511562EA5811306B"]
-			id: "5A1DCD6C7F712A78"
-			rewards: [
-				{
-					id: "4000D1222D505757"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5A0D21935AEB18B1"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "31B52EAD7F931F31"
-				item: {
-					Count: 1b
-					id: "aquaculture:neptunium_fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"659A903F97F93BE2"
 				"1D48298525EEADC9"
@@ -1229,63 +1054,6 @@
 			title: "The Sink = Infinite Water"
 			x: -1.0d
 			y: 8.0d
-		}
-		{
-			description: [
-				"&9Botany Pots&r makes it easy to grow your resources!"
-				""
-				"These pots auto-grow almost anything you put into them, and can even be upgraded for automation!"
-			]
-			id: "01B70A4F230ED036"
-			rewards: [
-				{
-					count: 2
-					id: "0AC970B512BC6821"
-					item: "minecraft:terracotta"
-					type: "item"
-				}
-				{
-					id: "5E4853D67766A132"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			size: 1.25d
-			tasks: [{
-				id: "1958DBFE401157E6"
-				item: "botanypots:terracotta_botany_pot"
-				type: "item"
-			}]
-			title: "Botany Pots"
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["01B70A4F230ED036"]
-			description: ["Hopper pots will automatically output into the storage beneath it. This can be used to automate all of your crops!"]
-			id: "2715BECC5E6FFA64"
-			rewards: [
-				{
-					id: "3CE68937F914479A"
-					item: "minecraft:hopper"
-					type: "item"
-				}
-				{
-					id: "1AC7BCFCCC100F4C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "572F01124B2232CD"
-				item: "botanypots:terracotta_hopper_botany_pot"
-				type: "item"
-			}]
-			title: "Automating the Pots"
-			x: 3.5d
-			y: 5.0d
 		}
 	]
 	title: "Food and Farming"

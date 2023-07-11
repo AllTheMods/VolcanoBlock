@@ -2,7 +2,7 @@
 	icon: "minecraft:nether_star"
 	id: "481E10AEAC95C550"
 	loot_size: 1
-	order_index: 19
+	order_index: 14
 	rewards: [
 		{ item: "mekanism:pellet_antimatter" }
 		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot", random_bonus: 2, weight: 3.0f }
@@ -10,9 +10,6 @@
 		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot", random_bonus: 2, weight: 3.0f }
 		{ item: "allthemodium:piglich_heart", random_bonus: 3, weight: 3.0f }
 		{ item: "botania:life_essence" }
-		{ item: "elementalcraft:purecrystal", random_bonus: 3, weight: 4.0f }
-		{ item: "elementalcraft:fireite_ingot" }
-		{ item: "mysticalagriculture:master_infusion_crystal", weight: 2.0f }
 		{ item: "mysticalagradditions:insanium_essence", random_bonus: 2 }
 	]
 	title: "&5Mythic Reward"

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basic_power"
-	group: ""
+	group: "34092FD19560F2D7"
 	icon: {
 		Count: 1b
 		id: "mekanism:creative_energy_cube"
@@ -28,7 +28,7 @@
 		x: -3.5d
 		y: -3.5d
 	}]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -558,38 +558,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1F81EA5E45424308"]
-			description: [
-				"The &9Tesseract&r allows you to transport items, fluid, and energy between other Tesseracts."
-				""
-				"These work at any distance, and across dimensions."
-			]
-			id: "5A2A39CC4BB00182"
-			rewards: [
-				{
-					id: "503B730A6C1C60E0"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "61435729546E13B6"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "What a throwback"
-			tasks: [{
-				id: "1F388FCC8D844E8E"
-				item: "tesseract:tesseract"
-				type: "item"
-			}]
-			title: "&dWireless Everything"
-			x: -8.0d
 			y: 1.5d
 		}
 		{

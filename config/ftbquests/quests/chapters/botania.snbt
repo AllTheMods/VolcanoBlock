@@ -3,10 +3,10 @@
 	default_min_width: 200
 	default_quest_shape: ""
 	filename: "botania"
-	group: ""
+	group: "421D0EE0E1C67D5A"
 	icon: "botania:lexicon"
 	id: "1883B79BDB2AAE5D"
-	order_index: 11
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

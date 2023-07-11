@@ -1,13 +1,17 @@
 {
-	icon: "lootr:lootr_chest"
+	icon: {
+		Count: 1b
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "mekanism_advanced_loot_box"
+		}
+	}
 	id: "617F6D802ED0FD00"
 	loot_size: 1
-	order_index: 17
+	order_index: 12
 	rewards: [
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
 		{ item: "powah:thermo_generator_niotic" }
 		{ item: "powah:thermo_generator_spirited" }
-		{ item: "tempad:he_who_remains_tempad" }
 		{
 			item: {
 				Count: 1b
@@ -23,7 +27,6 @@
 			}
 		}
 		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
-		{ item: "quarryplus:quarry" }
 		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:ultimate_tier_installer" }
 		{ item: "thermal:upgrade_augment_3" }
@@ -38,9 +41,6 @@
 			}
 		}
 		{ item: "ironfurnaces:emerald_furnace" }
-		{ item: "artifacts:eternal_steak" }
-		{ item: "artifacts:superstitious_hat" }
-		{ item: "artifacts:lucky_scarf" }
 		{ item: "apotheosis:sigil_of_socketing" }
 		{
 			item: {
@@ -86,30 +86,6 @@
 					StoredEnchantments: [{
 						id: "minecraft:sharpness"
 						lvl: 3s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:fortune"
-						lvl: 8s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 9s
 					}]
 				}
 			}

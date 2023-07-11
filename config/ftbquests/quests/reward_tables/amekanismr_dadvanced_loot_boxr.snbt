@@ -1,5 +1,11 @@
 {
-	icon: "lootr:lootr_inventory"
+	icon: {
+		Count: 1b
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "mekanism_advanced_loot_box"
+		}
+	}
 	id: "74164DBBE7919A3B"
 	loot_crate: {
 		color: 16777215
@@ -12,7 +18,7 @@
 		string_id: "mekanism_advanced_loot_box"
 	}
 	loot_size: 1
-	order_index: 42
+	order_index: 37
 	rewards: [
 		{ count: 4, item: "alltheores:steel_ingot", random_bonus: 4, weight: 100.0f }
 		{ item: "alltheores:steel_block", random_bonus: 1, weight: 75.0f }
@@ -86,19 +92,6 @@
 			weight: 50.0f
 		}
 		{ item: "mysticalagriculture:uranium_seeds", random_bonus: 1, weight: 25.0f }
-		{
-			item: {
-				Count: 1b
-				id: "productivebees:spawn_egg_configurable_bee"
-				tag: {
-					EntityTag: {
-						type: "productivebees:radioactive"
-					}
-				}
-			}
-			random_bonus: 1
-			weight: 25.0f
-		}
 	]
 	title: "&aMekanism:&r &dAdvanced Loot Box&r"
 	use_title: true

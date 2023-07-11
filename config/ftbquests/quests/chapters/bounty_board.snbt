@@ -17,7 +17,7 @@
 		x: 3.0d
 		y: -8.0d
 	}]
-	order_index: 15
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -564,11 +564,6 @@
 					id: "2A9810116395C984"
 					type: "xp"
 					xp: 100
-				}
-				{
-					id: "0CE048FBADDEFFD0"
-					item: "nomowanderer:no_soliciting_sign"
-					type: "item"
 				}
 				{
 					id: "739F0D5CD8C7BA5E"

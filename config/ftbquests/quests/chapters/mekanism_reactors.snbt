@@ -3,7 +3,7 @@
 	default_min_width: 200
 	default_quest_shape: ""
 	filename: "mekanism_reactors"
-	group: ""
+	group: "73E251290820E9B5"
 	icon: "mekanism:supercharged_coil"
 	id: "0A093D8C4429B627"
 	images: [
@@ -262,7 +262,7 @@
 			y: -4.0d
 		}
 	]
-	order_index: 14
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -968,7 +968,13 @@
 				""
 				"If you're ready to go, hit that &eActivate&r button! You can also adjust the &3Burn Rate&r to produce more Nuclear Waste, but start slow."
 			]
-			icon: "engineersdecor:sign_radioactive"
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ic2:textures/painting/hazard_radioactive.png"
+				}
+			}
 			id: "3591EAA8E397F992"
 			min_width: 300
 			rewards: [{

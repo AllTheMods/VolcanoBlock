@@ -8,23 +8,9 @@
 	}
 	id: "4D37FFAF33DF678A"
 	loot_size: 1
-	order_index: 16
+	order_index: 11
 	rewards: [
-		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "sophisticatedstorage:diamond_chest"
-				tag: {
-					woodType: "oak"
-				}
-			}
-			weight: 5.0f
-		}
-		{ item: "sophisticatedstorage:stack_upgrade_tier_2", weight: 7.0f }
 		{ item: "thermal:upgrade_augment_2" }
-		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade", weight: 3.0f }
 		{ item: "industrialforegoing:laser_drill" }
 		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
 		{
@@ -52,43 +38,6 @@
 			}
 		}
 		{ item: "pipez:advanced_upgrade", random_bonus: 2, weight: 5.0f }
-		{ item: "productivebees:upgrade_productivity", weight: 2.0f }
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sharpness"
-						lvl: 9s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:looting"
-						lvl: 8s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "quark:ancient_tome"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:sweeping"
-						lvl: 8s
-					}]
-				}
-			}
-		}
 		{
 			item: {
 				Count: 1b
@@ -107,12 +56,6 @@
 		{ item: "mekanism:elite_tier_installer", weight: 3.0f }
 		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
-		{ item: "artifacts:charm_of_sinking" }
-		{ item: "artifacts:vampiric_glove", weight: 2.0f }
-		{ item: "artifacts:umbrella" }
-		{ item: "artifacts:night_vision_goggles" }
-		{ item: "artifacts:golden_hook", weight: 2.0f }
-		{ item: "artifacts:crystal_heart" }
 		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
 		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "thermal:machine_speed_augment", weight: 5.0f }
@@ -130,38 +73,6 @@
 		{ item: "mekanism:ingot_refined_obsidian", random_bonus: 3, weight: 5.0f }
 		{ item: "minecraft:diamond_block", random_bonus: 2, weight: 7.0f }
 		{ item: "minecraft:emerald_block", random_bonus: 1, weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:potion_charm"
-				tag: {
-					Damage: 0
-					Potion: "potionsmaster:diamond_sight"
-				}
-			}
-			weight: 3.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:potion_charm"
-				tag: {
-					Damage: 0
-					Potion: "potionsmaster:emerald_sight"
-				}
-			}
-			weight: 2.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "apotheosis:potion_charm"
-				tag: {
-					Damage: 0
-					Potion: "potionsmaster:netherite_sight"
-				}
-			}
-		}
 		{ item: "minecraft:beacon", weight: 2.0f }
 		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
 		{
@@ -191,10 +102,7 @@
 				}
 			}
 		}
-		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
-		{ item: "sophisticatedstorage:stack_upgrade_tier_3" }
 		{ item: "functionalstorage:netherite_upgrade" }
-		{ item: "tempad:tempad" }
 		{ item: "functionalstorage:gold_upgrade", random_bonus: 1, weight: 5.0f }
 		{ item: "botania:endoflame" }
 		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5.0f }

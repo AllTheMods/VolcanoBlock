@@ -718,8 +718,8 @@
 				item: "mysticalagriculture:allthemodium_seeds"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["61FDABF2C7CC1F9D"]
@@ -745,8 +745,8 @@
 				item: "mysticalagriculture:vibranium_seeds"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["44760B819EB3CA68"]
@@ -770,111 +770,6 @@
 			tasks: [{
 				id: "1ACAA7497BB635C0"
 				item: "mysticalagriculture:unobtainium_seeds"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["71A43C89EB13E9A0"]
-			hide: true
-			hide_dependency_lines: false
-			id: "5D8A3491889F2C4E"
-			rewards: [
-				{
-					id: "15475C2EF8192338"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "736E172147AD8566"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "757DE5E7C84CDD47"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:allthemodium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["61FDABF2C7CC1F9D"]
-			hide: true
-			hide_dependency_lines: false
-			id: "517A9CAA342E8FA6"
-			rewards: [
-				{
-					id: "15EE8C5DD99F0F0B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "08C9D0B4D3679B9F"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "1DF8E3A079E13541"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:vibranium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44760B819EB3CA68"]
-			hide: true
-			hide_dependency_lines: false
-			id: "3D6FFE360BBED088"
-			rewards: [
-				{
-					id: "6DE21C164B4D377E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F7489F110A30FF2"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "60DD22BBD1056077"
-				item: {
-					Count: 1b
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:unobtainium"
-						}
-					}
-				}
 				type: "item"
 			}]
 			x: 2.0d
