@@ -87,13 +87,12 @@ ServerEvents.recipes(event => {
 
   // Philosopher's Fuel
   // Alfred's Proposal
-  event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'GEE', 'CHI'], {
+  event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'GEE', 'ICI'], {
     A: 'chemlib:oganesson',
-	  B: 'mekanism:pellet_antimatter',
+    B: 'mekanism:pellet_antimatter',
   	C: Item.of('ic2:uranium_rod_quad', '{Damage:0}').strongNBT(),
-	  E: 'mysticalagradditions:insanium_coal_block',
+    E: 'mysticalagradditions:insanium_coal_block',
   	G: 'mysticalagriculture:awakened_supremium_furnace',
-  	H: 'twilightforest:twilight_portal_miniature_structure',
     I: 'ic2:nuclear_reactor'
   }).id('kubejs:allthetweaks/philosophers_fuel')
 
