@@ -270,7 +270,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "5A1784C5676CDC62"
-				title: "Welcome to All The Mods 8!"
+				title: "Welcome!"
 				type: "checkmark"
 			}]
 			title: "&dWelcome to&r &cVolcanoBlock!&r"
