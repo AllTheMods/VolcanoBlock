@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     N: 'allthemodium:piglich_heart',
     I: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:ender_dragon"}}'),
     B: 'minecraft:dragon_breath',
-	G: 'productivebees:inactive_dragon_egg',
+	G: 'exnihilosequentia:end_stone_pebble',
     E: 'ars_nouveau:summon_focus'
   }).id('kubejs:allthetweaks/dragon_soul')
 
@@ -78,22 +78,20 @@ ServerEvents.recipes(event => {
 
   // Withers Compass
   // Alfred's Proposal
-  event.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
+  event.shaped('allthetweaks:withers_compass', ['DED', 'ABA', 'DED'], {
     A: 'mekanism:module_gravitational_modulating_unit',
     B: 'industrialforegoing:wither_builder',
-    C: 'deeperdarker:heart_of_the_deep',
     D: 'ic2:uumatter',
     E: 'mekanism:module_gravitational_modulating_unit'
   }).id('kubejs:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   // Alfred's Proposal
-  event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'GEF', 'CHI'], {
+  event.shaped('allthetweaks:philosophers_fuel', ['ABC', 'GEE', 'CHI'], {
     A: 'chemlib:oganesson',
 	  B: 'mekanism:pellet_antimatter',
   	C: Item.of('ic2:uranium_rod_quad', '{Damage:0}').strongNBT(),
 	  E: 'mysticalagradditions:insanium_coal_block',
-    F: 'elementalcraft:fireite_ingot',
   	G: 'mysticalagriculture:awakened_supremium_furnace',
   	H: 'twilightforest:twilight_portal_miniature_structure',
     I: 'ic2:nuclear_reactor'
@@ -149,8 +147,8 @@ ServerEvents.recipes(event => {
   // Alfred's Proposal
   event.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
     A: 'spirit:soul_steel_block',
-    C: 'naturesaura:end_flower',
-    B: 'naturesaura:chunk_loader'
+    C: 'ic2:plasma_core',
+    B: 'mysticalagradditions:insanium_block'
   }).id('kubejs:allthetweaks/oblivion_shard')
 
   // Creative Essence
