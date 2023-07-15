@@ -40,6 +40,10 @@ ServerEvents.tags('block', event => {
     'allthemodium:unobtainium_vibranium_alloy_block',
     'allthetweaks:atm_star_block'
   ])
+  event.add('minecraft:mineable/pickaxe',['cobblefordays:tier_1','cobblefordays:tier_2','cobblefordays:tier_3','cobblefordays:tier_4','cobblefordays:tier_5','enderstorage:ender_chest','enderstorage:ender_tank'])
+  event.add('exnihilosequentia:mineable/hammer',['allthecompressed:cobblestone_block_1x','allthecompressed:gravel_block_1x','allthecompressed:sand_block_1x'])
+  event.add('exnihilosequentia:sieves', /exnihilosequentia:.*_sieve/)
+  event.add('kubejs:carryon_ban', [/exnihilosequentia:.*_sieve/])
 })
 
 ServerEvents.tags('entity_type', event => {
