@@ -44,6 +44,7 @@ ServerEvents.tags('block', event => {
   event.add('exnihilosequentia:mineable/hammer',['allthecompressed:cobblestone_block_1x','allthecompressed:gravel_block_1x','allthecompressed:sand_block_1x'])
   event.add('exnihilosequentia:sieves', /exnihilosequentia:.*_sieve/)
   event.add('kubejs:carryon_ban', [/exnihilosequentia:.*_sieve/])
+  event.add('minecraft:animals_spawnable_on', 'minecraft:sand')
 })
 
 ServerEvents.tags('entity_type', event => {
