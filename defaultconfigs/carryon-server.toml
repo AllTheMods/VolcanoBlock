@@ -81,7 +81,8 @@
 		"myrtrees:*",
 		"mekanism:*",
 		"mekanismgenerators:*",
-		"exnihilosequentia:*_sieve"
+		"exnihilosequentia:*_sieve",
+		"#kubejs:carryon_ban"
 	]
 	#Entities that cannot be picked up
 	forbiddenEntities = ["minecraft:end_crystal", "minecraft:ender_dragon", "minecraft:ghast", "minecraft:shulker", "minecraft:leash_knot", "minecraft:armor_stand", "minecraft:item_frame", "minecraft:painting", "minecraft:shulker_bullet", "animania:hamster", "animania:ferret*", "animania:hedgehog*", "animania:cart", "animania:wagon", "mynko:*", "pixelmon:*", "mocreatures:*", "quark:totem", "vehicle:*"]
