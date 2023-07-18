@@ -1,0 +1,31 @@
+{
+	"inputs": [
+		"ic2:ingot_uranium",
+		"alltheores:uranium_ingot"
+	],
+	"fuels": [
+		{
+			"input": {
+				"item": "minecraft:charcoal",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 25
+		},
+		{
+			"input": {
+				"item": "ic2:charcoal_block",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 200
+		}
+	],
+	"output": {
+		"item": "ic2:ingot_uranium_enriched_charcoal",
+		"count": 1
+	},
+	"points": 100,
+	"color": -13224394,
+	"energy_usage": 5
+}

@@ -1,0 +1,30 @@
+{
+	"input": [
+		{
+			"item": {
+				"item": "ic2:copper_dust_block",
+				"count": 3
+			},
+			"size": 3,
+			"type": "ic2:nbtstack"
+		},
+		{
+			"item": {
+				"item": "ic2:tin_dust_block",
+				"count": 1
+			},
+			"size": 1,
+			"type": "ic2:nbtstack"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:bronze_block",
+				"count": 4
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

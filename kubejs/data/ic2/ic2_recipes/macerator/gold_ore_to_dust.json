@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/gold",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 1.0,
+		"outputs": [
+			{
+				"item": "alltheores:gold_dust",
+				"count": 2
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

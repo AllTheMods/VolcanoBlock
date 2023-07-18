@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/tin",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.4,
+		"outputs": [
+			{
+				"item": "alltheores:tin_dust",
+				"count": 2
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

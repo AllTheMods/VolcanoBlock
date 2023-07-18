@@ -1,0 +1,31 @@
+{
+	"inputs": [
+		"ic2:ingot_uranium",
+		"alltheores:uranium_ingot"
+	],
+	"fuels": [
+		{
+			"input": {
+				"item": "minecraft:redstone",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 25
+		},
+		{
+			"input": {
+				"item": "minecraft:redstone_block",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 200
+		}
+	],
+	"output": {
+		"item": "ic2:ingot_uranium_enriched_redstone",
+		"count": 1
+	},
+	"points": 100,
+	"color": -65536,
+	"energy_usage": 25
+}

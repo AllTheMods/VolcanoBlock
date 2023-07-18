@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "forge:storage_blocks/raw_gold",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 9.0,
+		"nbt": "{time_mod:4.0d}",
+		"outputs": [
+			{
+				"item": "alltheores:gold_dust",
+				"count": 18
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

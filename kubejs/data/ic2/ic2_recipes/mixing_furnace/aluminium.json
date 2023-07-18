@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"tag": "forge:dusts/aluminum",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "minecraft:sand",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:aluminum_ingot",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

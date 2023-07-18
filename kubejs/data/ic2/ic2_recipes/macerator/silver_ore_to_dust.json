@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/silver",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.8,
+		"outputs": [
+			{
+				"item": "alltheores:silver_dust",
+				"count": 2
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

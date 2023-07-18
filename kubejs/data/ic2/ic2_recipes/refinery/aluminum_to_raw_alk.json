@@ -1,0 +1,31 @@
+{
+	"input": {
+		"tag": "forge:ores/aluminium",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "ic2:alcohol",
+		"amount": 375
+	},
+	"output": {
+		"output": {
+			"item": "alltheores:raw_aluminium",
+			"count": 1
+		},
+		"minOut": 75,
+		"maxOut": 105,
+		"fluidOutput": {
+			"fluid": "minecraft:empty",
+			"amount": 0
+		},
+		"minFluid": 0,
+		"maxFluid": 0,
+		"nbt": "{time_mod:0.5d}",
+		"type": "ic2:range"
+	}
+}
