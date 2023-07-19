@@ -1,0 +1,38 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:ingot_advanced_alloy",
+		"count": 2
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"tag": "forge:ingots/refined_iron",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:ingots/bronze",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		},
+		{
+			"tag": "forge:ingots/aluminum",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"YYY",
+		"CCC"
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:uranium_rod_single",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:cell_empty",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": {
+				"item": "alltheores:uranium_ingot",
+				"count": 1
+			},
+			"size": 1,
+			"type": "ic2:nbtstack"
+		}
+	]
+}
