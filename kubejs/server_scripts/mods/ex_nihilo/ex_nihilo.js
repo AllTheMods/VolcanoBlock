@@ -55,7 +55,13 @@ ServerEvents.recipes(event => {
             input: { ingredient: Ingredient.of(crush).toJson() },
             output: Item.of(result).toJson()
         })
-        event.recipes.thermal.pulverizer(Item.of(result), crush)
+        event.custom({
+            type: 'thermal:pulverizer',
+            ingredient: Ingredient.of(crush).toJson(),
+            result: [
+                Item.of(result).toJson()
+            ]
+        })
         event.recipes.immersiveengineering.crusher(Item.of(result), crush)
         event.custom({
             type: `integrateddynamics:squeezer`,
