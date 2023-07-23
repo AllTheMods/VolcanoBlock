@@ -1,0 +1,40 @@
+{
+	icon: "ic2:ingot_refined_iron"
+	id: "5F172C91E1F9079D"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ item: "ic2:machine_block", random_bonus: 1, weight: 50.0f }
+		{ item: "ic2:advanced_machine_block", weight: 10.0f }
+		{ item: "ic2:re_battery", weight: 100.0f }
+		{ count: 3, item: "ic2:ingot_refined_iron", random_bonus: 6, weight: 100.0f }
+		{ count: 8, item: "ic2:rubber", random_bonus: 8, weight: 100.0f }
+		{ count: 8, item: "ic2:sticky_resin", random_bonus: 8, weight: 100.0f }
+		{ count: 3, item: "ic2:copper_insulated_cable_item", random_bonus: 3, weight: 75.0f }
+		{ count: 8, item: "ic2:cell_empty", random_bonus: 8, weight: 75.0f }
+		{ item: "ic2:circuit", random_bonus: 2, weight: 50.0f }
+		{ item: "ic2:upgrade_base", random_bonus: 3, weight: 50.0f }
+		{ item: "ic2:upgrade_overclocker", random_bonus: 2, weight: 25.0f }
+		{ item: "ic2:upgrade_transformer", random_bonus: 2, weight: 25.0f }
+		{ item: "ic2:upgrade_efficiency", random_bonus: 2, weight: 50.0f }
+		{ item: "ic2:generator", weight: 50.0f }
+		{ item: "ic2:solar_panel_compressed", random_bonus: 1, weight: 25.0f }
+		{ item: "ic2:scrap", random_bonus: 9, weight: 50.0f }
+		{ item: "ic2:scrap_metal", random_bonus: 3, weight: 50.0f }
+		{ item: "ic2:batbox", weight: 25.0f }
+		{ item: "ic2:energy_crystal", weight: 50.0f }
+		{ item: "ic2:lapatron_crystal", weight: 25.0f }
+		{
+			item: {
+				Count: 1b
+				id: "ic2:re_battery"
+				tag: {
+					charge: 10000
+				}
+			}
+			weight: 50.0f
+		}
+	]
+	title: "IC2: &eCommon Reward&r"
+	use_title: true
+}

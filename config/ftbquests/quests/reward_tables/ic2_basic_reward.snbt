@@ -1,0 +1,15 @@
+{
+	icon: "ic2:mug_coffee"
+	id: "5FC04DB999725AA0"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "ic2:mug_coffee", random_bonus: 2, weight: 2.0f }
+		{ item: "ic2:mug_dark_coffee", random_bonus: 2, weight: 2.0f }
+		{ item: "ic2:mug_fruit_tea", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "ic2:filled_tin_can", random_bonus: 2, weight: 2.0f }
+		{ item: "ic2:filled_tin_can_golden_apple", random_bonus: 1 }
+	]
+	title: "IC2: &aBasic Reward&r"
+	use_title: true
+}

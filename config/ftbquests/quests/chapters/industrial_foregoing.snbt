@@ -5,7 +5,7 @@
 	group: "73E251290820E9B5"
 	icon: "industrialforegoing:common_black_hole_unit"
 	id: "193F91842D2ED7D9"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

@@ -60,47 +60,11 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "minecraft:textures/block/birch_sapling.png"
+			image: "cookingforblockheads:item/crafting_book"
 			rotation: 0.0d
-			width: 2.0d
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "farmersdelight:textures/block/cutting_board.png"
-			rotation: -90.0d
 			width: 2.0d
 			x: 0.5d
-			y: 11.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "croptopia:textures/item/cantaloupe_seed.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "farmersdelight:textures/item/apple_cider.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 1.0d
+			y: 9.5d
 		}
 		{
 			click: ""
@@ -125,18 +89,6 @@
 			width: 1.0d
 			x: 4.5d
 			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "aquaculture:textures/item/catfish.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.0d
-			y: 4.0d
 		}
 		{
 			click: ""
@@ -607,7 +559,7 @@
 			}]
 			title: "Making a Kitchen, with a book."
 			x: 0.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["45F83C2750F70F9B"]
@@ -643,7 +595,7 @@
 			}]
 			title: "Cooking with the power of Diamonds"
 			x: 0.5d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
@@ -678,7 +630,7 @@
 			}]
 			title: "THE BEST THING SINCE SLICED BREAD"
 			x: 0.5d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
@@ -717,7 +669,7 @@
 			}]
 			title: "Even More Storage"
 			x: 0.5d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
@@ -756,7 +708,7 @@
 			}]
 			title: "I need more cooking space."
 			x: 2.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
@@ -790,7 +742,7 @@
 			}]
 			title: "The Fridge"
 			x: -0.5d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
@@ -825,7 +777,7 @@
 			}]
 			title: "Honey, there's a Furnace in the Kitchen"
 			x: 1.5d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
@@ -865,7 +817,7 @@
 			}]
 			title: "A Cow in a Jar"
 			x: 0.5d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CB3FCD789747EF5"]
@@ -898,7 +850,7 @@
 			}]
 			title: "Heating Upgrade"
 			x: 1.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["66815AB6FDACCAB7"]
@@ -932,7 +884,7 @@
 			}]
 			title: "Ice, Ice, Baby"
 			x: 0.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5A51E26D66D1273B"]
@@ -1053,7 +1005,7 @@
 			}]
 			title: "The Sink = Infinite Water"
 			x: -1.0d
-			y: 8.0d
+			y: 6.5d
 		}
 	]
 	title: "Food and Farming"

@@ -31,15 +31,6 @@
 		{ item: "mekanism:ultimate_tier_installer" }
 		{ item: "thermal:upgrade_augment_3" }
 		{ item: "ironfurnaces:netherite_furnace" }
-		{
-			item: {
-				Count: 1b
-				id: "minecraft:potion"
-				tag: {
-					Potion: "potionsmaster:allthemodium_sight"
-				}
-			}
-		}
 		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "apotheosis:sigil_of_socketing" }
 		{

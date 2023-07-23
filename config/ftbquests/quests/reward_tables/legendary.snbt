@@ -13,11 +13,6 @@
 		{ item: "apotheosis:library" }
 		{ item: "apotheosis:mythic_material", random_bonus: 5, weight: 2.0f }
 		{ item: "apotheosis:superior_sigil_of_socketing", random_bonus: 2, weight: 2.0f }
-		{ item: "mekanism:atomic_disassembler" }
-		{ item: "mekanism:mekasuit_helmet" }
-		{ item: "mekanism:mekasuit_bodyarmor" }
-		{ item: "mekanism:mekasuit_pants" }
-		{ item: "mekanism:mekasuit_boots" }
 		{ item: "mysticalagriculture:supremium_essence", random_bonus: 2, weight: 2.0f }
 		{ item: "powah:thermo_generator_spirited", weight: 2.0f }
 		{ item: "powah:solar_panel_spirited", weight: 2.0f }

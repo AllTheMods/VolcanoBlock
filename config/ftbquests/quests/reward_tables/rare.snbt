@@ -56,8 +56,6 @@
 		{ item: "mekanism:elite_tier_installer", weight: 3.0f }
 		{ item: "minecraft:dragon_egg", weight: 2.0f }
 		{ item: "minecraft:dragon_head" }
-		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
-		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "thermal:machine_speed_augment", weight: 5.0f }
 		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
 		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 5.0f }
@@ -108,21 +106,6 @@
 		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5.0f }
 		{ item: "ars_nouveau:source_gem_block", weight: 3.0f }
 		{ item: "minecraft:budding_amethyst", random_bonus: 2, weight: 5.0f }
-		{
-			item: {
-				Count: 1b
-				id: "mininggadgets:mininggadget_simple"
-				tag: { }
-			}
-			weight: 2.0f
-		}
-		{
-			item: {
-				Count: 1b
-				id: "mininggadgets:mininggadget_fancy"
-				tag: { }
-			}
-		}
 		{ count: 2, item: "apotheosis:rare_material", random_bonus: 4, weight: 5.0f }
 	]
 	title: "&9Rare Reward"

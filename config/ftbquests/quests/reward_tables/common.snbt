@@ -10,7 +10,6 @@
 	loot_size: 1
 	order_index: 9
 	rewards: [
-		{ item: "mysticalagriculture:imperium_essence" }
 		{ item: "reliquary:fertile_lily_pad" }
 		{ item: "minecraft:fox_spawn_egg", weight: 5.0f }
 		{ item: "functionalstorage:copper_upgrade", weight: 5.0f }
@@ -228,13 +227,9 @@
 		{ count: 4, item: "minecraft:stone", random_bonus: 8, weight: 10.0f }
 		{ count: 2, item: "minecraft:quartz", random_bonus: 2, weight: 3.0f }
 		{ count: 4, item: "minecraft:feather", random_bonus: 4, weight: 7.0f }
-		{ item: "minecraft:blaze_rod", random_bonus: 1, weight: 3.0f }
-		{ count: 2, item: "minecraft:ender_pearl", random_bonus: 1, weight: 3.0f }
 		{ item: "minecraft:bucket", weight: 7.0f }
 		{ item: "functionalstorage:oak_2", random_bonus: 2, weight: 5.0f }
 		{ item: "functionalstorage:oak_4", random_bonus: 2, weight: 5.0f }
-		{ item: "ironfurnaces:iron_furnace", weight: 10.0f }
-		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
 		{
 			item: {
 				Count: 1b

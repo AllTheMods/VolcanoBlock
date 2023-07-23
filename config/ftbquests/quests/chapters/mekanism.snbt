@@ -17,11 +17,11 @@
 		x: 9.0d
 		y: -5.5d
 	}]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0650996C7818ADB5"]
+			dependencies: ["6F62B5510FA881CD"]
 			description: [
 				"The Metallurgic Infuser is used to craft core crafting components throughout Mekanism."
 				""
@@ -2244,39 +2244,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6F62B5510FA881CD"]
-			description: [
-				"The Heat Generator has 2 modes to generate power:"
-				""
-				"&9Passive:&r Surrounding the generator with lava source or flowing blocks creates passive power by creating heat. Place one lava source block on top, and let it flow over the sides. Make sure to connect pipes first!"
-				""
-				"&9Active:&r Placing combustible materials such as coal or wood into the generator will burn the fuel to create power."
-			]
-			id: "0650996C7818ADB5"
-			rewards: [
-				{
-					id: "7072D079156C2A44"
-					item: "alltheores:osmium_ingot"
-					type: "item"
-				}
-				{
-					id: "6D2DD795F34A4177"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "octagon"
-			size: 1.25d
-			subtitle: "Basic Power Gen"
-			tasks: [{
-				id: "7BA12BAB8271E170"
-				item: "mekanismgenerators:heat_generator"
-				type: "item"
-			}]
-			x: -8.875d
-			y: -1.975d
-		}
-		{
 			dependencies: ["162CE44400A63575"]
 			description: ["This generator will burn Bio Fuel into energy. It produces around 140FE/t."]
 			hide_dependency_lines: true
@@ -2407,7 +2374,7 @@
 				type: "item"
 			}]
 			title: "&dMekanism&r"
-			x: -13.0d
+			x: -12.0d
 			y: -2.0d
 		}
 		{
@@ -2433,7 +2400,7 @@
 				type: "item"
 			}]
 			title: "Osmium"
-			x: -10.5d
+			x: -9.5d
 			y: -2.0d
 		}
 		{

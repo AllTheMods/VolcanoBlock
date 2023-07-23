@@ -128,19 +128,6 @@
 			y: 10.0d
 		}
 		{
-			alpha: 200
-			click: ""
-			corner: false
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
-			rotation: 0.0d
-			width: 1.25d
-			x: 3.0d
-			y: 13.0d
-		}
-		{
 			click: ""
 			corner: false
 			dev: false
@@ -353,6 +340,30 @@
 			width: 0.3d
 			x: -1.65748d
 			y: 3.3911564d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/charcoal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.962d
+			y: 13.0943d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 13.25d
 		}
 	]
 	order_index: 0
@@ -802,6 +813,12 @@
 					table_id: 8562726001569860801L
 					type: "loot"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2A2778C9C104C1F9"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
 			]
 			shape: "square"
 			size: 1.5d
@@ -1045,6 +1062,12 @@
 					item: "exmachinis:gold_upgrade"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "591FEC24A4945B78"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -1082,9 +1105,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "13ECA643C8CC2903"
-					table_id: 8562726001569860801L
-					type: "random"
+					id: "5B19CA3849A56183"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -1108,8 +1131,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2EFFD8F3115D823C"
-					table_id: 8562726001569860801L
+					id: "34F1297870085278"
+					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1136,14 +1159,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "293EC64EB697F577"
-					table_id: 6247671118263531606L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "105E9E3D331A8C31"
-					table_id: 8562726001569860801L
+					id: "264FABB9ACC24A12"
+					table_id: 5564196992594175882L
 					type: "loot"
 				}
 			]
@@ -1406,35 +1423,6 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["5FE4C70C879D1BE8"]
-			description: [
-				"You don't plan on using vanilla furnaces forever, do you?"
-				""
-				"Upgrade it to an Iron Furnace for more speed! These can also be upgraded with augments from the mod."
-			]
-			id: "283C99D893762158"
-			rewards: [
-				{
-					id: "532AF3AB428A2F17"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7D6AAD91A711DBCC"
-					table_id: 8562726001569860801L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "5CF8B289277CAAEA"
-				item: "ironfurnaces:iron_furnace"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 12.5d
-		}
-		{
 			dependencies: ["7B41510DE4B01580"]
 			description: ["&9Mekanism&r is great for generating power, and the &eWind Generator&r gives you an easy power source using the wind inside of the Volcano."]
 			hide_dependency_lines: false
@@ -1473,35 +1461,6 @@
 			title: "Starter Power: &aRFTools&r"
 			x: 0.5d
 			y: 20.0d
-		}
-		{
-			dependencies: ["283C99D893762158"]
-			description: [
-				"This quest only exists to make the questline look better."
-				""
-				"Oh, and you get more rewards. Win-Win for everyone."
-			]
-			id: "61010A8F60A08B32"
-			rewards: [
-				{
-					id: "63AE306892E383BB"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AF23C726BBE73F3"
-					table_id: 8562726001569860801L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "4B828EDD8A76BD79"
-				item: "ironfurnaces:gold_furnace"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 13.5d
 		}
 		{
 			dependencies: ["2E82D3BBE7966548"]
@@ -1621,49 +1580,6 @@
 		{
 			dependencies: ["5BABFF63EBAD0674"]
 			description: [
-				"Aside from keeping KFC in business, Chickens provide a ton of value by creating &aResource Chickens&r."
-				""
-				"You might see several types of chickens spawning in the world, but you should totally &mcapture&r save them from the Colonel."
-			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbchunks:textures/faces/minecraft/chicken.png"
-				}
-			}
-			id: "1E02CD6D9E56051A"
-			rewards: [
-				{
-					id: "2A1B10532531CDFE"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "699C1675581656BA"
-					item: "minecraft:egg"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "5C476DE2D19C4C9C"
-				item: {
-					Count: 1b
-					id: "resourcechickens:animal_net"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Chickens."
-			x: 3.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["5BABFF63EBAD0674"]
-			description: [
 				"Turn out the lights."
 				""
 				"Jokes aside, lots of useful resources come from creating some kind of &3Mob Farm&r. You can start by creating a dark room for all of your spawning needs."
@@ -1777,6 +1693,181 @@
 			title: "Transferring Power"
 			x: 0.0d
 			y: 19.5d
+		}
+		{
+			dependencies: ["5BABFF63EBAD0674"]
+			description: [
+				"Aside from keeping KFC in business, Chickens provide a ton of value by creating &aResource Chickens&r."
+				""
+				"You might see several types of chickens spawning in the world, but you should totally &mcapture&r save them from the Colonel."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/chicken.png"
+				}
+			}
+			id: "1E02CD6D9E56051A"
+			rewards: [
+				{
+					id: "2A1B10532531CDFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "699C1675581656BA"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C476DE2D19C4C9C"
+				item: {
+					Count: 1b
+					id: "resourcechickens:animal_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chickens."
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E02CD6D9E56051A"]
+			description: [
+				"The &2Nest&r is the best way to automate your Resource Chickens."
+				""
+				"When seeds and a Chicken are placed in the Nest, they will automatically output their resource over time into an inventory below them. You can also pipe in seeds from any side."
+				""
+				"To place a chicken in a Nest, use your &bAnimal Capture Net&r!"
+			]
+			id: "0A84BA50AB58F496"
+			rewards: [
+				{
+					id: "5DB7755DE38A8B66"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "61D219F2655990F5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "21E9AFE34212D1E3"
+				item: "resourcechickens:nest"
+				type: "item"
+			}]
+			title: "The &2Chicken Nest&r"
+			x: 4.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0A84BA50AB58F496"]
+			description: [
+				"&bChickens&r can be bred the same way you'd breed them in Vanilla using seeds!"
+				""
+				"Unlike Vanilla however, Chickens have certain stats that can be passed down and upgraded through Breeding."
+				""
+				"Stats can be upgraded to increase the product output of each chicken, with a max of 10 in each stat."
+				""
+				"Get out there and make some chicken babies!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/heart"
+				}
+			}
+			id: "41B2366421490A35"
+			tasks: [{
+				id: "08467D62A86A93AC"
+				title: "Breeding Chickens"
+				type: "checkmark"
+			}]
+			title: "&cBreeding&r &bChickens&r"
+			x: 3.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A84BA50AB58F496"]
+			description: [
+				"Vanilla &bChickens&r can be converted to &aResource Chickens&r by using the resource you want to convert the chicken to on the &bChicken&r."
+				""
+				"It takes 250 of an item to convert the chicken."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/resourcechickens/enderman.png"
+				}
+			}
+			id: "26B5847E3448BBA0"
+			rewards: [{
+				id: "47C27A7FA10EB0F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "374C362315B196AA"
+				title: "Converting Chickens"
+				type: "checkmark"
+			}]
+			title: "&aConverting&r &bChickens&r"
+			x: 4.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: ["Want a throwback? The mod &bIC2 Classic&r provides a more efficient furnace!"]
+			id: "641FC19F9CC376A8"
+			tasks: [{
+				id: "0EB1CA16FF31DC97"
+				item: "ic2:iron_furnace"
+				type: "item"
+			}]
+			title: "Better Furnace!"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["641FC19F9CC376A8"]
+			description: [
+				"Miss those old days of shocking yourself with uninsulated cables? Never experienced that kind of pain?"
+				""
+				"Well look no further as VolcanoBlock brings back the classic tech mod, &9Industrial Craft 2&r."
+				""
+				"You can head over to the &9IC2: Classic&r chapter if you want to learn more!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ic2:block/cfoam/pixelfoam/bolt"
+				}
+			}
+			id: "648FD4C3237708AE"
+			rewards: [{
+				id: "5E1C32A98860987E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B3FABEFE32556CB"
+				title: "Check out IC2C!"
+				type: "checkmark"
+			}]
+			title: "&9Industrial Craft 2: Classic&r"
+			x: 1.5d
+			y: 13.5d
 		}
 	]
 	title: "Part 1: &aGetting Started&r"
