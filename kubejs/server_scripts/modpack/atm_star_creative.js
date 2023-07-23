@@ -78,6 +78,8 @@ ServerEvents.recipes(e => {
     acceptMirrored: false
   }).id('kubejs:create/creative_motor')
 
+/*
+  NEEDS REWORK
   e.custom({
     type: 'create:mixing',
     ingredients: [
@@ -87,8 +89,11 @@ ServerEvents.recipes(e => {
     ],
     results: [Ingredient.of('create:creative_blaze_cake').toJson()],
     heatRequirement: 'superheated'
-  })
+  }).id('kubejs:create/creative_blaze_cake')
+*/
 
+/*
+  NEEDS REWORK
   e.custom({
     type: 'powah:energizing',
     ingredients: [
@@ -99,7 +104,8 @@ ServerEvents.recipes(e => {
     energy: '2147483647',
     result: Item.of('createaddition:creative_energy').toJson()
   }).id(`kubejs:energizing/createaddition_creative_energy`)
-  
+*/
+
   ///# Integrated Dynamics
   e.custom({
     type: 'powah:energizing',
