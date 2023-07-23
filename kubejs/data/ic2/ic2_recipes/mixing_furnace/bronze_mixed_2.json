@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"tag": "forge:ingots/copper",
+			"size": 27,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:storage_blocks/tin",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:bronze_ingot",
+				"count": 36
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

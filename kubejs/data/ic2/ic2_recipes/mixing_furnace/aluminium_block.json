@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"item": "ic2:aluminium_dust_block",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"tag": "minecraft:sand",
+			"size": 9,
+			"type": "ic2:tag"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:aluminum_block",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

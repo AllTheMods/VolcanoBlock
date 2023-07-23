@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ingots/iron",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "alltheores:iron_dust",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

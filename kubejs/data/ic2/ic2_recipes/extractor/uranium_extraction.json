@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/uranium",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:raw_uranium",
+				"count": 3
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

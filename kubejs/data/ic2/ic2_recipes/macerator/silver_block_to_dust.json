@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "forge:storage_blocks/silver",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.9,
+		"nbt": "{time_mod:4.0d}",
+		"outputs": [
+			{
+				"item": "alltheores:silver_dust",
+				"count": 9
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

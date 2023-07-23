@@ -1,0 +1,84 @@
+{
+	"output": {
+		"item": "alltheores:aluminum_dust",
+		"count": 1
+	},
+	"inputs": [
+		{
+			"item": "minecraft:clay_ball",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:white_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:orange_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:magenta_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:light_blue_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:yellow_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:lime_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:pink_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:gray_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:light_gray_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:cyan_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:purple_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:blue_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:brown_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:green_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:red_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:black_terracotta",
+			"value": 500.0
+		},
+		{
+			"item": "minecraft:dirt",
+			"value": 100.0
+		}
+	]
+}

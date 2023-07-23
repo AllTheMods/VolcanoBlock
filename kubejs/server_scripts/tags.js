@@ -15,6 +15,16 @@ ServerEvents.tags('item', event => {
     'mysticalagriculture:unobtainium_seeds',
     'mysticalagriculture:vibranium_seeds',
   ])
+  
+  event.add("forge:dusts/aluminum","ic2:dust_aluminium")
+  event.add("forge:ingots/aluminum","ic2:ingot_aluminium")
+  event.add("forge:raw_materials/aluminum","ic2:raw_aluminium")
+  event.add("forge:ores/aluminum","ic2:aluminium_ore_nether")
+  event.add("forge:storage_blocks/aluminum","ic2:aluminium_block")
+  event.add("forge:storage_blocks/raw_aluminum","ic2:raw_aluminium_block")
+
+  event.add('forge:dusts/diamond', 'ic2:dust_diamond')
+  event.add('forge:dusts/obsidian', ['ic2:dust_obsidian', 'create:powdered_obsidian', 'exnihilothermal:obsidian_dust'])
 })
 
 ServerEvents.tags('block', event => {

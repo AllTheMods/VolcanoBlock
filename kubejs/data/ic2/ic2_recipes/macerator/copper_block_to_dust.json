@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "forge:storage_blocks/copper",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.9,
+		"nbt": "{time_mod:4.0d}",
+		"outputs": [
+			{
+				"item": "alltheores:copper_dust",
+				"count": 9
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

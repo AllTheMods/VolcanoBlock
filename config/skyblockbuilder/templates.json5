@@ -38,6 +38,13 @@
       "file": "pirateship.nbt",
       "spawns": "default",
       "direction": "south"
+    },
+    {
+      "name": "Lava Bunker",
+      "file": "bunker.nbt",
+      "spawns": "default",
+      "direction": "south",
+      "offsetY": -18
     }
   ]
 }

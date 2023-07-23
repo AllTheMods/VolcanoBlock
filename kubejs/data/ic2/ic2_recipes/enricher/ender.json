@@ -1,0 +1,23 @@
+{
+	"inputs": [
+		"ic2:ingot_uranium",
+		"alltheores:uranium_ingot"
+	],
+	"fuels": [
+		{
+			"input": {
+				"item": "minecraft:ender_pearl",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 100
+		}
+	],
+	"output": {
+		"item": "ic2:ingot_uranium_enriched_enderpearl",
+		"count": 1
+	},
+	"points": 100,
+	"color": -14438799,
+	"energy_usage": 75
+}

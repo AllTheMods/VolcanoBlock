@@ -10,8 +10,6 @@ ServerEvents.recipes(event => {
         ' U '
       ], {
         I: 'minecraft:iron_ingot',
-        U: 'ic2:uumatter',
-        R: 'angelring:diamond_ring',
-        D: '#forge:nether_stars'
+        U: 'ic2:uumatter'
         })
 })
