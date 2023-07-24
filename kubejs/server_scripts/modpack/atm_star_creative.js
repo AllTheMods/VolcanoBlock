@@ -139,7 +139,7 @@ ServerEvents.recipes(e => {
     A: 'allthemodium:unobtainium_block',
     B: 'powah:nitro_crystal_block',
     C: Item.of('ironjetpacks:cell', { Id: "ironjetpacks:creative" }).strongNBT(),
-    D: 'ironfurnaces:unobtainium_furnace'
+    D: 'allthemodium:unobtainium_gear'
   }).id('kubejs:ironjetpacks_creative_thruster')
 
   e.shaped(Item.of('ironjetpacks:capacitor', { Id: "ironjetpacks:creative" }), [
