@@ -17,9 +17,6 @@
 		{ item: "functionalstorage:void_upgrade", weight: 3.0f }
 		{ item: "functionalstorage:storage_controller" }
 		{ item: "cookingforblockheads:sink", weight: 5.0f }
-		{ item: "ironfurnaces:augment_speed", weight: 5.0f }
-		{ item: "ironfurnaces:augment_factory", weight: 5.0f }
-		{ item: "ironfurnaces:item_spooky", weight: 3.0f }
 		{ item: "ars_nouveau:glyph_summon_wolves" }
 		{ item: "ars_nouveau:glyph_light" }
 		{ count: 8, item: "pipez:universal_pipe", random_bonus: 8, weight: 5.0f }

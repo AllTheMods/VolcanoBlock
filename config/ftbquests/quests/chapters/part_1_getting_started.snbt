@@ -910,31 +910,14 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5FE4C70C879D1BE8"]
-			description: ["You know what we can make with Iron? &bBuckets&r!"]
-			id: "0F4A1FE0B8315C90"
-			rewards: [{
-				id: "617E82BF140AEF61"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				count: 2L
-				id: "3A112B8B6AD2FBE7"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
-			title: "No More Bottles"
-			x: -1.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["0F4A1FE0B8315C90"]
+			dependencies: ["6FBA15B4968426FC"]
 			description: [
-				"With a bucket of Lava and Water, we can create a &3Cobblestone Generator&r. There are several tiers you can choose from to make."
+				"With a Ceramic Bucket of Lava and Water, we can create a &3Cobblestone Generator&r. There are several tiers you can choose from to make."
 				""
 				"This will automatically output cobble into an inventory placed on top of it."
 			]
+			hide: true
+			hide_dependency_lines: true
 			id: "413173F5BFF044E2"
 			rewards: [
 				{
@@ -949,6 +932,8 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "2B74E8919111AF95"
 				item: {
@@ -982,8 +967,9 @@
 				title: "Cobble Generator"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.5d
+			title: "Quit Punching The Ground"
+			x: -2.625d
+			y: 4.5d
 		}
 		{
 			dependencies: ["05F1C43D75DFAEFB"]
@@ -1617,6 +1603,8 @@
 				"Thankfully you can make &aSand&r from hammering Gravel. Smelt that down in a furnace to get some glass, then make a &bGlass Bottle&r to transfer the &9water&r from the Crucible into a Barrel."
 				""
 				"The Barrel is how we'll transform liquids into other useful items and liquids. Using a piece of dirt on a full Barrel of water gives you Clay!"
+				""
+				"From here, you can make &7Ceramic Buckets&r until you get Iron!"
 			]
 			id: "6FBA15B4968426FC"
 			rewards: [
@@ -1635,13 +1623,18 @@
 			]
 			tasks: [
 				{
-					id: "29E0B2E1C9C0E7DB"
+					id: "34F04FCBF5E1C8FE"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "62A47A2BD869C5FC"
 					item: "minecraft:glass_bottle"
 					type: "item"
 				}
 				{
-					id: "34F04FCBF5E1C8FE"
-					item: "minecraft:clay"
+					id: "2B664FDE2C089244"
+					item: "ceramicbucket:ceramic_bucket"
 					type: "item"
 				}
 			]
@@ -1827,25 +1820,12 @@
 		}
 		{
 			dependencies: ["5FE4C70C879D1BE8"]
-			description: ["Want a throwback? The mod &bIC2 Classic&r provides a more efficient furnace!"]
-			id: "641FC19F9CC376A8"
-			tasks: [{
-				id: "0EB1CA16FF31DC97"
-				item: "ic2:iron_furnace"
-				type: "item"
-			}]
-			title: "Better Furnace!"
-			x: 1.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["641FC19F9CC376A8"]
 			description: [
 				"Miss those old days of shocking yourself with uninsulated cables? Never experienced that kind of pain?"
 				""
 				"Well look no further as VolcanoBlock brings back the classic tech mod, &9Industrial Craft 2&r."
 				""
-				"You can head over to the &9IC2: Classic&r chapter if you want to learn more!"
+				"You can head over to the &bIC2&r: &9Classic&r chapter if you want to learn more!"
 			]
 			icon: {
 				Count: 1b
@@ -1867,7 +1847,46 @@
 			}]
 			title: "&9Industrial Craft 2: Classic&r"
 			x: 1.5d
-			y: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: [
+				"You should make yourself some new weapons and armor with your new resources."
+				""
+				"Why? Because you can make yourself a &cFireproof Boat&r to go explore! Don't have the materials to make one? Check your Spawn Ship out a little better. :)"
+			]
+			icon: "minecraft:lava"
+			id: "28E97F2E77CC530C"
+			rewards: [{
+				id: "2C058717DEF5C426"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71801B8E5921DEBE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fireproofboats:crimson_boat"
+							}
+							{
+								Count: 1b
+								id: "fireproofboats:warped_boat"
+							}
+						]
+					}
+				}
+				title: "Fireproof Boats"
+				type: "item"
+			}]
+			title: "&cLava&r Is Bad For Your Health."
+			x: -1.5d
+			y: 12.5d
 		}
 	]
 	title: "Part 1: &aGetting Started&r"

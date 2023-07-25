@@ -194,7 +194,6 @@
 		{ item: "functionalstorage:void_upgrade", random_bonus: 2, weight: 10.0f }
 		{ item: "minecraft:saddle", weight: 5.0f }
 		{ item: "minecraft:name_tag", weight: 5.0f }
-		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
 		{ item: "reliquary:fertile_lily_pad", random_bonus: 2, weight: 5.0f }
 		{
 			item: {

@@ -128,31 +128,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["71A43C89EB13E9A0"]
-			description: [
-				"Extremely fast furnace."
-				""
-				"Smelts 1/4 of a stack at a time."
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "2CC97CF32D9C017B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C0169930F748A7F"
-				table_id: 5564196992594175882L
-				type: "random"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "07FF0DC32B705DCC"
-				item: "ironfurnaces:allthemodium_furnace"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["5BDBE666E604FCAC"]
 			dependency_requirement: "one_completed"
 			description: [""]
@@ -190,63 +165,6 @@
 			}]
 			x: 0.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["61FDABF2C7CC1F9D"]
-			description: [
-				"How fast can this possibly get!?"
-				""
-				"Smelts 1/2 of a stack at a time."
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "5CA0BA27F9C537B2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "381A235F202CAB65"
-				table_id: 5564196992594175882L
-				type: "random"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0B2932972CD2E73E"
-				item: "ironfurnaces:vibranium_furnace"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["44760B819EB3CA68"]
-			description: [
-				"Now you are just showing off."
-				""
-				"Smelts a stack of items per operation."
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "1AFDB3AE73E72A33"
-			rewards: [
-				{
-					id: "3BE998CE25785795"
-					item: "ironfurnaces:rainbow_coal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F49E1534E00C41D"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "579B48ABB0CBD18A"
-				item: "ironfurnaces:unobtainium_furnace"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["71A43C89EB13E9A0"]
@@ -718,8 +636,8 @@
 				item: "mysticalagriculture:allthemodium_seeds"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["61FDABF2C7CC1F9D"]
@@ -745,8 +663,8 @@
 				item: "mysticalagriculture:vibranium_seeds"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: 4.25d
 		}
 		{
 			dependencies: ["44760B819EB3CA68"]
@@ -772,8 +690,8 @@
 				item: "mysticalagriculture:unobtainium_seeds"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 3.75d
 		}
 		{
 			dependencies: [

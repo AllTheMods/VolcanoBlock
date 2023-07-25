@@ -30,8 +30,6 @@
 		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
 		{ item: "mekanism:ultimate_tier_installer" }
 		{ item: "thermal:upgrade_augment_3" }
-		{ item: "ironfurnaces:netherite_furnace" }
-		{ item: "ironfurnaces:emerald_furnace" }
 		{ item: "apotheosis:sigil_of_socketing" }
 		{
 			item: {
