@@ -58,7 +58,7 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('entity_type', event => {
-  event.add('kubejs:mob_blacklist', ['allthemodium:piglich', 'minecraft:iron_golem'])
+  event.add('kubejs:mob_blacklist', ['allthemodium:piglich', 'minecraft:iron_golem', '@resourcechickens'])
   event.add('mob_grinding_utils:no_swab', '#kubejs:mob_blacklist')
   event.add('mob_grinding_utils:no_spawn', '#kubejs:mob_blacklist')
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
