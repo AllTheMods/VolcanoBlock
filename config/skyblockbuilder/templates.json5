@@ -28,7 +28,7 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
+      "name": "Spawn",
       "file": "default.nbt",
       "spawns": "default",
       "direction": "south"
@@ -38,6 +38,20 @@
       "file": "pirateship.nbt",
       "spawns": "default",
       "direction": "south"
+    },
+    {
+      "name": "Large Ship",
+      "file": "largeship.nbt",
+      "spawns": "default",
+      "direction": "south",
+      "offsetY": -1,
+    },
+    {
+      "name": "Life Forms Again",
+      "file": "wildlife.nbt",
+      "spawns": "default",
+      "direction": "south",
+      "offsetY": -1,
     },
     {
       "name": "Lava Bunker",
