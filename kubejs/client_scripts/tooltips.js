@@ -14,7 +14,7 @@ ItemEvents.tooltip(event => {
   
   //AllTheModium
   event.add('allthemodium:teleport_pad',[
-    Text.of('Place the pad down in the specified Dimension'),
+    Text.of('Mining Dimension Disabled'),
     Text.of('Sneak Right Click with both hands empty to teleport'),
     Text.of('§cThe Nether TO The Other').red()
   ])
