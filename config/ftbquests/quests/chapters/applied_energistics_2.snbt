@@ -14,7 +14,7 @@
 				""
 				"Applied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame."
 				""
-				"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f. Just like Amethyst, you will find Certus Quartz Crystals that you can mine for Certus Quartz &eDust&f and &eCrystals&f."
+				"To get started with AE2, you will need an important resource for the mod known as &bCertus Quartz&f. Just like alot of things, you can obtain all the materials you need through Ex nihilo!"
 				""
 				"For more information on AE2 beyond this chapter, consult the wiki over at &o&bappliedenergistics.github.io&f&r."
 			]
@@ -119,11 +119,9 @@
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center."
+				"Being a skyblock you might be wondering how you get into ae2, because where the hell are the meteors?! Well sweat no more, the presses have 2 alternate recipes, one in the inscriber that is relatively easy to get going, or the mystical agriculture default recipe using essence, the choice is now yours!"
 				""
-				"This cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components."
 				""
-				"The easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger."
 			]
 			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
@@ -146,19 +144,12 @@
 				}
 			]
 			subtitle: "\"COMIC #42: shearching 4 bobby [Fischer]\""
-			tasks: [
-				{
-					id: "4D57E005D20BEDB9"
-					item: "ae2:meteorite_compass"
-					type: "item"
-				}
-				{
-					advancement: "ae2:main/presses"
-					criterion: ""
-					id: "4D25BF3C4F05025D"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "ae2:main/presses"
+				criterion: ""
+				id: "4D25BF3C4F05025D"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.5d
 		}
