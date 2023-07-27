@@ -92,6 +92,8 @@ ServerEvents.recipes(event => {
     sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
     sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
 
+    sieve(`iron`, 0.1, `#forge:gravel`, 'thermal:apatite', null)
+
     //Basalt
     sieve(`netherite`, 0.2, 'minecraft:basalt', 'ae2:sky_dust', null)
     sieve(`netherite`, 0.2, 'minecraft:basalt', 'minecraft:amethyst_shard', null)
