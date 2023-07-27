@@ -12,7 +12,13 @@
   //     "surroundingMargin": 0,
   //     "surroundingBlocks": "default"
   // }
-  "spawn": null,
+   "spawn": {
+      "name": "Spawn",
+      "desc": "",
+      "file": "default.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },
   
   "spawns": {
     "default": [
@@ -27,12 +33,6 @@
   
   // The list of templates being available. The first entry is the default template.
   "templates": [
-    {
-      "name": "Spawn",
-      "file": "default.nbt",
-      "spawns": "default",
-      "direction": "south"
-    },
     {
       "name": "Small Ship",
       "file": "pirateship.nbt",
