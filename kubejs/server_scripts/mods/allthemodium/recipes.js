@@ -9,7 +9,30 @@ ServerEvents.recipes(event => {
         'UIU',
         ' U '
       ], {
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:gold_ingot',
         U: 'ic2:uumatter'
         })
+// Vibranium Ingot
+event.custom({
+  type: 'powah:energizing',
+  ingredients: [
+    Ingredient.of('chemlib:thulium_ingot').toJson(),
+    Ingredient.of('ic2:uumatter').toJson(),
+    Ingredient.of('minecraft:glowstone_dust').toJson()
+  ],
+  energy: '500000',
+  result: Item.of('allthemodium:vibranium_ingot').toJson()
+}).id(`kubejs:energizing/allthemodium_vibranium_ingot`)
+
+// Unob ingot Ingot
+event.custom({
+  type: 'powah:energizing',
+  ingredients: [
+    Ingredient.of('thermal_extra:dragonsteel_ingot').toJson(),
+    Ingredient.of('minecraft:wither_skeleton_skull').toJson(),
+    Ingredient.of('allthemodium:unobtainium_ingot').toJson()
+  ],
+  energy: '2500000',
+  result: Item.of('allthemodium:unobtainium_ingot').toJson()
+}).id(`kubejs:energizing/allthemodium_unobtainium_ingot`)  
 })
