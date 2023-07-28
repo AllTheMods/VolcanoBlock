@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     A: 'mysticalagradditions:dragon_egg_chunk',
     S: 'mysticalagradditions:dragon_scale',
     N: 'allthemodium:piglich_heart',
-    I: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:ender_dragon"}}'),
+    I: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:ender_dragon"}}').weakNBT(),
     B: 'minecraft:dragon_breath',
 	G: 'exnihilosequentia:end_stone_pebble',
     E: 'ars_nouveau:summon_focus'
