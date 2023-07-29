@@ -117,7 +117,7 @@ ClientEvents.highPriorityAssets(event => {
     GeneratorModelSideFaceTopFrame('generatorgalore:64xculinary_generator', '64x Culinary Generator', 'generatorgalore:block/culinary_generator_side', 'generatorgalore:block/culinary_generator_front', 'generatorgalore:block/culinary_generator_top', 'kubejs:block/diamond_generator_frame')
 
     UpgradeModel('generatorgalore:netherstar_to_8xnetherstar_upgrade', 'Netherite to 8x Netherstar Upgrade', 'generatorgalore:block/netherstart_generator_top', 'kubejs:item/gold_upgrade_frame')
-    UpgradeModel('generatorgalore:8xnetherstar_to_64xnetherstar_upgrade', 'Netherite to 8x Netherstar Upgrade', 'generatorgalore:block/netherstart_generator_top', 'kubejs:item/diamond_upgrade_frame')
+    UpgradeModel('generatorgalore:8xnetherstar_to_64xnetherstar_upgrade', '8x Netherite to 64x Netherstar Upgrade', 'generatorgalore:block/netherstart_generator_top', 'kubejs:item/diamond_upgrade_frame')
     UpgradeModel('generatorgalore:culinary_to_8xculinary_upgrade', 'Culinary to 8x Culinary Upgrade', 'generatorgalore:block/culinary_generator_side', 'kubejs:item/gold_upgrade_frame')
     UpgradeModel('generatorgalore:8xculinary_to_64xculinary_upgrade', '8x Culinary to 64x Culinary Upgrade', 'generatorgalore:block/culinary_generator_side', 'kubejs:item/diamond_upgrade_frame')
     UpgradeModel('generatorgalore:iron_to_culinary_upgrade', 'Iron to Culinary Upgrade', 'generatorgalore:block/culinary_generator_side', null)
