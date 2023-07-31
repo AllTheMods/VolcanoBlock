@@ -1136,7 +1136,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 17.5d
+			y: 16.25d
 		}
 		{
 			dependencies: [
@@ -1163,8 +1163,8 @@
 				item: "exnihilosequentia:netherite_mesh"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 18.5d
+			x: -1.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["681226FA1D22A35D"]
@@ -1862,6 +1862,8 @@
 				"You should make yourself some new weapons and armor with your new resources."
 				""
 				"Why? Because you can make yourself a &cFireproof Boat&r to go explore! Don't have the materials to make one? Check your Spawn Ship out a little better. :)"
+				""
+				"Is your spawn island not a ship? Well no matter! Just sieve some netherrack and bone meal the nylium!"
 			]
 			icon: "minecraft:lava"
 			id: "28E97F2E77CC530C"
