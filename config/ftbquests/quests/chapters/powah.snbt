@@ -469,7 +469,7 @@
 			description: [
 				"&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!"
 				""
-				"To get started, go out and mine some &aUraninite&r!"
+				"To get started, go and sieve some &aUraninite&r!"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -652,38 +652,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: [
-				"One of the best options for \"Passive Power\", the &9Thermal Generator&r will produce FE when placed over a &cHeat Source&r and given a steady supply of water."
-				""
-				"There are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provides the most heat. "
-			]
-			id: "52E59FCB39D66BCF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "274AC988966524C0"
-					table_id: 5411577453178694060L
-					type: "random"
-				}
-				{
-					id: "6DB5053765546C84"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "6D3CE4788C112806"
-				item: "powah:thermo_generator_starter"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 11.5d
-		}
-		{
-			dependencies: [
-				"7E92ED270C67FDE5"
-				"6D88C19F47D0D469"
-			]
 			description: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
@@ -732,35 +700,7 @@
 				item: "powah:solar_panel_starter"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.5d
-		}
-		{
-			dependencies: [
-				"7E92ED270C67FDE5"
-				"6D88C19F47D0D469"
-			]
-			description: ["The &cMagmator&r will generate FE when supplied with Lava."]
-			id: "0FD62827710F0AC6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "18B81A476AAD7918"
-					table_id: 5411577453178694060L
-					type: "random"
-				}
-				{
-					id: "6500F8A1FD7CDE98"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "58D16A3D3A480A37"
-				item: "powah:magmator_starter"
-				type: "item"
-			}]
-			x: 3.5d
+			x: 6.5d
 			y: 11.5d
 		}
 		{
@@ -804,7 +744,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Starter)"
-			x: 6.5d
+			x: 5.5d
 			y: 11.5d
 		}
 		{
@@ -1441,33 +1381,6 @@
 		}
 		{
 			dependencies: [
-				"0FD62827710F0AC6"
-				"66ECC26BC81D0093"
-			]
-			id: "0E3A9D5E1E8AAF89"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "499F3C25175C255E"
-					table_id: 5411577453178694060L
-					type: "random"
-				}
-				{
-					id: "20192640360C0972"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "18DA813AAFFAB349"
-				item: "powah:magmator_basic"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 12.5d
-		}
-		{
-			dependencies: [
 				"3D5F87F8E6B89C1B"
 				"66ECC26BC81D0093"
 			]
@@ -1491,33 +1404,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 12.5d
-		}
-		{
-			dependencies: [
-				"52E59FCB39D66BCF"
-				"66ECC26BC81D0093"
-			]
-			id: "60F5DC851FCFF1B2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3E8225EF3DBD897E"
-					table_id: 5411577453178694060L
-					type: "random"
-				}
-				{
-					id: "060D1AD152581ECD"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "414DD76E288A6CF7"
-				item: "powah:thermo_generator_basic"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 12.5d
 		}
 		{
@@ -1546,7 +1432,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Basic)"
-			x: 6.5d
+			x: 5.5d
 			y: 12.5d
 		}
 		{
@@ -1573,7 +1459,7 @@
 				item: "powah:solar_panel_basic"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 12.5d
 		}
 		{
@@ -1798,33 +1684,6 @@
 		}
 		{
 			dependencies: [
-				"0E3A9D5E1E8AAF89"
-				"5E090C9BB4DAA5D4"
-			]
-			id: "6ED2F8A8DEED417D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "37E91B34E25F494D"
-					table_id: 323217218064538611L
-					type: "random"
-				}
-				{
-					id: "71BF900C83503328"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [{
-				id: "2AA92A1DCA9C3CAF"
-				item: "powah:magmator_hardened"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
 				"67DE5F982629BB34"
 				"5E090C9BB4DAA5D4"
 			]
@@ -1848,33 +1707,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"60F5DC851FCFF1B2"
-				"5E090C9BB4DAA5D4"
-			]
-			id: "6230C6884B800689"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3BC3FB37A2F3B9C8"
-					table_id: 323217218064538611L
-					type: "random"
-				}
-				{
-					id: "679396D0CC02A060"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [{
-				id: "1FAA953BA925186C"
-				item: "powah:thermo_generator_hardened"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 13.5d
 		}
 		{
@@ -1903,7 +1735,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Hardened)"
-			x: 6.5d
+			x: 5.5d
 			y: 13.5d
 		}
 		{
@@ -1930,7 +1762,7 @@
 				item: "powah:solar_panel_hardened"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 13.5d
 		}
 		{
@@ -2155,33 +1987,6 @@
 		}
 		{
 			dependencies: [
-				"6ED2F8A8DEED417D"
-				"562BD37539EE318E"
-			]
-			id: "0C7D0AB254DF8CF1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "62814A9FA8AC2592"
-					table_id: 2050559670769664902L
-					type: "random"
-				}
-				{
-					id: "2721ED866794D71C"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "3F7EBFC46DB90461"
-				item: "powah:magmator_blazing"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 14.5d
-		}
-		{
-			dependencies: [
 				"2AE17A935862BCBF"
 				"562BD37539EE318E"
 			]
@@ -2205,33 +2010,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 14.5d
-		}
-		{
-			dependencies: [
-				"6230C6884B800689"
-				"562BD37539EE318E"
-			]
-			id: "44C1315098B9CF3F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72A14865203125D7"
-					table_id: 2050559670769664902L
-					type: "random"
-				}
-				{
-					id: "17B757FE2EAEA913"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "33E55040BA517135"
-				item: "powah:thermo_generator_blazing"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 14.5d
 		}
 		{
@@ -2260,7 +2038,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Blazing)"
-			x: 6.5d
+			x: 5.5d
 			y: 14.5d
 		}
 		{
@@ -2287,7 +2065,7 @@
 				item: "powah:solar_panel_blazing"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 14.5d
 		}
 		{
@@ -2496,30 +2274,6 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["0C7D0AB254DF8CF1"]
-			id: "03442045ED56068F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A4A2AA7E595FEB5"
-					table_id: 5644430283229160518L
-					type: "random"
-				}
-				{
-					id: "22599F0527EEA03D"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "0AD625D068474E21"
-				item: "powah:magmator_niotic"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 15.5d
-		}
-		{
 			dependencies: ["323F7A0C4FAC28D0"]
 			id: "24EE138780C43447"
 			rewards: [
@@ -2541,30 +2295,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["44C1315098B9CF3F"]
-			id: "28EE8C172F9DF5C1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "141433821E0AA5EF"
-					table_id: 5644430283229160518L
-					type: "random"
-				}
-				{
-					id: "61A665E0362576F0"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "3507C8B858D39314"
-				item: "powah:thermo_generator_niotic"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 15.5d
 		}
 		{
@@ -2590,7 +2320,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Niotic)"
-			x: 6.5d
+			x: 5.5d
 			y: 15.5d
 		}
 		{
@@ -2614,7 +2344,7 @@
 				item: "powah:solar_panel_niotic"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 15.5d
 		}
 		{
@@ -2877,30 +2607,6 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["03442045ED56068F"]
-			id: "36B14701D95C3C21"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "03ADA0DDF99F29A6"
-					table_id: 5896103029501993867L
-					type: "random"
-				}
-				{
-					id: "6380B215B854230B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "2E611F9024AF2142"
-				item: "powah:magmator_spirited"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 16.5d
-		}
-		{
 			dependencies: ["24EE138780C43447"]
 			id: "5A7C92F05AF39FDB"
 			rewards: [
@@ -2922,30 +2628,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["28EE8C172F9DF5C1"]
-			id: "637A8E4BBF108417"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "33E8FCF6F8E7CB05"
-					table_id: 5896103029501993867L
-					type: "random"
-				}
-				{
-					id: "7E79681CBAAC299B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "32F356FA79D13349"
-				item: "powah:thermo_generator_spirited"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 16.5d
 		}
 		{
@@ -2971,7 +2653,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Spirited)"
-			x: 6.5d
+			x: 5.5d
 			y: 16.5d
 		}
 		{
@@ -2995,7 +2677,7 @@
 				item: "powah:solar_panel_spirited"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 16.5d
 		}
 		{
@@ -3219,33 +2901,6 @@
 		}
 		{
 			dependencies: [
-				"36B14701D95C3C21"
-				"4F1FFC02F4EAA2E6"
-			]
-			id: "4E67DE071FC9D80D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1279B07A8A80FEF8"
-					table_id: 1432029627393651571L
-					type: "random"
-				}
-				{
-					id: "41A64BC8DF294061"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "36A675359DAB88CA"
-				item: "powah:magmator_nitro"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 17.5d
-		}
-		{
-			dependencies: [
 				"5A7C92F05AF39FDB"
 				"4F1FFC02F4EAA2E6"
 			]
@@ -3269,33 +2924,6 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 17.5d
-		}
-		{
-			dependencies: [
-				"637A8E4BBF108417"
-				"4F1FFC02F4EAA2E6"
-			]
-			id: "71D08D1C8EA4C631"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08E9287775B53FFD"
-					table_id: 1432029627393651571L
-					type: "random"
-				}
-				{
-					id: "290D33D880E718A3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "7E8AFD4455E17266"
-				item: "powah:thermo_generator_nitro"
-				type: "item"
-			}]
-			x: 5.5d
 			y: 17.5d
 		}
 		{
@@ -3324,7 +2952,7 @@
 				type: "item"
 			}]
 			title: "Reactor (Nitro)"
-			x: 6.5d
+			x: 5.5d
 			y: 17.5d
 		}
 		{
@@ -3351,7 +2979,7 @@
 				item: "powah:solar_panel_nitro"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 17.5d
 		}
 		{

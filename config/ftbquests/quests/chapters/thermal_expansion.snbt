@@ -191,38 +191,6 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			hide_dependency_lines: true
-			id: "2F71FCE4E576C977"
-			rewards: [
-				{
-					id: "317ED7FF0734E5F1"
-					item: "minecraft:lava_bucket"
-					type: "item"
-				}
-				{
-					id: "79A13EA08A164B86"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "41E6EC8E3C06061C"
-					table_id: 4084485630345500261L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Generates Power using Lava!"
-			tasks: [{
-				id: "52A52D9AC73D57A6"
-				item: "thermal:dynamo_magmatic"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2C50B0E024C3D92E"]
-			hide_dependency_lines: true
 			id: "72C1C2CE02DCBDFF"
 			rewards: [
 				{
@@ -252,7 +220,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
@@ -318,7 +286,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
@@ -1316,8 +1284,8 @@
 				title: "Auxiliary Reaction Chamber"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
@@ -1371,8 +1339,8 @@
 				title: "Multi-Cycle Injectors"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
