@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:sand",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "exnihilosequentia:dust",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}
