@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:coal_block",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "mekanism:dust_coal",
+				"count": 9
+			}
+		],
+		"type": "ic2:simple"
+	}
+}
