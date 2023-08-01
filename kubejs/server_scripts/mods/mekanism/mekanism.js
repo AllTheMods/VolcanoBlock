@@ -19,4 +19,13 @@ ServerEvents.recipes(e => {
 
   // remove combiner recipes for ores
   e.remove({ type: 'mekanism:combining', id: /ore/ })
+
+  // geothermal generator unit recipe fix
+  event.remove({ id: 'mekanismgenerators:module_geothermal_generator_unit' })
+  event.shaped('mekanismgenerators:module_geothermal_generator_unit', ['BCB', 'BDB', 'AAA'], {
+    A:'mekanism:pellet_polonium',
+    B:'mekanism:alloy_reinforced',
+    C:'immersiveengineering:thermoelectric_generator',
+    D:'mekanism:module_base' 
+  }).id('mekanismgenerators:module_geothermal_generator_unit')
 })
