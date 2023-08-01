@@ -1,6 +1,6 @@
 {
 	"input": {
-		"tag": "forge:ores/alumnum",
+		"tag": "forge:ores/aluminum",
 		"size": 1,
 		"type": "ic2:tag"
 	},
@@ -14,7 +14,7 @@
 	},
 	"output": {
 		"output": {
-			"item": "alltheores:raw_alumnum",
+			"item": "alltheores:raw_aluminum",
 			"count": 1
 		},
 		"minOut": 45,
