@@ -1,8 +1,5 @@
 {
-	"inputs": [
-		"ic2:ingot_uranium",
-		"alltheores:uranium_ingot"
-	],
+	"input": "alltheores:uranium_ingot",
 	"fuels": [
 		{
 			"input": {
