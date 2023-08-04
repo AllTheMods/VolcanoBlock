@@ -1,17 +1,3 @@
 {
-	"input": {
-		"tag": "forge:ores/aluminum",
-		"size": 1,
-		"type": "ic2:tag"
-	},
-	"output": {
-		"xp": 1.0,
-		"outputs": [
-			{
-				"item": "alltheores:aluminum_dust",
-				"count": 2
-			}
-		],
-		"type": "ic2:simple"
-	}
+	"remove": ["aluminum_ore_nether_to_dust"]
 }
