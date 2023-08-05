@@ -11,126 +11,7 @@
 		{
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_completed"
-			description: [
-				"This lucrative ore starts your journey to becoming overpowered!"
-				""
-				"It is found in Deep Dark biomes along ceilings and walls."
-			]
-			hide: false
-			hide_dependency_lines: false
-			id: "5BDBE666E604FCAC"
-			rewards: [
-				{
-					id: "35D9FCB5040C66D9"
-					item: "allthemodium:allthemodium_ore"
-					type: "item"
-				}
-				{
-					id: "0205D27EF9929F30"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2139CB369B6057CD"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "75498AE05CC06F8F"
-				item: "allthemodium:raw_allthemodium"
-				title: "Allthemodium Ore"
-				type: "item"
-			}]
-			title: "Allthemodium Ore"
-			x: -1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5BDBE666E604FCAC"]
-			dependency_requirement: "one_started"
-			description: [
-				"The next step in our adventure to become (nearly) invincible."
-				""
-				"Find this rare ore in the Nether's Warped Forests and Crimson Forests between Y100 to Y123. "
-				""
-				"You can also find this ore is in any biome in the Other, between Y0 and Y20."
-			]
-			hide_dependency_lines: false
-			id: "2DF64CB9298E91EA"
-			rewards: [
-				{
-					id: "5D2EBAC7AC7945CD"
-					item: "allthemodium:vibranium_ore"
-					type: "item"
-				}
-				{
-					id: "459B4DDA26AC0FFC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3E63128D811B9171"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "0F6B68E05B7B43AB"
-				item: "allthemodium:raw_vibranium"
-				title: "Vibranium Ore"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2DF64CB9298E91EA"]
-			description: [
-				"An extremely rare ore that can only be found after defeating the Ender Dragon."
-				""
-				"You can find this obtainable ore in the End Highlands biome."
-			]
-			hide_dependency_lines: false
-			id: "4F6E6AF1D9E74CB7"
-			rewards: [
-				{
-					id: "2AA15BC1812E1F77"
-					item: "allthemodium:unobtainium_ore"
-					type: "item"
-				}
-				{
-					id: "2DC06917102E6563"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0E328B594DAC6713"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "52CCB85E5967BF9F"
-				item: "allthemodium:raw_unobtainium"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5BDBE666E604FCAC"]
-			dependency_requirement: "one_completed"
-			description: [""]
+			description: ["Can be made using &dUU-Matter&r."]
 			hide_dependency_lines: false
 			id: "71A43C89EB13E9A0"
 			rewards: [{
@@ -145,11 +26,11 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["2DF64CB9298E91EA"]
-			description: [""]
+			dependencies: ["731686C758AD9A99"]
+			description: ["Can be made using &9Powah&r Energizing, or found in the Other between Y0 and Y40 exposed to air."]
 			hide_dependency_lines: false
 			id: "61FDABF2C7CC1F9D"
 			rewards: [{
@@ -164,7 +45,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["71A43C89EB13E9A0"]
@@ -342,7 +223,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4F6E6AF1D9E74CB7"]
+			dependencies: ["731686C758AD9A99"]
+			description: ["Can be found in End Highland biomes in the End."]
 			hide_dependency_lines: false
 			id: "44760B819EB3CA68"
 			rewards: [{
@@ -357,7 +239,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["71A43C89EB13E9A0"]
@@ -551,7 +433,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C322474D2F2BA99"]
@@ -584,33 +466,8 @@
 				type: "item"
 			}]
 			title: "The Other"
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["3C322474D2F2BA99"]
-			description: [
-				"The &9Mining Dimension&r has been reworked for 1.19!"
-				""
-				"There are several new layers added. Allthemodium Ore also spawns better in this dimension, as well as several new ores to the Mining World. Check it out!"
-			]
-			hide: true
-			hide_dependency_lines: false
-			icon: "allthemodium:raw_allthemodium"
-			id: "7E8FE99A3C448413"
-			rewards: [{
-				id: "7B03C181BB8EB227"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "110AA18477C59A28"
-				title: "The Mining Dimension"
-				type: "checkmark"
-			}]
-			title: "The Mining Dimension"
-			x: -1.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["71A43C89EB13E9A0"]
@@ -637,7 +494,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["61FDABF2C7CC1F9D"]
@@ -664,7 +521,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.25d
+			y: 2.75d
 		}
 		{
 			dependencies: ["44760B819EB3CA68"]
@@ -691,7 +548,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: [

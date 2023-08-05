@@ -89,7 +89,6 @@
 		{ item: "minecraft:lava_bucket", weight: 5.0f }
 		{ item: "mekanismgenerators:wind_generator", weight: 10.0f }
 		{ item: "powah:solar_panel_basic", weight: 10.0f }
-		{ item: "powah:thermo_generator_basic", weight: 5.0f }
 		{ item: "mekanismgenerators:gas_burning_generator", weight: 5.0f }
 		{ item: "functionalstorage:compacting_drawer", weight: 10.0f }
 		{ item: "functionalstorage:storage_controller", weight: 3.0f }

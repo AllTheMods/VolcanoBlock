@@ -540,16 +540,9 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "51EFBB115AE2746A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:mystical_flowers"
-					}
-				}
-				title: "Any #botania:mystical_flowers"
-				type: "item"
+				id: "1218201A610EEEB9"
+				title: "Welcome to Botania!"
+				type: "checkmark"
 			}]
 			title: "Welcome to &aBotania&r!"
 			x: 5.0d
@@ -3170,7 +3163,6 @@
 			dependencies: ["27CD17C4B3613171"]
 			description: ["Using Gaia Ingots to summon the harder version of the &5Guardian of Gaia&r will get you more &6Gaia Spirits&r, but the Guardian can also drop the &6Dice of Fate&r."]
 			id: "50A2D68A83A50F47"
-			invisible: true
 			rewards: [
 				{
 					exclude_from_claim_all: true

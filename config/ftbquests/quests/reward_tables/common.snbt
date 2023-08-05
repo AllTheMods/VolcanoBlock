@@ -256,7 +256,6 @@
 			}
 		}
 		{ item: "ae2:flawless_budding_quartz" }
-		{ item: "powah:magmator_basic" }
 		{ item: "powah:furnator_basic" }
 		{
 			item: {

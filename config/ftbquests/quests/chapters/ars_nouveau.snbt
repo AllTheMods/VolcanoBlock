@@ -2032,7 +2032,7 @@
 			description: [
 				"To gain further knowledge of spells, we'll need a specific type of magical wood!"
 				""
-				"Archwood Trees can be found in the overworld."
+				"Archwood Trees can be found by sieving &2Leaves&r!"
 			]
 			id: "33682F4B44950123"
 			rewards: [
