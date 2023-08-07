@@ -7,7 +7,7 @@ let materials = [
     "silver",
     "tin",
     "uranium",
-    "zin",
+    "zinc",
     "iridium",
     "iron",
     "copper",
