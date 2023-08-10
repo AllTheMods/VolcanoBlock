@@ -1456,39 +1456,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["2E82D3BBE7966548"]
-			description: [
-				"Once you've sieved some Dirt, you'll likely get &2Grass Seeds&r."
-				""
-				"Planting these on dirt will convert them into Grass. It's not the prettiest, but you did decide to go scavenging in a Volcano."
-				""
-				"The Grass actually has several uses, like growing flowers by using &bBone Meal&r on it, or something even more important...."
-			]
-			id: "49210F073C1D860B"
-			rewards: [
-				{
-					id: "40AEC0A5C6FD0FC1"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "321CC7BA0378BBCF"
-					item: "exnihilosequentia:grass_seeds"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5A8E40E29E0A4E5A"
-				item: "exnihilosequentia:grass_seeds"
-				type: "item"
-			}]
-			title: "Growing &aGrass&r"
-			x: 1.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["49210F073C1D860B"]
+			dependencies: ["3B0B40986BCF50E1"]
 			description: [
 				"Passive Mobs don't want to live in a Volcano because they don't have any grass to eat."
 				""
@@ -1585,11 +1553,19 @@
 				}
 			}
 			id: "15C45141C740C9EA"
-			rewards: [{
-				id: "0EC69EB7B5F4A2DA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0EC69EB7B5F4A2DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08A1D4C1B88F3502"
+					item: "mob_grinding_utils:dreadful_dirt"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "67DFB4CFBE518B94"
 				item: "minecraft:rotten_flesh"
@@ -1896,6 +1872,37 @@
 			title: "&cLava&r Is Bad For Your Health."
 			x: -1.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["2E82D3BBE7966548"]
+			description: [
+				"Once you've sieved some Dirt, you'll likely get &2Grass Seeds&r."
+				""
+				"Planting these on dirt will convert them into Grass. It's not the prettiest, but you did decide to go scavenging in a Volcano."
+				""
+				"The Grass actually has several uses, like growing flowers by using &bBone Meal&r on it, or something even more important...."
+			]
+			id: "3B0B40986BCF50E1"
+			rewards: [
+				{
+					id: "0A937F9246A0AB9E"
+					item: "mob_grinding_utils:delightful_dirt"
+					type: "item"
+				}
+				{
+					id: "7FB05C49BD0AFFD7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0DC4746275913D28"
+				item: "exnihilosequentia:grass_seeds"
+				type: "item"
+			}]
+			title: "Growing Grass"
+			x: 1.5d
+			y: 8.5d
 		}
 	]
 	title: "Part 1: &aGetting Started&r"
