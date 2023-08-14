@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "allthecompressed:gravel_block_1x"
+    }
+  ],
+  "results": [
+    {
+      "item": "exnihilosequentia:dust",
+      "count": 9
+    }
+  ],
+  "processingTime": 250
+}
