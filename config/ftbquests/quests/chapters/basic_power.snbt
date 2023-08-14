@@ -1038,6 +1038,178 @@
 			x: -9.0d
 			y: 7.5d
 		}
+		{
+			description: [
+				"If you ever wondered if there was a generator that could make both &eEU&r &oAND&r &4FE&r, wonder no more!"
+				""
+				"&bAdvanced Generators&r is fairly versatile and can produce them both."
+				"The multiblock structure can be even any shape you desire! They just need to be connected."
+				""
+				"There's multiple forms to create the generator but we'll highlight the &6Gas Generator&r."
+				""
+				"You can also upgrade the capacitors and the turbines by replacing them with a higher tier or using an &9Upgrade Kit&r."
+				""
+				"There's also plenty of fuel sources you can use for it, like Mekanism's &bHydrogen&r (&fGas&r), or &dLiquid Ethylene&r (&bLiquid&r). You'll need either the &bLiquid Intake Valve&r for liquid fuel or the &fGas Intake Valve&r for gas fuel. "
+				"Hover your mouse over the &2Gas Turbine Controller&r and press your JEI \"Uses\" button(Usually u). "
+				""
+				"The limits of how many blocks you can add to the structure is shown on the description of the Generator itself(You can see \"Up to X\")."
+			]
+			icon: "advgenerators:fuel_turbine_controller"
+			id: "36E33EDF1DE488FD"
+			min_width: 300
+			rewards: [
+				{
+					id: "22E3F585BDD60A75"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1ACBF58EBDD0C0B4"
+					item: {
+						Count: 1b
+						id: "ceramicbucket:ceramic_bucket"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "mekanism:ethene"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "MultiMod Energy Generation?!"
+			tasks: [
+				{
+					id: "3D75A4F1E5B4792C"
+					item: "advgenerators:fuel_turbine_controller"
+					type: "item"
+				}
+				{
+					id: "1A82C524AB67398D"
+					item: "advgenerators:fuel_tank"
+					type: "item"
+				}
+				{
+					id: "516AF4256F3D41DC"
+					item: "advgenerators:turbine_tier1"
+					type: "item"
+				}
+				{
+					id: "51075B05EAEAD16F"
+					item: "advgenerators:control"
+					type: "item"
+				}
+				{
+					id: "6BF2A8C99899A533"
+					item: "advgenerators:power_capacitor_tier1"
+					type: "item"
+				}
+				{
+					id: "1D71DCF3E9B3B256"
+					item: "advgenerators:gas_input"
+					type: "item"
+				}
+				{
+					id: "0B3AEEB0ED7708B1"
+					item: "advgenerators:fluid_input"
+					type: "item"
+				}
+			]
+			title: "Advanced Generators"
+			x: -3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["36E33EDF1DE488FD"]
+			description: ["The &3Fuel/Air Mixer&r increases the efficiency of the generator to &e135%&r, you can get more for less!"]
+			id: "57DE2BB67263E9B5"
+			rewards: [{
+				id: "3F84177038C1094A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "257C7A7D09DCD2DC"
+				item: "advgenerators:efficiency_upgrade_tier1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["57DE2BB67263E9B5"]
+			description: ["The &bGas Mix Compressor&r increases the efficiency to &4185%&r, letting you get almost double energy for the same amount of fuel."]
+			id: "3E239E4310428ECC"
+			rewards: [
+				{
+					id: "6B35E0A290DFB8C6"
+					item: "advgenerators:advanced_pressure_valve"
+					type: "item"
+				}
+				{
+					id: "403E0718474DB512"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13298F3C54D23BFB"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Even higher efficiency? Sign me up!"
+			tasks: [{
+				id: "5569A99AECDC1B3D"
+				item: "advgenerators:efficiency_upgrade_tier2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["36E33EDF1DE488FD"]
+			description: ["The &bFlux Generator&r is the block that lets you take the produced energy and lets you output it in &4FE&r form."]
+			id: "763112C3B5CD9C80"
+			rewards: [{
+				id: "1CF195A6EC441E84"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1D60E501CF1A4C9D"
+				item: "advgenerators:fe_output"
+				type: "item"
+			}]
+			title: "RF Production"
+			x: -4.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["36E33EDF1DE488FD"]
+			description: [
+				"The &bLow Voltage Emitter&r is the block that lets you take the produced energy and lets you output it in &eEU&r form."
+				""
+				"There are multiple Voltage Emitter blocks output so make sure to craft the one you require based on your needs."
+			]
+			id: "6B61DD6C74FC408A"
+			rewards: [{
+				id: "701C3D05F79B41E7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "191AE167760C6102"
+				item: "advgenerators:eu_output_lv"
+				type: "item"
+			}]
+			title: "EU Production"
+			x: -2.25d
+			y: 7.25d
+		}
 	]
 	title: "Basic Power"
 }
