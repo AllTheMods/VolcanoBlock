@@ -1,0 +1,74 @@
+{
+	"fuels": [
+		{
+			"fluid": "ic2:woodgas",
+			"burn_time": 250,
+			"production": 10
+		},
+		{
+			"fluid": "thermal:creosote",
+			"burn_time": 250,
+			"production": 10
+		},
+		{
+			"fluid": "thermal_extra:sunflower",
+			"burn_time": 250,
+			"production": 10
+		},
+		{
+			"fluid": "thermal:heavy_oil",
+			"burn_time": 2000,
+			"production": 32
+		},
+		{
+			"fluid": "thermal:light_oil",
+			"burn_time": 2000,
+			"production": 32
+		},
+		{
+			"fluid": "thermal_extra:crystallized_sunflower_oil",
+			"burn_time": 2000,
+			"production": 32
+		},
+		{
+			"fluid": "mekanism:hydrogen",
+			"burn_time": 2000,
+			"production": 32
+		},
+		{
+			"fluid": "ic2:alcohol",
+			"burn_time": 20000,
+			"production": 64
+		},
+		{
+			"fluid": "mekanism:ethene",
+			"burn_time": 2000,
+			"production": 128
+		},
+		{
+			"fluid": "ic2:bio_fuel",
+			"burn_time": 2000,
+			"production": 128
+		},
+		{
+			"fluid": "thermal:refined_fuel",
+			"burn_time": 6000,
+			"production": 128
+		},
+		{
+			"fluid": "immersiveengineering:biodiesel",
+			"burn_time": 8000,
+			"production": 128
+		},
+		{
+			"fluid": "thermal_extra:refined_sunflower_oil",
+			"burn_time": 6000,
+			"production": 128
+		},
+		{
+			"fluid": "advgenerators:syngas",
+			"burn_time": 6000,
+			"production": 128
+		}
+	]
+}
