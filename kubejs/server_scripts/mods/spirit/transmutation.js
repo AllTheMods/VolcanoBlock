@@ -63,8 +63,8 @@ SoulTransmutation.prototype = {
     }
 }
 
-ServerEvents.recipes(e => {
-    e.custom(
+ServerEvents.recipes(event => {
+    event.custom(
         new SoulTransmutation()
             .setInputEntity('minecraft:guardian')
             .addItemInput('minecraft:sea_lantern')
@@ -80,7 +80,7 @@ ServerEvents.recipes(e => {
             .build()
     ).id('kubejs:spirit/elder_guardian')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:water_bucket')
             .isConsumed()
@@ -97,7 +97,7 @@ ServerEvents.recipes(e => {
             .build()
     ).id('kubejs:spirit/axolotl')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setInputEntity('minecraft:blaze')
             .addItemInput('minecraft:lightning_rod')
@@ -113,7 +113,7 @@ ServerEvents.recipes(e => {
             .build()
     ).id('kubejs:spirit/thermal/blitz')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setInputEntity('minecraft:blaze')
             .addItemInput('minecraft:ice')
@@ -129,7 +129,7 @@ ServerEvents.recipes(e => {
             .build()
     ).id('kubejs:spirit/thermal/blizz')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setInputEntity('minecraft:blaze')
             .addItemInput('minecraft:dirt')
@@ -145,7 +145,7 @@ ServerEvents.recipes(e => {
             .build()
     ).id('kubejs:spirit/thermal/basalz')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:wheat_seeds')
             .isConsumed()
@@ -156,14 +156,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:bone_meal')
             .setOutputEntity('resourcechickens:chicken')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/chicken')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:wheat')
             .isConsumed()
@@ -175,14 +174,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:hay_block')
             .setOutputEntity('minecraft:cow')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/cow')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:string')
             .isConsumed()
@@ -193,14 +191,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:white_wool')
             .setOutputEntity('minecraft:sheep')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/sheep')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:carrot')
             .isConsumed()
@@ -211,14 +208,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('thermal:carrot_block')
             .setOutputEntity('minecraft:pig')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/pig')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:sweet_berries')
             .isConsumed()
@@ -229,14 +225,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:spruce_sapling')
             .setOutputEntity('minecraft:fox')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/fox')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:torch')
             .isConsumed()
@@ -247,14 +242,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:coal_block')
             .setOutputEntity('minecraft:bat')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/bat')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:bone')
             .isConsumed()
@@ -265,14 +259,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:bone_block')
             .setOutputEntity('minecraft:wolf')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/wolf')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:cod')
             .isConsumed()
@@ -283,14 +276,13 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:cooked_cod')
             .setOutputEntity('minecraft:cat')
             .spawnMob()
             .build()
     ).id('kubejs:spirit/cat')
 
-    e.custom(
+    event.custom(
         new SoulTransmutation()
             .setActivator('minecraft:glass_bottle')
             .isConsumed()
@@ -301,7 +293,6 @@ ServerEvents.recipes(e => {
             .addItemInput('minecraft:clay')
             .addItemInput('minecraft:grass_block')
             .addItemInput('minecraft:stone')
-            .addItemInput('minecraft:clay')
             .addItemInput('minecraft:sugar')
             .setOutputEntity('minecraft:bee')
             .spawnMob()
