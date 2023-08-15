@@ -13,10 +13,12 @@
         },
         {
           "block": "minecraft:lava",
-          "height": 64
+          "height": 127
         }
       ],
-      "structure_overrides": "minecraft:nether_complexes"
+      "structure_overrides": [
+        "vb_companion:pb_crane"
+      ]
     }
   }
 }

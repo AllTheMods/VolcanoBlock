@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:silver_dust",
+		"count": 1
+	},
+	"hidden": true,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"tag": "forge:dusts/bronze",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:dusts/gold",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"YXY",
+		"XYX"
+	]
+}

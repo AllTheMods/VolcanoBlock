@@ -1,0 +1,20 @@
+{
+	"input": "alltheores:uranium_ingot",
+	"fuels": [
+		{
+			"input": {
+				"item": "minecraft:blaze_rod",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 200
+		}
+	],
+	"output": {
+		"item": "ic2:ingot_uranium_enriched_blaze",
+		"count": 1
+	},
+	"points": 100,
+	"color": -1533177,
+	"energy_usage": 20
+}

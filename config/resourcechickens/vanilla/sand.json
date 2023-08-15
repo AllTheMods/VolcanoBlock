@@ -1,0 +1,21 @@
+{
+	"displayName": "Sand Chicken",
+	"dropItem": "minecraft:sand",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block", "minecraft:sand"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "15525297",
+	"eggColorForeground": "10985580",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

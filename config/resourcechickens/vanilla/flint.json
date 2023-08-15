@@ -1,0 +1,21 @@
+{
+	"displayName": "Flint Chicken",
+	"dropItem": "minecraft:flint",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:gravel", "minecraft:stone"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "7039815",
+	"eggColorForeground": "10724213",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

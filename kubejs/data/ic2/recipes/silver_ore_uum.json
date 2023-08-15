@@ -1,0 +1,29 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:silver_ore",
+		"count": 2
+	},
+	"hidden": true,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:uumatter",
+				"count": 1
+			},
+			"size": 1,
+			"type": "ic2:nbtstack",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		" X ",
+		"X X",
+		"XX "
+	]
+}

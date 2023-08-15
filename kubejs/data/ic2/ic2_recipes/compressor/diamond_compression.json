@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:dusts/diamond",
+		"size": 4,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:diamond",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

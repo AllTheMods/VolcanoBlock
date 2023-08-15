@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:iron_dust",
+		"count": 1
+	},
+	"hidden": true,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"tag": "forge:dusts/tin",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:dusts/copper",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"YXY",
+		"XYX"
+	]
+}

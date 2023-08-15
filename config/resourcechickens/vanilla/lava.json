@@ -1,0 +1,21 @@
+{
+	"displayName": "Lava Chicken",
+	"dropItem": "resourcechickens:lava_egg",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": ["minecraft:netherrack"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "13257483",
+	"eggColorForeground": "3155018",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

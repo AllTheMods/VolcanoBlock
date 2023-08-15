@@ -1,0 +1,24 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:aluminium_cable_item",
+		"count": 12
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 1,
+	"inputs": [
+		{
+			"tag": "forge:ingots/aluminum",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		}
+	],
+	"pattern": [
+		"XXX"
+	]
+}

@@ -1,0 +1,85 @@
+{
+	icon: {
+		Count: 1b
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "mekanism_advanced_loot_box"
+		}
+	}
+	id: "617F6D802ED0FD00"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:elite_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "functionalstorage:netherite_upgrade", weight: 2.0f }
+		{ item: "pipez:ultimate_upgrade", random_bonus: 2, weight: 2.0f }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "apotheosis:sigil_of_socketing" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "mekanism:quantum_entangloporter" }
+		{ count: 2, item: "apotheosis:epic_material", random_bonus: 4, weight: 3.0f }
+	]
+	title: "&dEpic Reward"
+	use_title: true
+}

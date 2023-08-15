@@ -1,0 +1,18 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:silver_dust",
+		"count": 9
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:silver_dust_block",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

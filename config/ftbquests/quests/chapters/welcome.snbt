@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "allthetweaks:atm_star"
+	id: "5B00676D79306EA2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["EnigmaQuip"]
+			image: "atm:textures/questpics/welcome/enigma_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["theVortex"]
+			image: "atm:textures/questpics/welcome/thevortex_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: "https://www.youtube.com/c/alfredggmc"
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["AlfredGG"]
+			image: "atm:textures/questpics/welcome/alfred_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["oly2o6"]
+			image: "atm:textures/questpics/welcome/oly206_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
+			rotation: 0.0d
+			width: 3.396039603960396d
+			x: 6.0d
+			y: 8.13d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/thevortex_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
+			x: -6.0d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/enigma_name.png"
+			rotation: 0.0d
+			width: 3.8412698412698414d
+			x: 2.0d
+			y: 8.29d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/oly2o6.png"
+			rotation: 0.0d
+			width: 2.457142857142857d
+			x: -2.0d
+			y: 8.27d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.9083503054989817d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/name_bar.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: "https://discord.gg/3paFjuRfz9"
+			corner: false
+			dev: false
+			height: 1.1446886446886446d
+			hover: ["Join the Discord!"]
+			image: "atm:textures/questpics/discord-logo-vector.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/logosmall.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.2d
+			hover: [ ]
+			image: "minecraft:block/lava_flow"
+			rotation: 0.0d
+			width: 3.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.35d
+			hover: [ ]
+			image: "minecraft:block/magma"
+			order: -2
+			rotation: 0.0d
+			width: 3.35d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.patreon.com/allthemods"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/patreon.png"
+			rotation: 0.0d
+			width: 5.3628318584070795d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.74d
+			x: 0.0d
+			y: -4.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"After planning and prepping for years, you have finally started your expedition into a massive &cVolcano&r!"
+				""
+				"Your goal is to loot and scavenge your new lava-filled home, while surviving our version of \"The Floor Is Lava.\""
+				""
+				"To get started on your adventure, head over to the &aGetting Started&r quest chapter!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "packmenu:textures/gui/background.png"
+				}
+			}
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			title: "&dWelcome to&r &cVolcanoBlock!&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"In this modpack, Quests are optional. Mods are not gated behind completing any quests!"
+				""
+				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
+				""
+				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			description: [
+				"There are plenty of helpful commands within ATM. Here are a few:"
+				""
+				"&e/skyblock gui&r | Opens up the GUI for Skyblock Islands. This is where you can create your Island or visit others!"
+				""
+				"&e/skyblock home&r | Teleports you back to your island's spawn point."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "Useful Commands"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.6d
+		}
+		{
+			description: [
+				"To claim chunks, the default key to open the Claim Map is &6M&r and clicking the Map icon in the top left."
+				""
+				"To claim a chunk, left click and drag to claim. "
+				""
+				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "0C93D7A607AB8B83"
+			rewards: [{
+				id: "1B044C35466AFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "103C42C743E2A2DB"
+				title: "Claiming Chunks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.6d
+		}
+	]
+	title: "&dWelcome&r"
+}

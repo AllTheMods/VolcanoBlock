@@ -1,0 +1,21 @@
+{
+	"displayName": "Duck",
+	"dropItem": "resourcechickens:duck_egg",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 1,
+	"spawnLight": 7,
+	"spawnBlocks": ["minecraft:grass_block", "minecraft:stone", "minecraft:sand"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": false,
+	"conversion": 10,
+	"eggLayTime": 6000,
+	"eggColorBackground": "8606770",
+	"eggColorForeground": "6192150",
+	"hasTrait": 1,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

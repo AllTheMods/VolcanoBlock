@@ -1,0 +1,21 @@
+{
+	"displayName": "Soul Sand Chicken",
+	"dropItem": "minecraft:soul_sand",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": ["minecraft:soul_sand", "minecraft:soul_soil"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "4534565",
+	"eggColorForeground": "13971208",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

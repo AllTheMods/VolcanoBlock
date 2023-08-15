@@ -1,0 +1,20 @@
+{
+	"input": "alltheores:uranium_ingot",
+	"fuels": [
+		{
+			"input": {
+				"item": "minecraft:nether_star",
+				"size": 1,
+				"type": "ic2:item"
+			},
+			"value": 200
+		}
+	],
+	"output": {
+		"item": "ic2:ingot_uranium_enriched_netherstar",
+		"count": 1
+	},
+	"points": 150,
+	"color": -4246,
+	"energy_usage": 150
+}

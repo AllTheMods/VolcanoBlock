@@ -1,0 +1,21 @@
+{
+	"displayName": "Blaze Chicken",
+	"dropItem": "minecraft:blaze_rod",
+	"dropItemNBT": "",
+	"spawnNaturally": true,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": ["minecraft:netherrack"],
+	"canBreed": true,
+	"baseHealth": 4,
+	"baseSpeed": 0.25,
+	"isFireImmune": true,
+	"conversion": 250,
+	"eggLayTime": 6000,
+	"eggColorBackground": "16777062",
+	"eggColorForeground": "16724736",
+	"hasTrait": 5,
+	"parentA": "resourcechickens:gold",
+	"parentB": "resourcechickens:lava",
+	"enabled": true
+}

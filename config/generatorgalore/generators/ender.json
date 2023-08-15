@@ -2,7 +2,7 @@
   "generationRate": 40,
   "transferRate": 512,
   "consumptionRate": 1,
-  "previousTier": "obsidian",
+  "previousTier": "iron",
   "bufferCapacity": 500000,
   "fuelList": [
     {

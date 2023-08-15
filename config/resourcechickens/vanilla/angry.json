@@ -1,0 +1,21 @@
+{
+	"displayName": "Angry Boi",
+	"dropItem": "",
+	"dropItemNBT": "",
+	"spawnNaturally": false,
+	"spawnType": 0,
+	"spawnLight": 0,
+	"spawnBlocks": [],
+	"canBreed": true,
+	"baseHealth": 40,
+	"baseSpeed": 0.35,
+	"isFireImmune": true,
+	"conversion": 0,
+	"eggLayTime": 0,
+	"eggColorBackground": "10592673",
+	"eggColorForeground": "16711680",
+	"hasTrait": 0,
+	"parentA": "",
+	"parentB": "",
+	"enabled": true
+}

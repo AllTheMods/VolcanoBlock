@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2D31F47E2A6DB4E3", title: "&6Main Questline&r" }
+		{ id: "34092FD19560F2D7", title: "&eAllThePower&r" }
+		{ id: "38AC79C5F3F80F46", title: "&2Resources&r" }
+		{ id: "038C4D2201F92CB9", title: "&aStorage&r" }
+		{ id: "421D0EE0E1C67D5A", title: "&dMagic&r" }
+		{ id: "73E251290820E9B5", title: "&9Technology&r" }
+	]
+}

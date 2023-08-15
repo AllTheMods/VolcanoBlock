@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:aluminium_insulated_cable_item",
+		"count": 4
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"tag": "ic2:rubber",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:ingots/aluminum",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		" X ",
+		"XYX",
+		" X "
+	]
+}

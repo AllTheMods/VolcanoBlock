@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "ic2:armor_bronze_boots",
+		"undamaged": false,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "ic2:scrap_metal",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 4,
+		"type": "ic2:range"
+	}
+}

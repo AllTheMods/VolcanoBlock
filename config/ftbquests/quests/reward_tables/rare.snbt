@@ -1,0 +1,113 @@
+{
+	icon: {
+		Count: 1b
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "rare_loot_chest"
+		}
+	}
+	id: "4D37FFAF33DF678A"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "thermal:upgrade_augment_2" }
+		{ item: "industrialforegoing:laser_drill" }
+		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{ item: "pipez:advanced_upgrade", random_bonus: 2, weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:advanced_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "mekanism:elite_tier_installer", weight: 3.0f }
+		{ item: "minecraft:dragon_egg", weight: 2.0f }
+		{ item: "minecraft:dragon_head" }
+		{ item: "thermal:machine_speed_augment", weight: 5.0f }
+		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
+		{ item: "alltheores:invar_ingot", random_bonus: 3, weight: 5.0f }
+		{ count: 8, item: "minecraft:obsidian", random_bonus: 8, weight: 10.0f }
+		{ count: 2, item: "fluxnetworks:flux_dust", random_bonus: 2, weight: 10.0f }
+		{ item: "fluxnetworks:flux_block", random_bonus: 1, weight: 3.0f }
+		{ item: "fluxnetworks:flux_point", weight: 5.0f }
+		{ item: "fluxnetworks:flux_plug", weight: 3.0f }
+		{ item: "fluxnetworks:basic_flux_storage", weight: 3.0f }
+		{ item: "fluxnetworks:herculean_flux_storage" }
+		{ count: 4, item: "mekanism:ultimate_universal_cable", random_bonus: 4, weight: 5.0f }
+		{ item: "pipez:ultimate_upgrade", random_bonus: 1 }
+		{ item: "mekanism:ingot_refined_obsidian", random_bonus: 3, weight: 5.0f }
+		{ item: "minecraft:diamond_block", random_bonus: 2, weight: 7.0f }
+		{ item: "minecraft:emerald_block", random_bonus: 1, weight: 5.0f }
+		{ item: "minecraft:beacon", weight: 2.0f }
+		{ item: "minecraft:nether_star", random_bonus: 2, weight: 2.0f }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ars_nouveau:basic_spell_turret" }
+		{ item: "ars_nouveau:apprentice_spell_book", weight: 2.0f }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:wand"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "functionalstorage:gold_upgrade", random_bonus: 1, weight: 5.0f }
+		{ item: "botania:endoflame" }
+		{ item: "minecraft:ghast_tear", random_bonus: 3, weight: 5.0f }
+		{ item: "ars_nouveau:source_gem_block", weight: 3.0f }
+		{ item: "minecraft:budding_amethyst", random_bonus: 2, weight: 5.0f }
+		{ count: 2, item: "apotheosis:rare_material", random_bonus: 4, weight: 5.0f }
+	]
+	title: "&9Rare Reward"
+	use_title: true
+}

@@ -1,0 +1,33 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:bronze_dust",
+		"count": 4
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"tag": "forge:dusts/tin",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dusts/copper",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dusts/copper",
+			"size": 1,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:dusts/copper",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	]
+}

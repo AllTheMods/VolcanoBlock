@@ -1,0 +1,2535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ic2_classic"
+	group: "73E251290820E9B5"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ic2:item/tools/drill/advanced"
+		}
+	}
+	id: "2028B83C500BF797"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"Nuclear Reactor Wiki"
+				"https://github.com/TinyModularThings/IC2Classic/wiki/Nuclear-Reactor"
+			]
+			image: "ic2:textures/block/electric/generator/nuclear_reactor/inactive_up.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 17.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ic2:textures/painting/hazard_general.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ic2:textures/painting/hazard_general.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.6d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.6d
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.6d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 1.6d
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ic2:textures/painting/hazard_electrical.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.75d
+		}
+		{
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ic2:textures/painting/hazard_open_flame.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.75d
+			y: 6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ic2:block/machine/stone/macerator/active_up"
+			order: -1
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "atm:textures/questpics/ic2c_logo.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 9.5d
+			y: 3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.8d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/square/background.png"
+			order: -1
+			rotation: 0.0d
+			width: 7.8d
+			x: 9.5d
+			y: 3.25d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9IC2&r is already a classic for a lot of us, but this rework brings on some new features and blocks to help you in your playthrough!"
+				""
+				"To get started, let's make the &3Stone Macerator&r. This machine will break your ores down into &a2 dusts&r, effectively doubling your resource output for raw ores!"
+				""
+				"To power this, we just need some kind of burnable fuel like Coal!"
+			]
+			id: "563C42A7D2CD8529"
+			rewards: [
+				{
+					id: "1E488BADCC9C1DB2"
+					item: "ic2:wiki_item"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701E69F9414E5277"
+					table_id: 6899600088670296736L
+					type: "loot"
+				}
+				{
+					id: "2221F6A85B356D75"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0B1D7E9E93B7A2A6"
+				item: "ic2:stone_macerator"
+				type: "item"
+			}]
+			title: "&bWelcome to&r &9Industrial Craft 2: Classic&r!"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["322681605144DFEB"]
+			description: [
+				"The &bGenerator&r is the most basic power generator we can make in the mod. This produces 10 EU/t when given burnable items like coal or wood, which will power most Low Voltage machines. We'll get into Voltage in a little."
+				""
+				"This will also auto-output its power into any machine placed next to it, or you can use cables!"
+			]
+			id: "61C9AE0EC0E58AC6"
+			rewards: [
+				{
+					id: "36BB8E4DB1789197"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "4E76F5AC957DF9B1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C8F70E97DB67205"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Tier: LV"
+			tasks: [{
+				id: "6E728522ED66C35C"
+				item: "ic2:generator"
+				type: "item"
+			}]
+			title: "&bStarter Power&r"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["05AE8AEC410777FA"]
+			description: [
+				"The &bBatBox&r is used to store power, as well as charging any items that require power from IC2! This is considered a &aStorage Unit&r for power."
+				""
+				"The &eBattery Station&r is a special type of storage that works as a container for battery items. You can switch between 3 modes on it:"
+				""
+				"Charging Bench: Makes the Battery Station only accept power."
+				"Battery Station: Makes the Battery Station only provide power."
+				"Batbox mode: Allows it to accept and provide power."
+			]
+			id: "3BC2E685A3CDC697"
+			rewards: [
+				{
+					id: "15372E0789161A27"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "1B433505A28E3222"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "747ACDB27F7BCE5C"
+					item: "ic2:batbox"
+					type: "item"
+				}
+				{
+					id: "7D9B2D02CDA8C273"
+					item: "ic2:battery_station_lv"
+					type: "item"
+				}
+			]
+			title: "&aBasic&r &bPower Storage&r"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["563C42A7D2CD8529"]
+			description: [
+				"To continue our journey, we'll need to get our hands on a &2Rubberwood Sapling&r. This can be gotten from sieving leaves, or from buying them from the &cMarket&r."
+				""
+				"Once you have a fully grown Rubberwood Tree, make yourself a &aTree Tap&r and look for dots on the logs!"
+			]
+			id: "32E8D76DD2CF1CEA"
+			rewards: [
+				{
+					id: "1DAF97D7DE264D69"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "7DD365F506F918CE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4513601A2355DDDF"
+					item: "ic2:tree_tap"
+					type: "item"
+				}
+				{
+					id: "2B01787D94F21315"
+					item: "ic2:rubber_sapling"
+					type: "item"
+				}
+			]
+			title: "&aCollecting Rubber&r"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32E8D76DD2CF1CEA"]
+			description: [
+				"Those little dots on the tree are &2Resin&r deposits!"
+				""
+				"Using your Tree Tap, you can grab out the &2Sticky Resin&r and throw it into a furnace to get &3Rubber Balls&r."
+				""
+				"We're going to need a lot of these to make several items in the mod. It wouldn't hurt to set up a tree farm for them!"
+			]
+			id: "74EC8A3FD72B01C9"
+			rewards: [
+				{
+					id: "2AB88A84195C4BE7"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "095043B743106D24"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "64655E8D1B0AA9AD"
+					item: "ic2:sticky_resin"
+					type: "item"
+				}
+				{
+					id: "7BF73CEF0CD9E6EE"
+					item: "ic2:rubber"
+					type: "item"
+				}
+			]
+			title: "&2Sticky Resin&r"
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["74EC8A3FD72B01C9"]
+			description: [
+				"While you can absolutely make uninsulated cables, you'll electrocute yourself if you get near the wire with an electric current flowing through it."
+				""
+				"It's also important to note that each cable allows for certain voltages to pass through them. Copper Cables belong to the LV Tier, meaning you can safely use them to transfer LV power to LV machines. If you happen to send anything higher, it'll probably explode. :D"
+				""
+				"For the safety of your ship, you should probably insulate your cables."
+			]
+			id: "05AE8AEC410777FA"
+			rewards: [
+				{
+					id: "65EDA719DB77E39D"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "44F2F07EFBEA68DB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "07A22B523094920E"
+				item: "ic2:copper_insulated_cable_item"
+				type: "item"
+			}]
+			title: "&aDon't Shock Yourself&r"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"Now that we have some sort of power generation, we can upgrade our &3Stone Macerator&r into an Electric &aMacerator&r."
+				""
+				"This machine works the same, except it uses power and can now be upgraded."
+			]
+			id: "2FC43D396799A325"
+			rewards: [
+				{
+					id: "6474A6B9FB0B8A78"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "3D6886404DEDEB0A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7ECF7421A71EA2E1"
+				item: "ic2:macerator"
+				type: "item"
+			}]
+			title: "&bGetting an Upgrade&r: &aMacerator&r"
+			x: 2.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"We can't be burning our coal in an Iron Furnace forever."
+				""
+				"The &eElectric Furnace&r is about 53% faster than a standard furnace, so it's definitely worth the upgrade!"
+			]
+			hide_dependency_lines: true
+			id: "550EA2F13BBFB71B"
+			rewards: [
+				{
+					id: "60B1376A0DCAACDC"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "07C2836AE0FF8049"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7A9F7E35D5AE0C4A"
+				item: "ic2:electric_furnace"
+				type: "item"
+			}]
+			title: "&bGetting an Upgrade&r: &eElectric Furnace&r"
+			x: -1.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"&9Solar Panels&r are basically free power generators during the day. However, the starter panels are actually Ultra-Low Voltage generators, and only produce 1 EU/t each."
+				""
+				"You can also compress the Solar Panels down in the &aCompressor&r."
+			]
+			id: "3F40C776D8C0C91C"
+			rewards: [
+				{
+					id: "69E38CF75A291955"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "47A809B81C1B284D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "793BD475D059419D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ic2:solar_panel"
+							}
+							{
+								Count: 1b
+								id: "ic2:solar_panel_compressed"
+							}
+						]
+					}
+				}
+				title: "&9Solar Panels&r"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &aWind Turbine&r is a basic generator that produces power based off of the wind."
+				""
+				"This generator needs a clear space around it to work. Height has no effect on the power production."
+			]
+			id: "003EDED1024612A2"
+			rewards: [
+				{
+					id: "0954592DC1016EEA"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "1680DAD8EFCA73DA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7EE40694A3B3DB74"
+				item: "ic2:wind_turbine"
+				type: "item"
+			}]
+			title: "&aWind Power&r"
+			x: -2.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: ["The &aCompressor&r has several useful recipes for converting items. It is also needed for more advanced recipes for IC2."]
+			id: "45118695F4E98853"
+			rewards: [
+				{
+					id: "0537B808D83C2D65"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "0A00CA0626CD2BBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B27F85167CDA629"
+				item: "ic2:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.25d
+		}
+		{
+			dependencies: ["550EA2F13BBFB71B"]
+			description: [
+				"The &bAlloy Smelter&r does exactly what it sounds like: it creates alloys by smelting multiple types of ores or items together."
+				""
+				"This is also how we'll make &cPulsating Quartz&r for higher tier &aCircuits&r."
+			]
+			id: "3EEC5DC24F8E7A86"
+			rewards: [
+				{
+					id: "130A1AA38D8D4627"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "396849E8C6654246"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7596D366226600DD"
+				item: "ic2:alloy_smelter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["05AE8AEC410777FA"]
+			description: [
+				"In IC2, the unit used for energy is called &bEnergy Units&r, or EU for short. EU is sent in packets along cables, machines, etc."
+				""
+				"These packet sizes are the Voltage of the energy (or EU/p), and determine the tier of the cable or machine. Here are the Tiers:"
+				""
+				"- LV Tier: 32EU/p - Copper Cables"
+				""
+				"- MV Tier: 128EU/p - Gold or Bronze Cables"
+				""
+				"- HV Tier: 512EU/p - Glass Fibre Cables"
+				""
+				"- EV Tier: 2048EU/p - HV, EU-Detector or Splitter, or Plasma Cables"
+				""
+				"With this, it's important to know how to step up or down the energy using &aTransformers&r."
+				""
+				"Transformers can absorb 4 packets of lower voltage to output 1 packet of the next tier of voltage (4 LV -> 1 MV). They can also absorb one packet of a higher tier voltage and split that into 4 packets of the lower tier (1 MV -> 4 LV). "
+				""
+				"These packets are also important, as sending a package (or voltage) too large through a machine or cable will cause them to explode. Never give a cable or machine a higher tier voltage than it can accept!"
+			]
+			id: "7F9008FBFEB9D915"
+			min_width: 400
+			rewards: [
+				{
+					id: "48A40303E69E2A2C"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "5CE23C6C8CEA8FD6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "79E415F398B87735"
+				item: "ic2:transformer_lv"
+				type: "item"
+			}]
+			title: "&9Voltage and You&r"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &aCanning Machine&r can be used to package items to make them usable."
+				""
+				"This can fill Tin Cans with food to create food items that also directly heal you, fill Electric Sprayers, CF Backpacks, Jetpacks, and Fuel Cans with Construction Foam and Fuel, and more."
+				""
+				"It's also used to make &2Uranium Rods&r which you'll need for the higher tier Power Generators."
+			]
+			id: "3C0C033B918388BF"
+			rewards: [
+				{
+					id: "2248AFA42EFA2CEB"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "39BDE577F4C1402F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5192A3506ED57517"
+				item: "ic2:canner"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &9Water Mill&r is a generator that produces power using water."
+				""
+				"The easiest way to have it provide power is by feeding it water. This will produce 1 EU/t."
+				""
+				"You can upgrade to higher tier Water Mills, providing more energy!"
+			]
+			id: "653F271F4564DF30"
+			rewards: [
+				{
+					id: "721037BF547B77AC"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "741DF4108956B822"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2392FE3DC5E59A9C"
+				item: "ic2:water_mill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &bSlag Generator&r is an upgraded version of the basic &aGenerator&r. This provides 25% more power and will also create &3scrap&r randomly from burning items for power."
+				""
+				"However, using scrap for power in this generator is much less effective, and it will not create scrap from burning scrap."
+			]
+			id: "5BA16A16410A7492"
+			rewards: [
+				{
+					id: "35A323206E51EF1D"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6EC5F4F33B958D15"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4A4C2DDDEC04BA89"
+				item: "ic2:slag_generator"
+				type: "item"
+			}]
+			title: "&bUpgraded Generator&r"
+			x: -3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["45118695F4E98853"]
+			description: [
+				"The &bRecycler&r will convert any item into &3Scrap&r. When given 9 Scrap, this will convert it into a Scrap Box which can give you random items!"
+				""
+				"Scrap can also be used to create &2Fertilizer&r, or be used as solid fuel for Generators."
+			]
+			hide_dependency_lines: true
+			id: "0FEB73D6536B5752"
+			rewards: [
+				{
+					id: "66FC3FF735F35586"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "764045AD820F1E3B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7B0D5EE8B1E2159B"
+				item: "ic2:recycler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &aSawmill&r is used to break down logs more efficiently, giving you 6 Planks instead of 4."
+				""
+				"You can get potato slices from this as well."
+			]
+			id: "541CEAD55884E041"
+			rewards: [
+				{
+					id: "35F1C045D87C33E7"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6442797FEE337992"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35C869D2FE9F1A6A"
+				item: "ic2:sawmill"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0FEB73D6536B5752"]
+			description: [
+				"The &2Rare Earth Extractor&r allows you to extract &2Rare Earth Dust&r from a variety of natural resources like cobblestone or granite."
+				""
+				"Each resource contributes points to successfully produce 1 Rare Earth Dust. For example, you'll need ~320 Cobblestone to create 1 dust, where as only needing 100 Obsidian or Soul Sand to produce 1 Dust."
+				""
+				"This dust can be used to create Rare Earth Chunks that can eventually be used to create Magnets."
+			]
+			hide_dependent_lines: true
+			id: "4A24ED184F9A9C54"
+			rewards: [
+				{
+					id: "69E73682521F2EE8"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "65A55E47C2D6226C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "691480262788F9F9"
+				item: "ic2:rare_earth_extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &aExtractor&r is probably one of the most important machines you can get in the early game. This will increase the amount of Rubber you get from Sticky Resin, as well as allowing you to convert Rubberwood logs and saplings to Rubber as well."
+				""
+				"It also has several other useful recipes!"
+			]
+			id: "705C471058F32142"
+			rewards: [
+				{
+					id: "7EDDA99787C2C71D"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "21A49E593C474145"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "42CEE2726F715E53"
+				item: "ic2:extractor"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["45118695F4E98853"]
+			description: [
+				"With our &aCompressor&r, we can start creating the items needed to make the next tier of machines by making the &bAdvanced Machine Block&r."
+				""
+				"This is the MV Tier, with voltage up to 128EU/p."
+			]
+			id: "1E609436B77595CA"
+			rewards: [
+				{
+					id: "485300147CC9A1D9"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "3536A64DE4AC589F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19AD179406DAAF88"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FC7F50E093CACC9"
+				item: "ic2:advanced_machine_block"
+				type: "item"
+			}]
+			title: "MV Tier Machines"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &bElectrolyzer&r electrolyzes water and magnetizes magnets. It cannot take power from batteries or from connecting cables to it, and must have some sort of Power Storage Unit nearby to get power. It doesn't work with Personal Storage, Battery Stations, or Creative Storage."
+				""
+				"The storage needs to be at least 70% full to charge and to be 30% full or lower to discharge. Thankfully, this machine cannot blow up."
+			]
+			id: "7E682EC2B3BFE1BA"
+			rewards: [
+				{
+					id: "1D846F01DC38356F"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "52D958AF4CBCB09E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0DF37FB83D0C2F85"
+				item: "ic2:electrolyzer"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: [
+				"The &dMass Fabricator&r is used to convert enormous amounts of energy into &5UU-Matter&r. This is used for end-game recipes, including the &6ATM Star&r."
+				""
+				"To create one piece of UU-Matter, you need around 7,000,000 EU. The faster you supply it with the required EU, the faster it will produce UU-Matter."
+				""
+				"The Fabricator will also accept &aScrap&r and &3Metal Scrap&r to \"amplify\" production of UU-Matter. Normal Scrap contributes 5,000, and Metal Scrap contributes 100,000 amplifier points."
+				""
+				"For each EU input into the Mass Fabricator, one amplifier point is used. Each amplifier point converts to 5 EU when used, meaning for an input of 100EU/t, 100 amplifier points are being used per tick resulting in an additional input of 500 EU/t."
+				""
+				"To simplify this, you can expect the Fabricator to work 6x the regular speed, with the same exact energy input."
+			]
+			icon: "ic2:uumatter"
+			id: "53988F2AEE221B9C"
+			min_width: 500
+			rewards: [
+				{
+					count: 5
+					id: "6A52F074BECF288A"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "171FAFD9603615B5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F1669900686934E"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Tier: HV"
+			tasks: [
+				{
+					id: "3E8700F4E21CDCEE"
+					item: "ic2:mass_fabricator"
+					type: "item"
+				}
+				{
+					id: "0D4246F5F8ADAC4D"
+					item: "ic2:uumatter"
+					type: "item"
+				}
+			]
+			title: "Creating &dUU-Matter&r"
+			x: 5.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			description: [
+				"Using a &2Rare Earth Extractor&r and an &aElectrolyzer&r, you can create Magnets. These will be used to make the next tier of machines by making the &aStabilized Machine Block&r."
+				""
+				"This is the machine block that is used to make &aHV Tier&r machines, which uses up to 512EU/p. "
+			]
+			id: "363FD99B29CD2954"
+			rewards: [
+				{
+					id: "569514ACEE7A4EA7"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3FB19A007944E465"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08E8D987C8CC167E"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "49B300BA90531804"
+				item: "ic2:stabilized_machine_block"
+				type: "item"
+			}]
+			title: "HV Tier Machines"
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: [
+				"Want to change your biome? The &2Terraformer&r can do just that!"
+				""
+				"You'll need to inject a Terraforming Blueprint (&aTFBP&r for short) and lots of power, then wait for the magic to happen."
+				""
+				"This machine uses ~5-10kEU per position changed. "
+			]
+			id: "640F97A5A1EF0AAB"
+			rewards: [
+				{
+					id: "2E206B4900A56C87"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "578DCA8E275FEC2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "166E9AA85DD1BF42"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Tier: HV"
+			tasks: [
+				{
+					id: "20113C37E9A59772"
+					item: "ic2:terraformer"
+					type: "item"
+				}
+				{
+					id: "6DBCFB1CFBD33E2B"
+					item: "ic2:tfbp"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 16.25d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"The &bLiquid Fuel Generator&r uses liquid fuels to create power instead of solid fuels like Coal. Each fuel type has a different production amount and burn time."
+				""
+				"- Wood Gas: 10EU/t"
+				"- Biomass: 8 EU/t"
+				"- Ethanol: 32 EU/t"
+				"- Seed Oil and Fruit Juice: 6 EU/t"
+				"- Honey: 4 EU/t"
+				"- Canola: 10 EU/t"
+				"- Canola Oil: 15 EU/t"
+				"- Crystalized Oil: 25 EU/t"
+				"- Empowered Oil: 30 EU/t"
+			]
+			id: "281352A9D7B5A5DD"
+			rewards: [
+				{
+					id: "7619A7C649D2242E"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6C81F1F2B6F40D59"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3E97A7A66B010EF4"
+				item: "ic2:liquid_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "0595CED09D162A08"
+			rewards: [
+				{
+					id: "475DA49352F219ED"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "02BB311E14D712AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34665626E8772741"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7DC14709896B38F3"
+				item: "ic2:charged_electrolyzer"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "5146DEC67190AF70"
+			rewards: [
+				{
+					id: "7FC15E2BF85AB2C7"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "162C67622E1B803D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D36FA237D2AA384"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4590EB19177184E9"
+				item: "ic2:rotary_macerator"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "5E24B632ACEFD260"
+			rewards: [
+				{
+					id: "3BF628E7AE4E30D0"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "2D4794B0F59932F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B92FAB4127C793D"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "678E4B1D25FB3CF9"
+				item: "ic2:centrifugal_extractor"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "4A921F18CCC14C02"
+			rewards: [
+				{
+					id: "04A28F6F4C3DF67D"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6CCC4B17F80DA047"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EFA2BF428BDB719"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5C2186B8E66F4D62"
+				item: "ic2:vacuum_canner"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "0D44B20192EB6FD7"
+			rewards: [
+				{
+					id: "0A427E5ADD509B51"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "295797FD25528E8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D8D505E6540E2E0"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "71116B4109B0360D"
+				item: "ic2:induction_furnace"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "07A737EBFF4637C8"
+			rewards: [
+				{
+					id: "57A4EE4F853AD738"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "63E83BF9AC9B6864"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43C4C5BEBEB16E59"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "254B047FE2A121C1"
+				item: "ic2:refinery"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "386F06C23E1F4368"
+			rewards: [
+				{
+					id: "1BA84BC9852E3D91"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "519C9A2577712691"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFBAF34AFA938A6"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26615F6D43E409F3"
+				item: "ic2:singularity_compressor"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "5F7DC4184B99371B"
+			rewards: [
+				{
+					id: "217A16FECD2C3CD7"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "4BD0C26AB09E0069"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7265EF12C8E3CDD0"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4AF681014042C1D9"
+				item: "ic2:compacting_recycler"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			id: "35DD3270996F6FD8"
+			rewards: [
+				{
+					id: "6BB362A2D5AA1013"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "5D4FCDCFF40B17EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AA4450AA4BFEEBD"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1C5208DDFC460443"
+				item: "ic2:centrifugal_rare_earth_extractor"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 14.0d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: ["The &dElectric Enchanter&r is used to enchant both Electric Tools and enchant/anvil regular tools and books. You cannot repair items with this machine."]
+			id: "718D0785CC2E404B"
+			rewards: [
+				{
+					id: "31C2FBAC5FCDD066"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7B4CDA5222D2BECE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC79B57AA46D072"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Tier: HV"
+			tasks: [{
+				id: "61C6B4CA3D28C5F0"
+				item: "ic2:electric_enchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: [
+				"The &eUranium Enricher&r takes Refined Uranium Ingots with some additive items, and combines them together into an &aEnriched Uranium Ingot&r."
+				""
+				"If you'd like to know more about the 5 types of Enriched Uranium, make sure to check out the guide book!"
+			]
+			id: "5B30200A3B03E737"
+			rewards: [
+				{
+					id: "6987CEA497F3BAD3"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "40AA1B5F8413C397"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD698BC3EE9422B"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Tier: HV"
+			tasks: [{
+				id: "7B019C9404653DFB"
+				item: "ic2:uranium_enricher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			description: [
+				"Just like the &cBatbox&r, this is considered a &aStorage Unit&r for EU."
+				""
+				"This machine can accept power from any side, but will only output power from the front face, which is marked with a dot."
+				""
+				"The MFE can hold up to 600,000 EU."
+			]
+			id: "6B7A4B05147E8864"
+			rewards: [
+				{
+					id: "63A9AEC3FFEB3925"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "776E866CED7FB638"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30A857EBF7FB6DA2"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3D14D96C66BACB56"
+				item: "ic2:mfe"
+				type: "item"
+			}]
+			title: "&bMV&r &aPower Storage&r"
+			x: 0.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: ["This is the EU storage unit for the HV tier. The MFSU can hold up to 10mil EU."]
+			id: "74B6C53E195BF163"
+			rewards: [
+				{
+					id: "10B85A3531933119"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3C3B6B22012DEC4A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "117306FFB7F7045F"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4392038E603BAA53"
+				item: "ic2:mfsu"
+				type: "item"
+			}]
+			title: "&bHV&r &aPower Storage&r"
+			x: 3.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0B859A9B03B56BD6"]
+			description: [
+				"The &dPlasmafier&r is the bridge to the end game resource &dPlasma&r."
+				""
+				"To create Plasma in the machine, you will combine 10 pieces of UU-Matter, one &aCell&r, and a lot of power. We're talking 10,240,000 EU per Plasma produced. So how about those Nuclear Reactors?"
+				""
+				"This is an EV machine, and cannot be upgraded to a higher voltage tier. This can also store up to 10 Cells worth of Plasma in its internal storage."
+			]
+			id: "4BE52D2D76389378"
+			rewards: [
+				{
+					count: 5
+					id: "63A8FCC62238AC2C"
+					item: "ic2:scrapbox"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "4A734DACD5AF834F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C400AA69687CEA"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			subtitle: "Tier: EV"
+			tasks: [
+				{
+					id: "2DBA1085BCEC9384"
+					item: "ic2:plasmafier"
+					type: "item"
+				}
+				{
+					id: "6E5D6692C3407B21"
+					item: "ic2:cell_plasma"
+					type: "item"
+				}
+			]
+			title: "Making &dPlasma&r"
+			x: 8.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["53988F2AEE221B9C"]
+			description: [
+				"&dUU-Matter&r is the only way to make &bIridium Ore&r. This unlocks several end game recipes!"
+				""
+				"Lots of these recipes require &bIridium Plates&r, so make sure to have plenty of power for UU-Matter going!"
+			]
+			id: "0B859A9B03B56BD6"
+			rewards: [
+				{
+					count: 2
+					id: "6582AB4F433D4314"
+					item: "ic2:scrapbox"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5EB3154009CC6BD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C90E4545F247A18"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "29CDF7EB261FC371"
+					item: "ic2:ore_iridium"
+					type: "item"
+				}
+				{
+					id: "0E3A79A3CD0C52EB"
+					item: "ic2:plate_iridium"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: [
+				"Another step up in Voltage, another step up in Cables!"
+				""
+				"The &bGlass Fiber&r Cables can transfer 512EU up to 40 blocks before having any loss."
+			]
+			id: "27977E63F9056498"
+			rewards: [
+				{
+					id: "55C39C61C9A10854"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "76E32C524D8D3285"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4215906B83F94C8E"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7156D161F36C1F15"
+				item: "ic2:glassfiber_cable_item"
+				type: "item"
+			}]
+			title: "&bHV Cables&r"
+			x: 3.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			description: [
+				"Now that we're at a new tier, we'll need to make sure our Cables can handle the new packet size."
+				""
+				"&6Gold Cables&r can handle the new Voltage, but start having a loss after 2 blocks."
+				""
+				"&aBronze Cables&r are cheaper, but the loss starts at 1 block instead."
+			]
+			id: "4929BBB34340D163"
+			rewards: [
+				{
+					id: "594CD63A2C6FE9BA"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6B2C1894ED815EA3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E73C0E650BDFF6A"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "37592816854A6848"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ic2:gold_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:gold_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:gold_double_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:bronze_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:bronze_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:bronze_double_insulated_cable_item"
+							}
+						]
+					}
+				}
+				title: "MV Cables"
+				type: "item"
+			}]
+			title: "&bMV Cables&r"
+			x: -0.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1E609436B77595CA"]
+			description: [
+				"&dNuclear Reactors&r are the ultimate goal for power production in IC2:C."
+				""
+				"These are highly customizable generators that can either a single &eNuclear Reactor&r, or a 7-block multiblock structure made by added 6 &aReactor Chamber&r blocks on each face of the &eNuclear Reactor&r block."
+				""
+				"Reactors are also extremely dangerous, and can pretty much wipe out your entire base from an explosion if you aren't careful!"
+				""
+				"Because of their danger, you can test out your Reactor designs using a &aReactor Planner&r to simulate performance."
+				""
+				"For more information regarding the Reactor, make sure to check out the in-game &bWiki&r or you can learn more about them on the github wiki."
+			]
+			id: "3D63AFA33B18A6D5"
+			rewards: [
+				{
+					id: "4797A05785A72D4A"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "02D13819AAEB7879"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "42637637A4367DE6"
+					item: "ic2:reactor_planner"
+					type: "item"
+				}
+				{
+					id: "70D30E0208BC6247"
+					item: "ic2:nuclear_reactor"
+					type: "item"
+				}
+				{
+					id: "335ABEFAB62172CB"
+					item: "ic2:armor_hazmat_helmet"
+					type: "item"
+				}
+				{
+					id: "6B83718BF5428384"
+					item: "ic2:armor_hazmat_chest"
+					type: "item"
+				}
+				{
+					id: "3244763B0B120259"
+					item: "ic2:armor_hazmat_leggings"
+					type: "item"
+				}
+				{
+					id: "7EDF1AE2186DBCE3"
+					item: "ic2:armor_hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "&dNuclear Reactors&r"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["363FD99B29CD2954"]
+			description: [
+				"To make the next tier for machines like the furnace or macerator, you'll need to make a multiblock out of &aColossal Base Blocks&r."
+				""
+				"A Colossal Machine is a dynamic machine that can be built either as a 2x2x2, 3x3x3, or a 4x4x4 structure."
+				""
+				"To create the multiblock, build the structure size you want out of the Colossal Base Blocks, then in the top left block of one of the faces, place down the &aColossal&r machine that you want to use."
+				""
+				"If you need any help, you can use the guide book!"
+			]
+			id: "6DA5CF089D765CB1"
+			rewards: [
+				{
+					id: "7C69574ED601860C"
+					item: "ic2:scrapbox"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "45D5225D1589DB91"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A727D103906BF00"
+					table_id: 6851994363140573085L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.25d
+			tasks: [{
+				id: "13D6CF7D862DE1EE"
+				item: "ic2:colossal_base_block"
+				type: "item"
+			}]
+			title: "&dColossal&r &aMachines&r"
+			x: 3.5d
+			y: 15.25d
+		}
+		{
+			dependencies: ["74B6C53E195BF163"]
+			id: "04B076C0DCBE3E5A"
+			rewards: [
+				{
+					id: "04E43ACD6E019764"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "3D9D97712B337548"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "43C7AB785C2957F0"
+				item: "ic2:esu"
+				type: "item"
+			}]
+			title: "&dEV&r &aPower Storage&r"
+			x: 5.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["4BE52D2D76389378"]
+			description: [
+				"Each Plasma Cell can make 1 &dPlasma Core&r. This is the max tier for Voltage, as well as being needed to make one of the items needed for the &6ATM Star&r."
+				""
+				"Using this, you can create cables and storage units that provide up to 32,768 EU/p. You can also make upgraded &aNuclear Reactors&r, &eAdvanced Tools&r, and &aBatteries&r that store a massive amount of power."
+			]
+			id: "289908B254CFB4A4"
+			rewards: [
+				{
+					count: 10
+					id: "43ABFFACB1E476EC"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "46100B08B845FEE6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8510F3D51A114D"
+					table_id: 7175652334583451871L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4B78791E4DE94BE0"
+				item: "ic2:plasma_core"
+				type: "item"
+			}]
+			title: "&5Plasma Cores&r"
+			x: 10.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["27977E63F9056498"]
+			description: [
+				"The next tier of Voltage is &dEV&r."
+				""
+				"&bIron&r Cables can handle the packets of 2048 EU with a loss of 1 EU per block."
+			]
+			id: "60E628766763D414"
+			rewards: [
+				{
+					id: "0D5BB3D12FC5AB05"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "045C338BF2DD6B6F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6C33E468B6462EA0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ic2:iron_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:iron_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:iron_double_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:iron_triple_insulated_cable_item"
+							}
+						]
+					}
+				}
+				title: "Iron Cables"
+				type: "item"
+			}]
+			title: "&dEV&r &bCables&r"
+			x: 5.25d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"289908B254CFB4A4"
+				"0146A525CE064071"
+			]
+			description: [
+				"&5Plasma&r Cables will deliver the strongest Voltage, up to 32kEU."
+				""
+				"This does have loss at every block, but who is counting at this point?"
+			]
+			id: "61F870BB6EDBFD87"
+			rewards: [
+				{
+					id: "19280DFCF1788F4A"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "6104C3AA6FD5BAD6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CA9D76C0EECB0EF"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "733C77CBA9CA9FEF"
+				item: "ic2:plasma_cable_item"
+				type: "item"
+			}]
+			title: "&5LuV&r &bCables&r"
+			x: 10.75d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"289908B254CFB4A4"
+				"1ED100582C6EB683"
+			]
+			description: ["The best power storage for the ultimate tier, &5LuV&r. This is around 32kEU/t."]
+			id: "17AAE18A11BAAA06"
+			rewards: [
+				{
+					id: "513A5E5E932CB702"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "7ECBC225494C45FF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D743CBA9118BD8B"
+					table_id: 7025454341029952768L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1EB877E7782614A6"
+				item: "ic2:pesu"
+				type: "item"
+			}]
+			title: "&5LuV&r &aPower Storage&r"
+			x: 10.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["04B076C0DCBE3E5A"]
+			description: [
+				"There isn't a \"Tier\" necessarily for this Storage. This is 8,192EU, which is in between EV and LuV."
+				""
+				"Keep in mind, EV machines can only accept 2,048 EU/t. This machine outputs more than that. Don't blow up your machines."
+			]
+			id: "1ED100582C6EB683"
+			rewards: [
+				{
+					id: "504008D17D63F402"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "04888CD592F1EC6B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "582619B54B516790"
+				item: "ic2:isu"
+				type: "item"
+			}]
+			title: "&dIV&r &aPower Storage&r"
+			x: 8.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["60E628766763D414"]
+			description: [
+				"For this tier, &bAluminum&r Cables are great to use and have a loss per block."
+				""
+				"However, &dSuper Cables&r are the best and will deliver the 8,192 EU without loss for up to 1,000 blocks. Aren't they just &oSuper&r?"
+			]
+			id: "0146A525CE064071"
+			rewards: [
+				{
+					id: "691F42D03CE1E057"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "4F8FC1DEDC7644DC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4F1CAC3C15A3924A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ic2:aluminium_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:aluminium_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:aluminium_double_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:aluminium_triple_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:aluminium_quadruple_insulated_cable_item"
+							}
+							{
+								Count: 1b
+								id: "ic2:super_cable_item"
+							}
+						]
+					}
+				}
+				title: "In Between Cables"
+				type: "item"
+			}]
+			title: "&dIV&r &bCables&r"
+			x: 8.75d
+			y: 10.25d
+		}
+		{
+			dependencies: ["05AE8AEC410777FA"]
+			description: [
+				"If you make any machine in IC2 and place it down, you won't be able to easily pick it back up without breaking it into a &aMachine Block&r."
+				""
+				"So how do you pick them up? Make a &2Wrench&r. You can get Bronze by creating dusts from the Stone Macerator, then combining them to make Bronze Dust that you can smelt into ingots. To pick up a machine, use the Wrench on the machine front or sneak-use it on the back."
+				""
+				"The &aEU Reader&r is the ultimate tool for reading energy information. This has 9 different modes to cycle through for all of the info you could ever need! While it's on your Hotbar, tooltips will provide energy information as well. If you'd like to know more about the different modes, check out the guide book!"
+			]
+			id: "322681605144DFEB"
+			min_width: 300
+			rewards: [
+				{
+					id: "7451D6A1F71560D7"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "4FE693404A110EB9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "77939CEA5E183390"
+					item: "ic2:wrench"
+					type: "item"
+				}
+				{
+					id: "158EBB49053AB65C"
+					item: "ic2:eu_reader"
+					type: "item"
+				}
+			]
+			title: "&dMAKE THESE.&r"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["45118695F4E98853"]
+			description: [
+				"The &aNano Suit&r is the first basic set of Power Armor."
+				""
+				"As long as it has power, it will absorb 90% of all damage taken from you, with the exception of fall damage. Anything over 4 hearts of fall damage will only absorb about 87.5% of the damage."
+				""
+				"This will also never break and can be upgraded. If you get struck by lightning while wearing it and standing on the ground, it will fully charge the Nano Suit! If you are flying or jumping while it happens.... you'll just die instead. "
+			]
+			hide_dependency_lines: true
+			id: "4A9312CA84742D83"
+			rewards: [
+				{
+					id: "6A2CD642F092EA8A"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "2F9B23EC24F4521D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "724E97BA7CA209FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:nano_suit_helmet"
+						tag: {
+							armor_upgrades: [{
+								Count: 1b
+								id: "ic2:energy_crystal"
+								upgrade_type: "battery"
+							}]
+							mods: {
+								storage_add: 100000
+								tier: 2
+								transfer_add: 250
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "5E959EF006CAF665"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:nano_suit_chestplate"
+						tag: {
+							armor_upgrades: [{
+								Count: 1b
+								id: "ic2:energy_crystal"
+								upgrade_type: "battery"
+							}]
+							mods: {
+								storage_add: 100000
+								tier: 2
+								transfer_add: 250
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "6F74FFB09CC658DE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:nano_suit_leggings"
+						tag: {
+							armor_upgrades: [{
+								Count: 1b
+								id: "ic2:energy_crystal"
+								upgrade_type: "battery"
+							}]
+							mods: {
+								storage_add: 100000
+								tier: 2
+								transfer_add: 250
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "030B6EDDBA8BDD11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:nano_suit_boots"
+						tag: {
+							armor_upgrades: [{
+								Count: 1b
+								id: "ic2:energy_crystal"
+								upgrade_type: "battery"
+							}]
+							mods: {
+								storage_add: 100000
+								tier: 2
+								transfer_add: 250
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&aNano&r Suit"
+			x: -2.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["45118695F4E98853"]
+			description: [
+				"The &aNano&r Saber is a weapon that uses power to increase the attack damage. To activate it, right click it in the air."
+				""
+				"While inactive, it increases damage by 3, and when activated, it increases damage by 19."
+				""
+				"This also does extra damage to Nano and Quantum armor."
+			]
+			hide_dependency_lines: true
+			id: "27F6500ED2761495"
+			rewards: [
+				{
+					id: "590AE9C59ACC9E13"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "50CF352E76E87237"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "54C19A2E06C12F13"
+					item: {
+						Count: 1b
+						id: "ic2:nano_saber"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "085D775B13C3C5E5"
+					item: "ic2:nano_shield"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "&aNano&r Saber and Shield"
+			x: -2.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["0B859A9B03B56BD6"]
+			description: [
+				"The &dQuantum Suit&r is one the best armors in the game."
+				""
+				"Each piece of Quantum gear has its own special abilities and can be dyed just like vanilla armor. You can find all of the info on the Quantum Suit in the guide book!"
+			]
+			hide_dependency_lines: false
+			id: "1B2436A179F0EEAF"
+			rewards: [
+				{
+					id: "2DBFA3087F818F1B"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "36297563E5E980F6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "147EAB8767A2E12E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:quantum_suit_helmet"
+						tag: {
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:lapatron_crystal"
+									upgrade_type: "battery"
+								}
+								{
+									Count: 1b
+									id: "ic2:auto_feeder_module"
+									upgrade_type: "generic"
+								}
+								{
+									Count: 1b
+									id: "ic2:air_refill_module"
+									upgrade_type: "generic"
+								}
+								{
+									Count: 1b
+									id: "ic2:protective_module"
+									upgrade_type: "generic"
+								}
+							]
+							mods: {
+								storage_add: 1000000
+								tier: 3
+								transfer_add: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "680FDCFED2683A56"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:quantum_suit_chestplate"
+						tag: {
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:lapatron_crystal"
+									upgrade_type: "battery"
+								}
+								{
+									Count: 1b
+									id: "ic2:extinguish_module"
+									upgrade_type: "generic"
+								}
+							]
+							mods: {
+								storage_add: 1000000
+								tier: 3
+								transfer_add: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C1E60A8C4618075"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:quantum_suit_leggings"
+						tag: {
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:lapatron_crystal"
+									upgrade_type: "battery"
+								}
+								{
+									Count: 1b
+									id: "ic2:speed_boost_module"
+									upgrade_type: "movement"
+								}
+							]
+							mods: {
+								storage_add: 1000000
+								tier: 3
+								transfer_add: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "542AE6FE9F84845D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "ic2:quantum_suit_boots"
+						tag: {
+							armor_upgrades: [
+								{
+									Count: 1b
+									id: "ic2:lapatron_crystal"
+									upgrade_type: "battery"
+								}
+								{
+									Count: 1b
+									id: "ic2:jump_boost_module"
+									upgrade_type: "movement"
+								}
+							]
+							mods: {
+								storage_add: 1000000
+								tier: 3
+								transfer_add: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dQuantum Suit&r"
+			x: 7.0d
+			y: 14.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"There are many upgrades for machines! If the machine can accept an upgrade, you'll see the upgrade slots on the right side of the GUI!"
+				""
+				"This quest only requires one of the most used upgrades, but you can check more of them out in the guide book."
+				""
+				"Overclocker Upgrade: Increases processing speed and energy consumption. Stacks up to 64."
+				""
+				"Transformer Upgrade: Increases the energy tier of the machine, allowing it to accept a higher voltage without exploding. Can stack up to max voltage tier."
+				""
+				"Energy Storage Upgrade: Increases the internal energy storage of the machine. Stacks up to 64."
+				""
+				"Efficiency Upgrade: Reduces the power consumption of the machine. One of these won't do much, so make sure to stack them! Stacks up to 16."
+			]
+			id: "64DFD18C400B6922"
+			min_width: 350
+			rewards: [
+				{
+					id: "07362A456B9FF0BD"
+					item: "ic2:upgrade_transformer"
+					type: "item"
+				}
+				{
+					id: "2AC6888555263D1C"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "10F21B4F3CC29018"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "627B52D4B9ACEE2E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ic2:upgrade_overclocker"
+							}
+							{
+								Count: 1b
+								id: "ic2:upgrade_transformer"
+							}
+							{
+								Count: 1b
+								id: "ic2:upgrade_energy_storage"
+							}
+							{
+								Count: 1b
+								id: "ic2:upgrade_efficiency"
+							}
+						]
+					}
+				}
+				title: "Machine Upgrades"
+				type: "item"
+			}]
+			title: "Machine Upgrades"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["61C9AE0EC0E58AC6"]
+			description: [
+				"&aBatteries&r are great ways to store energy for portable use. There are several tiers of Batteries, starting from the RE-Battery, moving to the Energy Crystal, then the Lapotron Crystal, and then the Plasma Energy Storage Device (PESD)."
+				""
+				"There are also Energy Packs and Belts, so make sure to check them out! "
+			]
+			id: "354A6640DB783102"
+			rewards: [
+				{
+					id: "38456C03D3F14650"
+					item: "ic2:scrapbox"
+					type: "item"
+				}
+				{
+					id: "5132DA613E886CB7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56F8216E37CA8D0F"
+				item: "ic2:re_battery"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Batteries"
+			x: -1.5d
+			y: 6.75d
+		}
+	]
+	title: "IC2: Classic"
+}

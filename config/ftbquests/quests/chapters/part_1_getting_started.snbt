@@ -1,0 +1,1909 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "part_1_getting_started"
+	group: "2D31F47E2A6DB4E3"
+	icon: "exnihilosequentia:oak_sieve"
+	id: "653ED8CB78C0D9CA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: -45.0d
+			width: 0.5d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "exnihilosequentia:item/andesite_pebble"
+			rotation: 45.0d
+			width: 0.5d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "exnihilosequentia:item/basalt_pebble"
+			rotation: 60.0d
+			width: 0.4d
+			x: 1.6894d
+			y: 3.3911d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.4d
+			hover: [ ]
+			image: "exnihilosequentia:item/stone_pebble"
+			rotation: 15.0d
+			width: 0.4d
+			x: 1.15884d
+			y: 2.81972d
+		}
+		{
+			alpha: 100
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/lava_still"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ic2:block/cfoam/wool/white"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "exnihilosequentia:block/string_mesh"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.07d
+			y: 7.45d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "resourcechickens:block/hay_grass"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:block/lava_flow"
+			order: -1
+			rotation: 180.0d
+			width: 0.75d
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			color: 38655
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:block/water_flow"
+			order: -1
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:item/lootcrate/top_outline"
+			rotation: 0.0d
+			width: 0.9d
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/fe_full"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/fe_full"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/fe_full"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/fe_full"
+			order: -1
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "exmachinis:block/auto_hammer_inner0"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "exmachinis:block/auto_hammer_inner0"
+			rotation: 180.0d
+			width: 4.0d
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "exmachinis:block/auto_hammer_inner0"
+			rotation: 90.0d
+			width: 4.0d
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "exmachinis:block/auto_hammer_inner0"
+			rotation: -90.0d
+			width: 4.0d
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.4d
+			hover: [ ]
+			image: "minecraft:block/magma"
+			order: -3
+			rotation: 45.0d
+			width: 1.4d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.3d
+			hover: [ ]
+			image: "minecraft:block/lava_flow"
+			order: -2
+			rotation: 45.0d
+			width: 1.3d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: -15.0d
+			width: 0.3d
+			x: -1.12687d
+			y: 2.840136d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.3d
+			hover: [ ]
+			image: "minecraft:item/apple"
+			rotation: -60.0d
+			width: 0.3d
+			x: -1.65748d
+			y: 3.3911564d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/charcoal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.962d
+			y: 13.0943d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 13.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D89265B11DC62CF"]
+			description: [
+				"You were smart and planned ahead. Aboard your ship, you made sure to bring &aone Tree&r for whatever you might need inside of the Volcano."
+				""
+				"And we're going to cut it down."
+			]
+			id: "6CF9F52E5880305C"
+			rewards: [
+				{
+					id: "1AF33685D99F3845"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00E1E82605536B3F"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: "minecraft:oak_log"
+					id: "75F08C0703C5A90B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:oak_logs"
+						}
+					}
+					title: "Oak Log"
+					type: "item"
+				}
+				{
+					icon: "minecraft:oak_planks"
+					id: "55FE4CF6DBED5EBC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Oak Plank"
+					type: "item"
+				}
+			]
+			title: "&aThinking Ahead&r"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"To get started, you'll spawn at the Volcano Hub. If you want to scavenge the Volcano for all of its loot, you'll want to create your own starter ship first!"
+				""
+				"To do this, use the command &a/skyblock gui&r to open up the interface. From here, create your first team and select the &aShip&r to set sail into the Volcano!"
+			]
+			icon: "fireproofboats:crimson_boat"
+			id: "0D89265B11DC62CF"
+			rewards: [
+				{
+					id: "66CF40A1971DD171"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48C6AE140EDF4FD1"
+					table_id: 6247671118263531606L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "656BA208F0C33811"
+				title: "Create Your Lava Island"
+				type: "checkmark"
+			}]
+			title: "&aClimb Aboard!&r"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CF9F52E5880305C"]
+			description: [
+				"After chopping down the only Tree you brought aboard your ship, hopefully you got a sapling from it....right?"
+				""
+				"Plant it right back on the dirt and &aget those legs ready&r. You can spam &acrouch&r to magically grow the sapling for more wood!"
+				""
+				"If you weren't lucky or somehow lost your sapling to the Volcano, you can grab an &9Emergency Sapling&r from the top right of the questbook!"
+			]
+			id: "4FDAFA92A86ADE57"
+			rewards: [
+				{
+					id: "64CD827ECCD7CCBE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40B929537E192C83"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7294DDC86F3D5A0F"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "&aRegrowing The World&r"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4FDAFA92A86ADE57"]
+			description: [
+				"Making a &9Crook&r is an important step in the progression!"
+				""
+				"When used on &eLeaves&r, the Crook will drop more saplings as well as &aSilkworms&r!"
+				""
+				"By using &eSilkworms&r on tree leaves, it will slowly convert them into &bInfected Leaves&r. These can be harvested with the Crook to give you string!"
+			]
+			id: "4D770B7F47A1285A"
+			rewards: [
+				{
+					id: "2261F9E4CDDF77D8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C4A7D45C9091AF8"
+					item: "exnihilosequentia:silkworm"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3569D64DA3DB9B88"
+					item: {
+						Count: 1b
+						id: "exnihilosequentia:wooden_crook"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E79600F67909DB7"
+					item: "exnihilosequentia:silkworm"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5B9FB4A858726EF5"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "We're &eCrooks&r Now"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0724FE577ED68B4F"]
+			description: [
+				"Now that we have a way to make Cobblestone, we'll need to break it down into some finer blocks to get some resources from it."
+				""
+				"To do this, we need to make a &eHammer&r. By breaking cobblestone with this, it will break it into &aGravel&r. Breaking Gravel will turn it into &aSand&r, and then Sand into &aDust&r."
+			]
+			icon: {
+				Count: 1b
+				id: "exnihilosequentia:stone_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CF99358776F9AAA"
+			rewards: [
+				{
+					id: "518A8D8CE12E7CA6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1894171768C6FAE8"
+					item: "allthecompressed:gravel_block_1x"
+					type: "item"
+				}
+				{
+					id: "1FA180090A6AC0E2"
+					item: "allthecompressed:sand_block_1x"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "0AFB6E8DAADA3E12"
+					item: "exnihilosequentia:dust"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "216EBE36325AB2F5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "exnihilosequentia:andesite_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:basalt_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:blackstone_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:calcite_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:diorite_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:granite_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:stone_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:tuff_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "exnihilosequentia:wooden_hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Hammer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5655067FD510A8E5"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "757FE550BE4D02EA"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2BC0CA7752A42FDF"
+					item: "exnihilosequentia:dust"
+					type: "item"
+				}
+			]
+			title: "&aHammer&r Time"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3CF99358776F9AAA"
+				"4D770B7F47A1285A"
+			]
+			description: [
+				"We're finally starting to get somewhere!"
+				""
+				"To get our starting resources, we'll need to make a &eSieve&r using the wood we've gathered. Using string, we can make a &aString Mesh&r that we can then put into the &eSieve&r."
+			]
+			icon: "exnihilosequentia:oak_sieve"
+			id: "2E82D3BBE7966548"
+			rewards: [
+				{
+					id: "7D2351F5A28C107F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3CF107B31BA2FE"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "563B1B57CCD483D8"
+					item: "exnihilosequentia:string_mesh"
+					type: "item"
+				}
+				{
+					id: "249F6D57D33455EE"
+					item: "exnihilosequentia:oak_sieve"
+					type: "item"
+				}
+			]
+			title: "More Shaking Necessary"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6CF9F52E5880305C"]
+			description: [
+				"That tree was hiding some dirt beneath it, and I've got a feeling that dirt has something we can use...."
+				""
+				"By sneak-right clicking on dirt, you can get pebbles. This will be used to create several types of stone blocks!"
+			]
+			icon: "exnihilosequentia:stone_pebble"
+			id: "0724FE577ED68B4F"
+			rewards: [
+				{
+					id: "7A17F24609556932"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "59BA9B8BBC3BA1A1"
+					item: "minecraft:cobblestone"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "360595A589FC47BD"
+					item: "exnihilosequentia:stone_pebble"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0ED46756DDCD595F"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Stone Shakedown"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E82D3BBE7966548"]
+			description: [
+				"Run some &aGravel&r through your Sieve with the String Mesh in it to get some &9Flint&r. We'll need this to upgrade our meshes to get more resources!"
+				""
+				"Tip: Placing more than 1 Sieve in an area will allow you to sieve multiple items at once, up to a 5x5."
+			]
+			icon: "exnihilosequentia:flint_mesh"
+			id: "615C32F20FF545DE"
+			rewards: [
+				{
+					id: "601FCC387A7F7C50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "28988CED9F22B86F"
+					item: "minecraft:flint"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 6L
+					id: "6B8E792EE4FE26FF"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "5303FD2C03366838"
+					item: "exnihilosequentia:flint_mesh"
+					type: "item"
+				}
+			]
+			title: "&aSieve It All Out&r"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: [
+				"Flint can't get you too much, so you want to upgrade to an &bIron Mesh&r as fast as possible."
+				""
+				"This gives us a lot more resources to work with, including &cRedstone&r and &eGlowstone&r."
+			]
+			id: "05F1C43D75DFAEFB"
+			rewards: [
+				{
+					id: "0DA8DD6880BE8C6C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C67A5353BF6A34"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A2778C9C104C1F9"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "74173157A1B2F11C"
+				item: "exnihilosequentia:iron_mesh"
+				type: "item"
+			}]
+			title: "The Real Upgrade"
+			x: 0.0d
+			y: 13.75d
+		}
+		{
+			dependencies: ["615C32F20FF545DE"]
+			description: [
+				"After upgrading our Sieve to a Flint Mesh, we're able to get a lot of metal resources by sieving Gravel."
+				""
+				"Might be a good idea to start looking into a better storage solution while you're at it."
+			]
+			id: "5FE4C70C879D1BE8"
+			rewards: [
+				{
+					id: "6E15857087A72DE7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F34CEBE3063CF22"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "451B1C018F5CC7E6"
+					item: "exnihilosequentia:iron_pieces"
+					type: "item"
+				}
+				{
+					id: "068CB7D336A3E76D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "We've Struck &bMetal&r"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6CF9F52E5880305C"]
+			description: ["&eBarrels&r are used to convert several fluids into items or other liquids, or creating more dirt by composting your saplings!"]
+			id: "6371B58012142EE9"
+			rewards: [
+				{
+					id: "65D235804B44A835"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45639D5CBC15DC91"
+					item: "minecraft:dirt"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67613CE2A40F7726"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "exnihilosequentia:barrels"
+						}
+					}
+					title: "Any #exnihilosequentia:barrels"
+					type: "item"
+				}
+				{
+					id: "2AD4C2722CFE463C"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			title: "&2Barrels&r Are Your Friends"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6FBA15B4968426FC"]
+			description: [
+				"With a Ceramic Bucket of Lava and Water, we can create a &3Cobblestone Generator&r. There are several tiers you can choose from to make."
+				""
+				"This will automatically output cobble into an inventory placed on top of it."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "413173F5BFF044E2"
+			rewards: [
+				{
+					id: "5EBE134B02C2C9D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "654F98521FC2B6AA"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B74E8919111AF95"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cobblefordays:tier_1"
+							}
+							{
+								Count: 1b
+								id: "cobblefordays:tier_2"
+							}
+							{
+								Count: 1b
+								id: "cobblefordays:tier_3"
+							}
+							{
+								Count: 1b
+								id: "cobblefordays:tier_4"
+							}
+							{
+								Count: 1b
+								id: "cobblefordays:tier_5"
+							}
+						]
+					}
+				}
+				title: "Cobble Generator"
+				type: "item"
+			}]
+			title: "Quit Punching The Ground"
+			x: -2.625d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05F1C43D75DFAEFB"]
+			description: [
+				"You know what you can get with an Iron Mesh? &cRedstone&r!"
+				""
+				"Sieve some Dust using the Iron Mesh to get Redstone as well as several other useful mats."
+			]
+			id: "2A1BDE5A0001D212"
+			rewards: [{
+				id: "1D5445E29254276A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5B1699DF05F681E8"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "&cRedstone&r"
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2A1BDE5A0001D212"]
+			description: [
+				"Make a &3Stone Barrel&r and place some Lava inside. Using a piece of &cRedstone&r on it will convert it to Netherrack!"
+				""
+				"This can be crushed using a hammer, then sieving the Crushed Netherrack for more resources!"
+			]
+			id: "3DCC109CCC6397C0"
+			rewards: [
+				{
+					id: "408BA583495095D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A30D59C9EA95226"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3FC17AA216C0FE46"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"6DC8F1F6199C1197"
+				"408E13728FE517D0"
+				"286D261F294AFCE5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Tired of hammering and sieving items manually? Of course you are!"
+				""
+				"Using the power we've created, we can automate all of our resource generation using &dFlux Machines&r."
+				""
+				"These can be upgraded as well to increase their processing speeds. For more information, check them out in JEI!"
+			]
+			id: "6E0D5FF652DAC40D"
+			rewards: [
+				{
+					id: "088DFD8812410979"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C87428934A1CD13"
+					item: "exmachinis:gold_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "591FEC24A4945B78"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6CCABE017D171E0E"
+					item: "exmachinis:flux_hammer"
+					type: "item"
+				}
+				{
+					id: "1A0511CA2273E5B8"
+					item: "exmachinis:flux_sieve"
+					type: "item"
+				}
+				{
+					id: "7CE60CEB0675E494"
+					item: "exmachinis:flux_compactor"
+					type: "item"
+				}
+			]
+			title: "&cRF&r &dAutomation&r"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["05F1C43D75DFAEFB"]
+			description: ["The &bDiamond Mesh&r unlocks a few more resources, like &dGhast Tears&r."]
+			icon: "exnihilosequentia:diamond_mesh"
+			id: "3212D98301DEC329"
+			rewards: [
+				{
+					id: "119FB54EC65D2C77"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B19CA3849A56183"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6613FB76A7895E0F"
+				item: "exnihilosequentia:diamond_mesh"
+				type: "item"
+			}]
+			title: "Diamond Mesh"
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3212D98301DEC329"]
+			id: "06C24CE83291D44A"
+			rewards: [
+				{
+					id: "0E2EF1F3600EEEB3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34F1297870085278"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "26211E55B8324A70"
+				item: "exnihilosequentia:emerald_mesh"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.25d
+		}
+		{
+			dependencies: [
+				"06C24CE83291D44A"
+				"3DCC109CCC6397C0"
+			]
+			id: "055FECE118FEC569"
+			rewards: [
+				{
+					id: "7E2AB3901227919A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "264FABB9ACC24A12"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3E6F4E49BBFF4690"
+				item: "exnihilosequentia:netherite_mesh"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["681226FA1D22A35D"]
+			description: ["Using Sand on a Barrel with &dWitch Water&r in it will give you Soul Sand. "]
+			id: "78DD5B06DDA41340"
+			rewards: [
+				{
+					id: "3263D979751BB3F3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42B19902FEB3B5ED"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "35935B7D197E1081"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["681226FA1D22A35D"]
+			description: [
+				"To get slime, you'll need to first get &3Brown Mushrooms&r by using &dMycelium Spores&r on a Barrel with Witch Water inside of it."
+				""
+				"This will get you a &3Brown Mushroom Block&r, which has a chance to drop &3Brown Mushrooms&r when broken. Once you have a few, use the Brown Mushroom on more Witch Water to get yourself a &aSlime Block&r!"
+			]
+			id: "342BDFF90B95D338"
+			rewards: [
+				{
+					id: "75A483AD95A46D86"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "112335B4DF099C8F"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2CACBF3F21F9EA49"
+					item: "minecraft:brown_mushroom_block"
+					type: "item"
+				}
+				{
+					id: "6A58DF637B97AF4E"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			title: "Getting Slime"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6371B58012142EE9"]
+			description: [
+				"There isn't any &9Water&r inside of a Volcano, surprisingly."
+				""
+				"For us to get some Water, we'll need to create a &aCrucible&r from the wood we've gathered. Place in a sapling and let it slowly transform into 250mb of water."
+			]
+			icon: "minecraft:water"
+			id: "6B9207A47D801262"
+			rewards: [{
+				id: "3394CA2659FE73D5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "244BAF16F7B881C5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "exnihilosequentia:acacia_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:birch_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:dark_oak_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:jungle_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:oak_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:spruce_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:crimson_crucible"
+							}
+							{
+								Count: 1b
+								id: "exnihilosequentia:warped_crucible"
+							}
+						]
+					}
+				}
+				title: "Wooden Crucibles"
+				type: "item"
+			}]
+			title: "Getting &9Water&r"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E82D3BBE7966548"]
+			description: ["Running &aDirt&r through a Sieve will give you a lot of items, but most importantly you can get some &dMycelium Spores&r. This can be used to convert Dirt into Mycelium."]
+			id: "0DF27AD3782AA9AD"
+			rewards: [
+				{
+					id: "27A2ADCC92FF284D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11FE188C8A4D1255"
+					item: "exnihilosequentia:mycelium_spores"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B8772ACFB2B4F59"
+				item: "exnihilosequentia:mycelium_spores"
+				type: "item"
+			}]
+			title: "&aSpores&r and More"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0DF27AD3782AA9AD"]
+			description: [
+				"Place down a piece of Dirt, convert it to &dMycelium&r using the spores, then place a Barrel on top of it."
+				""
+				"If you fill that Barrel with &9Water&r, it'll eventually convert to &dWitch Water&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ic2:fluid_display"
+				tag: {
+					fluid: "exnihilosequentia:witch_water"
+				}
+			}
+			id: "681226FA1D22A35D"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6ED480E49A3D2EAF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "708D22E0EA1FF68D"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: "minecraft:mycelium"
+				id: "5FE1A1E90437FABD"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Mycelium"
+				to_observe: "minecraft:mycelium"
+				type: "observation"
+			}]
+			title: "&dWitch&r &9Water&r"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05F1C43D75DFAEFB"]
+			description: [
+				"If we want to visit the &dEnd&r, we'll need to sieve down some Crushed End Stone."
+				""
+				"To get this, you'll first need to make a &3Stone Barrel&r and fill it with Lava. From there, you'll use &eGlowstone&r to convert it into End Stone, which you can break with a hammer to get Crushed End Stone."
+			]
+			id: "09E8AEF40036BA00"
+			rewards: [
+				{
+					id: "63BFBDAC2A1D770D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D16561E6F7576D9"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "40B5C47F3906BC73"
+				item: "exnihilosequentia:crushed_end_stone"
+				type: "item"
+			}]
+			title: "Getting &eEnd Stone&r"
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7B41510DE4B01580"]
+			description: [
+				"Want a simple generator? &9Generator Galore&r is a mod that adds generators that are easy to use."
+				""
+				"This one burns items into energy. It can also be upgraded!"
+			]
+			hide_dependency_lines: false
+			id: "408E13728FE517D0"
+			rewards: [{
+				id: "53247A9952E3A928"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "27CA2E2EE154481B"
+				item: "generatorgalore:iron_generator"
+				type: "item"
+			}]
+			title: "Starter Power: &aGenerator Galore&r"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7B41510DE4B01580"]
+			description: ["&9Mekanism&r is great for generating power, and the &eWind Generator&r gives you an easy power source using the wind inside of the Volcano."]
+			hide_dependency_lines: false
+			id: "286D261F294AFCE5"
+			rewards: [{
+				id: "3026118DA05F65A9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7DF5977C416FBA6C"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "Starter Power: &aMekanism"
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7B41510DE4B01580"]
+			description: ["&9RFTools&r provides a simple to use Coal Generator. You place some coal inside, and it'll burn it down into power."]
+			hide_dependency_lines: false
+			id: "6DC8F1F6199C1197"
+			rewards: [{
+				id: "343E85F37EC2F27B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F9CDF194EAE1A66"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			title: "Starter Power: &aRFTools&r"
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3B0B40986BCF50E1"]
+			description: [
+				"Passive Mobs don't want to live in a Volcano because they don't have any grass to eat."
+				""
+				"But that's all about to change."
+				""
+				"Make an area of &2Grass&r for them, and they will eventually spawn in."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/cow.png"
+				}
+			}
+			id: "5BABFF63EBAD0674"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3258004DE6D953B7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Build It And They Will Come"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/cow.png"
+					}
+				}
+				id: "079C6919B4886C9C"
+				observe_type: 5
+				timer: 0L
+				title: "Observe A Cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			title: "Spawning &ePassive&r Mobs"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["09E8AEF40036BA00"]
+			description: [
+				"To visit the &dEnd&r, we won't be finding the portal. Instead, we're going to eat Cake."
+				""
+				"You'll need some &bGhast Tears&r to make this, which you'll need to have a Diamond Mesh for."
+				""
+				"Place this down and take a bite, you'll be teleported to &dThe End&r."
+			]
+			id: "48175200A71D3DDE"
+			rewards: [
+				{
+					id: "1E5DC2653BA12907"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08F831974D9FD695"
+					table_id: 8562726001569860801L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CEB08FDA7CD5981"
+					table_id: 6247671118263531606L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "346737D449F580CB"
+				item: "exnihilosequentia:end_cake"
+				type: "item"
+			}]
+			title: "To &dThe End&r"
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5BABFF63EBAD0674"]
+			description: [
+				"Turn out the lights."
+				""
+				"Jokes aside, lots of useful resources come from creating some kind of &3Mob Farm&r. You can start by creating a dark room for all of your spawning needs."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			id: "15C45141C740C9EA"
+			rewards: [
+				{
+					id: "0EC69EB7B5F4A2DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "08A1D4C1B88F3502"
+					item: "mob_grinding_utils:dreadful_dirt"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67DFB4CFBE518B94"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Spawning &cHostile&r Mobs"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"6B9207A47D801262"
+				"3CF99358776F9AAA"
+			]
+			description: [
+				"So you've made enough water for a bucket. But you don't have a bucket."
+				""
+				"Thankfully you can make &aSand&r from hammering Gravel. Smelt that down in a furnace to get some glass, then make a &bGlass Bottle&r to transfer the &9water&r from the Crucible into a Barrel."
+				""
+				"The Barrel is how we'll transform liquids into other useful items and liquids. Using a piece of &eDust&r on a full Barrel of water gives you Clay!"
+				""
+				"From here, you can make &7Ceramic Buckets&r until you get Iron!"
+			]
+			id: "6FBA15B4968426FC"
+			rewards: [
+				{
+					id: "4A632F14B2F282D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "257B8F4A125D0C7C"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34F04FCBF5E1C8FE"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "62A47A2BD869C5FC"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "2B664FDE2C089244"
+					item: "ceramicbucket:ceramic_bucket"
+					type: "item"
+				}
+			]
+			title: "Moving Liquids"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2A1BDE5A0001D212"]
+			description: [
+				"If we want to give machines power, we'll need a way to transfer the power out of any generator we make."
+				""
+				"There are several easy to make cables to use for this. Take your pick!"
+				""
+				"Note: For the Energy Pipe, you'll need to use the &aPipe Wrench&r to set the pipe to extract from a generator by sneak-right clicking the side of the pipe closest to the generator."
+			]
+			id: "7B41510DE4B01580"
+			rewards: [{
+				id: "05657FD350ECD587"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2ECE931EED7EC934"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "pipez:energy_pipe"
+							}
+							{
+								Count: 1b
+								id: "thermal:energy_duct"
+							}
+						]
+					}
+				}
+				title: "Basic Power Cables"
+				type: "item"
+			}]
+			title: "Transferring Power"
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5BABFF63EBAD0674"]
+			description: [
+				"Aside from keeping KFC in business, Chickens provide a ton of value by creating &aResource Chickens&r."
+				""
+				"You might see several types of chickens spawning in the world, but you should totally &mcapture&r save them from the Colonel."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/chicken.png"
+				}
+			}
+			id: "1E02CD6D9E56051A"
+			rewards: [
+				{
+					id: "2A1B10532531CDFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "699C1675581656BA"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C476DE2D19C4C9C"
+				item: {
+					Count: 1b
+					id: "resourcechickens:animal_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chickens."
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E02CD6D9E56051A"]
+			description: [
+				"The &2Nest&r is the best way to automate your Resource Chickens."
+				""
+				"When seeds and a Chicken are placed in the Nest, they will automatically output their resource over time into an inventory below them. You can also pipe in seeds from any side."
+				""
+				"To place a chicken in a Nest, use your &bAnimal Capture Net&r!"
+			]
+			id: "0A84BA50AB58F496"
+			rewards: [
+				{
+					id: "5DB7755DE38A8B66"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "61D219F2655990F5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "21E9AFE34212D1E3"
+				item: "resourcechickens:nest"
+				type: "item"
+			}]
+			title: "The &2Chicken Nest&r"
+			x: 4.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0A84BA50AB58F496"]
+			description: [
+				"&bChickens&r can be bred the same way you'd breed them in Vanilla using seeds!"
+				""
+				"Unlike Vanilla however, Chickens have certain stats that can be passed down and upgraded through Breeding."
+				""
+				"Stats can be upgraded to increase the product output of each chicken, with a max of 10 in each stat."
+				""
+				"Get out there and make some chicken babies!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/heart"
+				}
+			}
+			id: "41B2366421490A35"
+			tasks: [{
+				id: "08467D62A86A93AC"
+				title: "Breeding Chickens"
+				type: "checkmark"
+			}]
+			title: "&cBreeding&r &bChickens&r"
+			x: 3.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A84BA50AB58F496"]
+			description: [
+				"Vanilla &bChickens&r can be converted to &aResource Chickens&r by using the resource you want to convert the chicken to on the &bChicken&r."
+				""
+				"It takes 250 of an item to convert the chicken."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/resourcechickens/enderman.png"
+				}
+			}
+			id: "26B5847E3448BBA0"
+			rewards: [{
+				id: "47C27A7FA10EB0F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "374C362315B196AA"
+				title: "Converting Chickens"
+				type: "checkmark"
+			}]
+			title: "&aConverting&r &bChickens&r"
+			x: 4.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: [
+				"Miss those old days of shocking yourself with uninsulated cables? Never experienced that kind of pain?"
+				""
+				"Well look no further as VolcanoBlock brings back the classic tech mod, &9Industrial Craft 2&r."
+				""
+				"You can head over to the &bIC2&r: &9Classic&r chapter if you want to learn more!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ic2:block/cfoam/pixelfoam/bolt"
+				}
+			}
+			id: "648FD4C3237708AE"
+			rewards: [{
+				id: "5E1C32A98860987E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B3FABEFE32556CB"
+				title: "Check out IC2C!"
+				type: "checkmark"
+			}]
+			title: "&9Industrial Craft 2: Classic&r"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: [
+				"You should make yourself some new weapons and armor with your new resources."
+				""
+				"Why? Because you can make yourself a &cFireproof Boat&r to go explore! Don't have the materials to make one? Check your Spawn Ship out a little better. :)"
+				""
+				"Is your spawn island not a ship? Well no matter! Just sieve some crushed netherrack and bone meal the nylium!"
+			]
+			icon: "minecraft:lava"
+			id: "28E97F2E77CC530C"
+			rewards: [{
+				id: "2C058717DEF5C426"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71801B8E5921DEBE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fireproofboats:crimson_boat"
+							}
+							{
+								Count: 1b
+								id: "fireproofboats:warped_boat"
+							}
+						]
+					}
+				}
+				title: "Fireproof Boats"
+				type: "item"
+			}]
+			title: "&cLava&r Is Bad For Your Health."
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2E82D3BBE7966548"]
+			description: [
+				"Once you've sieved some Dirt, you'll likely get &2Grass Seeds&r."
+				""
+				"Planting these on dirt will convert them into Grass. It's not the prettiest, but you did decide to go scavenging in a Volcano."
+				""
+				"The Grass actually has several uses, like growing flowers by using &bBone Meal&r on it, or something even more important...."
+			]
+			id: "3B0B40986BCF50E1"
+			rewards: [
+				{
+					id: "0A937F9246A0AB9E"
+					item: "mob_grinding_utils:delightful_dirt"
+					type: "item"
+				}
+				{
+					id: "7FB05C49BD0AFFD7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0DC4746275913D28"
+				item: "exnihilosequentia:grass_seeds"
+				type: "item"
+			}]
+			title: "Growing Grass"
+			x: 1.5d
+			y: 8.5d
+		}
+	]
+	title: "Part 1: &aGetting Started&r"
+}

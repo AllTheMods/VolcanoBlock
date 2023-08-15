@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"tag": "forge:ores/copper",
+			"size": 3,
+			"type": "ic2:tag"
+		},
+		{
+			"tag": "forge:ores/tin",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "alltheores:bronze_ingot",
+				"count": 8
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

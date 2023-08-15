@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:gravel",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "minecraft:sand",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

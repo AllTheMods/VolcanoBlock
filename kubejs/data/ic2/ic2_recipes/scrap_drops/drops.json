@@ -1,0 +1,436 @@
+{
+	"drops": [
+		{
+			"drop": {
+				"item": "minecraft:wooden_hoe",
+				"count": 1,
+				"nbt": "{Damage:0}"
+			},
+			"chance": 5.01
+		},
+		{
+			"drop": {
+				"item": "minecraft:dirt",
+				"count": 1
+			},
+			"chance": 5.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:grass",
+				"count": 1
+			},
+			"chance": 3.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:gravel",
+				"count": 1
+			},
+			"chance": 3.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:netherrack",
+				"count": 1
+			},
+			"chance": 2.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:soul_sand",
+				"count": 1
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:pumpkin",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:iron_ore",
+				"count": 1
+			},
+			"chance": 0.5
+		},
+		{
+			"drop": {
+				"item": "minecraft:gold_ore",
+				"count": 1
+			},
+			"chance": 0.5
+		},
+		{
+			"drop": {
+				"item": "minecraft:copper_ore",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "alltheores:tin_ore",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "alltheores:silver_ore",
+				"count": 1
+			},
+			"chance": 0.6
+		},
+		{
+			"drop": {
+				"item": "minecraft:redstone",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "ic2:dust_coal",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "ic2:dust_charcoal",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "alltheores:copper_dust",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "alltheores:tin_dust",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "alltheores:silver_dust",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "alltheores:aluminum_dust",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "alltheores:diamond_dust",
+				"count": 1
+			},
+			"chance": 0.5
+		},
+		{
+			"drop": {
+				"item": "ic2:plant_ball",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "alltheores:iron_dust",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "alltheores:gold_dust",
+				"count": 1
+			},
+			"chance": 0.7
+		},
+		{
+			"drop": {
+				"item": "minecraft:diamond",
+				"count": 1
+			},
+			"chance": 0.1
+		},
+		{
+			"drop": {
+				"item": "minecraft:emerald",
+				"count": 1
+			},
+			"chance": 0.05
+		},
+		{
+			"drop": {
+				"item": "minecraft:glowstone_dust",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "ic2:rubber",
+				"count": 1
+			},
+			"chance": 0.8
+		},
+		{
+			"drop": {
+				"item": "minecraft:wooden_sword",
+				"count": 1,
+				"nbt": "{Damage:0}"
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:wooden_shovel",
+				"count": 1,
+				"nbt": "{Damage:0}"
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:wooden_pickaxe",
+				"count": 1,
+				"nbt": "{Damage:0}"
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:stick",
+				"count": 1
+			},
+			"chance": 4.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:acacia_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:birch_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:dark_oak_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:jungle_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:oak_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:spruce_sign",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "ic2:rubberwood_sign_item",
+				"count": 1
+			},
+			"chance": 0.2
+		},
+		{
+			"drop": {
+				"item": "minecraft:rotten_flesh",
+				"count": 1
+			},
+			"chance": 2.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:apple",
+				"count": 1
+			},
+			"chance": 1.5
+		},
+		{
+			"drop": {
+				"item": "minecraft:bread",
+				"count": 1
+			},
+			"chance": 1.5
+		},
+		{
+			"drop": {
+				"item": "ic2:filled_tin_can",
+				"count": 1
+			},
+			"chance": 1.5
+		},
+		{
+			"drop": {
+				"item": "ic2:filled_tin_can_golden_apple",
+				"count": 1
+			},
+			"chance": 0.05
+		},
+		{
+			"drop": {
+				"item": "ic2:filled_tin_can_chorus_fruit",
+				"count": 1
+			},
+			"chance": 0.05
+		},
+		{
+			"drop": {
+				"item": "ic2:filled_tin_can_bad",
+				"count": 1
+			},
+			"chance": 0.25
+		},
+		{
+			"drop": {
+				"item": "minecraft:cake",
+				"count": 1
+			},
+			"chance": 0.5
+		},
+		{
+			"drop": {
+				"item": "minecraft:cooked_porkchop",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:cooked_beef",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:cooked_chicken",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:cooked_mutton",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:cooked_rabbit",
+				"count": 1
+			},
+			"chance": 0.9
+		},
+		{
+			"drop": {
+				"item": "minecraft:leather",
+				"count": 1
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:feather",
+				"count": 1
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:bone",
+				"count": 1
+			},
+			"chance": 1.0
+		},
+		{
+			"drop": {
+				"item": "minecraft:slime_ball",
+				"count": 1
+			},
+			"chance": 0.6
+		},
+		{
+			"drop": {
+				"item": "minecraft:golden_helmet",
+				"count": 1,
+				"nbt": "{Damage:0}"
+			},
+			"chance": 0.05
+		},
+		{
+			"drop": {
+				"item": "minecraft:ghast_tear",
+				"count": 1
+			},
+			"chance": 0.08
+		},
+		{
+			"drop": {
+				"item": "minecraft:netherite_scrap",
+				"count": 1
+			},
+			"chance": 0.01
+		},
+		{
+			"drop": {
+				"item": "minecraft:nether_star",
+				"count": 1
+			},
+			"chance": 0.001
+		},
+		{
+			"drop": {
+				"item": "minecraft:minecart",
+				"count": 1
+			},
+			"chance": 0.09
+		},
+		{
+			"drop": {
+				"item": "ic2:su_battery",
+				"count": 1
+			},
+			"chance": 0.7
+		}
+	]
+}

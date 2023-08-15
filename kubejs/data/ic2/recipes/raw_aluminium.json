@@ -1,0 +1,18 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "alltheores:raw_aluminum",
+		"count": 9
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "alltheores:raw_aluminum_block",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}
