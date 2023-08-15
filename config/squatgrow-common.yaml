@@ -6,4 +6,5 @@ enableMysticalCrops: false
 ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:tall_grass', 'minecraft:netherrack',
   'minecraft:warped_nylium', 'minecraft:crimson_nylium']
 range: 3
+requireHoe: false
 useWhitelist: false
