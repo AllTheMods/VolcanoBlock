@@ -127,6 +127,13 @@ ServerEvents.recipes(event => {
     hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
     hhammer(`allthecompressed:end_stone_block_1x`, exEnd, 9)
 
+    // Xychorium
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_blue', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_red', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_green', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_light', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_dark', null)
+
     crushEm(exDust, `#minecraft:sand`)
     crushEm(exRack, `#forge:netherrack`)
     crushEm(exEnd, `#forge:end_stones`)
