@@ -168,7 +168,6 @@ ServerEvents.recipes(e => {
             .isConsumed()
             .addItemInput('minecraft:leather')
             .addItemInput('minecraft:grass')
-            .addItemInput('minecraft:grass')
             .addItemInput('minecraft:bone_meal')
             .addItemInput('minecraft:dirt')
             .addItemInput('minecraft:clay')
