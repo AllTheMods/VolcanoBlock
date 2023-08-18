@@ -236,7 +236,7 @@
 		}
 		{
 			description: [
-				"When crafting the mini portals for this seed, make sure to follow the orientation of the recipes accordingly! N should face North, S should face South, and so on."
+				"When crafting the mini portals required for this seed, or crafting the seed itself make sure to follow the orientation of the recipes accordingly! N should face North, S should face South, and so on. The skulls/heads don't require a specific rotation."
 				""
 				""
 				"{image:atm:textures/questpics/spiritcraft.png width:200 height:150 align:1}"
