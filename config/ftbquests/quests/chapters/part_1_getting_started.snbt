@@ -1833,7 +1833,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["5FE4C70C879D1BE8"]
+			dependencies: ["366DC81004BEC65B"]
 			description: [
 				"You should make yourself some new weapons and armor with your new resources."
 				""
@@ -1870,8 +1870,8 @@
 				type: "item"
 			}]
 			title: "&cLava&r Is Bad For Your Health."
-			x: -1.5d
-			y: 12.5d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2E82D3BBE7966548"]
@@ -1903,6 +1903,345 @@
 			title: "Growing Grass"
 			x: 1.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["5FE4C70C879D1BE8"]
+			description: [
+				"For the next quest, you'll need some of these if you didn't choose a starting island with them."
+				""
+				"Make sure to not lose them!"
+				""
+				"If you do however, or if you don't want the easymode, you can easily find a red ship that is made of &4Crimsom Nylium&r and already has some &4Crimson Fungus&r, by moving away from your island. We know the next quest talks about getting a boat so you can move around, but if you chose the harder starting islands, you wouldn't mind crafting a jetpack to look around, would you?"
+				""
+				"You can also bonemeal either &4Nyl&r&3ium&r to get the corresponding &4Fun&r&3gus&r."
+				""
+				"Twerking also work on the &4Fung&r&3uses&r!"
+			]
+			icon: "minecraft:warped_nylium"
+			id: "366DC81004BEC65B"
+			min_width: 350
+			rewards: [
+				{
+					id: "2606161053F0987C"
+					item: "minecraft:warped_nylium"
+					type: "item"
+				}
+				{
+					id: "1052D6FFBA87E184"
+					item: "minecraft:crimson_nylium"
+					type: "item"
+				}
+				{
+					id: "7B1371A1CB64D4AE"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					id: "757E9ECB6EB38EC1"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+			]
+			subtitle: "Warped/Crimson Nylium/Fungus"
+			tasks: [{
+				id: "3024FC59973798B4"
+				type: "checkmark"
+			}]
+			title: "Nylium/Fungus"
+			x: -1.0d
+			y: 12.25d
+		}
+		{
+			dependencies: ["3B0B40986BCF50E1"]
+			description: [
+				"If you don't like to wait, you can use the &9Spirit&r mod to get your mob spawns. "
+				""
+				"In the next quests you'll learn how to summon some of them within our modpack."
+				""
+				"The mod has a lot more depth to it but we'll only show the passive spawning."
+				""
+				"Remember that you can check the recipes yourself by using &7JEI&r. "
+				""
+				"Press the U button or the button you configured to see uses for a particular item while hovering your mouse cursor over it."
+			]
+			icon: "spirit:soul_cage"
+			id: "1E00C6DF9E6C10D4"
+			rewards: [
+				{
+					id: "75B64BDA050B7BB6"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "0036BD3B59AD2601"
+					item: "minecraft:glowstone"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4FB1F18CC1F43205"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.7d
+			subtitle: "Spirit"
+			tasks: [{
+				id: "7C70BC4F3FE1B171"
+				type: "checkmark"
+			}]
+			title: "Alternate Spawning"
+			x: 3.4d
+			y: 8.075d
+		}
+		{
+			dependencies: ["1E00C6DF9E6C10D4"]
+			description: [
+				"First of all, you'll need &3Soul Powder&r. A lot of it."
+				""
+				"To get your first &3Soul Powder&r, we gave you a &8Soul Sand&r and some &6Glowstone&r Blocks. You'll also need a &7Flint and Steel&r."
+				""
+				"Place the &8Soul Sand&r on the floor, and light it on &bfire&r."
+				""
+				"{image:atm:textures/questpics/spirit/soul_dust.png width:120 height:130 align:1}"
+				""
+				"Then throw all your &6Glowstone&r you want to transform into it. Don't worry, it won't &4burn&r them.. too much."
+				"You can use a full &6Glowstone Block&r for 8 &3Soul Powder&r or a piece of &eGlowstone Dust&r for two."
+			]
+			id: "659B01E92C2A29EA"
+			min_width: 350
+			rewards: [
+				{
+					count: 2
+					id: "32E75A4B98C0C009"
+					item: "spirit:soul_powder"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7E5DF4C8A17446F4"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "6CF09AB738CF8310"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Soul Engulfing"
+			tasks: [{
+				id: "0ECB40D2C27DB3DC"
+				item: "spirit:soul_powder"
+				type: "item"
+			}]
+			title: "Starting with the Spirit mod"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["659B01E92C2A29EA"]
+			description: [
+				"To transform souls into other souls, you'll need souls. You don't say."
+				""
+				"Craft the &3Soul Crystal Shard&r with this layout:"
+				""
+				""
+				"{image:atm:textures/questpics/spirit/soul_crystal_shard.png width:120 height:130 align:1}"
+				""
+				"4x &fBlock of Quartz&r"
+				"1x &7Soul Sand&r"
+				""
+				"&bLight&r the &7Soul Sand&r in the middle and throw into the fire a single piece of &9Soul Powder&r to get a &3Soul Crystal Shard&r. The blocks used in the structure will be &4consumed&r."
+			]
+			id: "03EDAA6C18883AE0"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "2C3B640A68527CF5"
+					item: "spirit:soul_powder"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "57ED30850BDEB7CA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2EBA10E768F25A18"
+				item: "spirit:soul_crystal_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["03EDAA6C18883AE0"]
+			description: [
+				"Make this altar:"
+				""
+				"{image:atm:textures/questpics/spirit/crude_soul_crystal.png width:120 height:145 align:1}"
+				""
+				"4x &9Soul Slate&r"
+				"1x &7Soul Sand&r"
+				""
+				"&bLight&r the &7Soul Sand&r in the middle and throw into the fire your &3Soul Crystal Shard&r to get a &3Crude Soul Crystal&r. The blocks used in the structure will be &4consumed&r."
+				""
+				"There's an even higher crystal tier, but for the passive mob spawning, this crystal will work."
+			]
+			id: "43CF0EE1BCC53218"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "729354647637EFDA"
+					item: "spirit:soul_powder"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2C389DC65BBE525D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7292C2BF43AA6D2D"
+				item: "spirit:crude_soul_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["659B01E92C2A29EA"]
+			description: [
+				"Now onto the next steps!"
+				""
+				"We did the math for you and for this step, you'll need 56 &7Deepslate&r to make &9Soul Slate&r so you craft 8 &9Pedestals&r."
+			]
+			id: "18F2F2FDF96F17EC"
+			rewards: [
+				{
+					id: "70EE5484CB9B8C0D"
+					item: "spirit:pedestal"
+					type: "item"
+				}
+				{
+					id: "63114590E58553BA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3F2543C59FDFA573"
+				item: "spirit:pedestal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["18F2F2FDF96F17EC"]
+			description: [
+				"Remember when we said a lot of &9Soul Powder&r? Yep, to get all the &3Soul Steel Ingots&r we need using the most efficient method, you'll need at least 8 &9Soul Powder Blocks&r. "
+				""
+				"Your turn to do the math and the transformation! "
+				""
+				"You'll engulf (throw into the fire to convert) two &7Blocks of Iron&r into two &3Soul Steel Blocks&r. One of the blocks you'll dismantle to get &3Soul Steel&r to use in the recipes."
+				"{@pagebreak}"
+				"This is the setup for converting &7Iron Ingots&r into &3Soul Steel Ingots&r:"
+				""
+				"{image:atm:textures/questpics/spirit/soul_steel.png width:120 height:150 align:1}"
+				""
+				"4x &9Soul Powder Blocks&r"
+				"1x &7Soul Sand&r"
+				""
+				"Light the middle and throw the &7Iron Block/Ingot&r in. The blocks used to craft the structure will be &4consumed&r as well."
+				""
+				"After you're done with the soul stuff, you'll want to make a &9Crystal Pedestal&r. You'll use 3 of the &7Soul Steel Ingots&r. Ah, and make 6 &7Soul Slates&r as well. You'll use 3 for the &9Crystal Pedestal&r, and the other 3 for the &9Soul Pedestal&r."
+			]
+			id: "04597890A729DE27"
+			min_width: 350
+			rewards: [
+				{
+					id: "473C4FA580FC08F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7620FEC4A4B5DCC6"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CE43B154D851B69"
+				item: "spirit:soul_pedestal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"43CF0EE1BCC53218"
+				"04597890A729DE27"
+			]
+			description: [
+				"Kill any mob while having your &3Crude Soul Crystal&r in your inventory to get a &7Crude soul&r."
+				""
+				"You are now finally ready to transform a crude soul into a passive mob!"
+				""
+				"Using the things you crafted in the earlier steps, make this altar:"
+				""
+				"{image:atm:textures/questpics/spirit/soul_pedestal.png width:150 height:130 align:1}"
+				"{@pagebreak}"
+				"Check the recipes you can make by pressing the U button or the button you configured to see uses while hovering your mouse cursor over the &9Soul Altar&r."
+				""
+				"Right click the ingredients into the pedestals; the order and their position doesn't matter. Then, right click the Soul Pedestal with your &3Crude Soul Crystal&r containing at least 1 Crude Soul."
+				""
+				"{image:atm:textures/questpics/spirit/crude_soul_crystal_inventory.png width:100 height:50 align:1}"
+				"Example of a &3Crude Soul Crystal&r containing one &7Crude Soul&r."
+				"{@pagebreak}"
+				"Finally, right click the center with the activator, you'll see some particles, and then, boom! You got your mob!"
+				""
+				"{image:atm:textures/questpics/spirit/altar_crafting_wolf.png width:150 height:100 align:1}"
+				"{image:atm:textures/questpics/spirit/altar_crafting_wolf_done.png width:150 height:100 align:1}"
+			]
+			id: "63A754150AE9CC68"
+			min_width: 350
+			rewards: [{
+				id: "5CD099A96AA224E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "4ACDBB4D289C4291"
+					item: "spirit:soul_pedestal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2A018F904D304DF7"
+					item: "spirit:pedestal"
+					type: "item"
+				}
+				{
+					id: "4B7D30894BF70A3B"
+					item: "spirit:crude_soul_crystal"
+					type: "item"
+				}
+			]
+			title: "Ready to Transform!"
+			x: 9.5d
+			y: 8.0d
 		}
 	]
 	title: "Part 1: &aGetting Started&r"
