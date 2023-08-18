@@ -235,7 +235,14 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"When crafting the mini portals for this seed, make sure to follow the orientation of the recipes accordingly! N should face North, S should face South, and so on."
+				""
+				""
+				"{image:atm:textures/questpics/spiritcraft.png width:200 height:150 align:1}"
+			]
 			id: "794EC696A3B7DAC3"
+			min_width: 300
 			rewards: [
 				{
 					id: "44165A6E4A341DF6"

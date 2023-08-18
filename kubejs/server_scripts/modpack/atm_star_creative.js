@@ -78,33 +78,16 @@ ServerEvents.recipes(e => {
     acceptMirrored: false
   }).id('kubejs:create/creative_motor')
 
-/*
-  NEEDS REWORK
   e.custom({
     type: 'create:mixing',
     ingredients: [
       Ingredient.of('create:blaze_cake').toJson(),
       Ingredient.of('allthetweaks:atm_star').toJson(),
-      Ingredient.of('croptopia:tres_leche_cake').toJson()
+      Ingredient.of('ic2:uumatter').toJson()
     ],
     results: [Ingredient.of('create:creative_blaze_cake').toJson()],
     heatRequirement: 'superheated'
   }).id('kubejs:create/creative_blaze_cake')
-*/
-
-/*
-  NEEDS REWORK
-  e.custom({
-    type: 'powah:energizing',
-    ingredients: [
-      Ingredient.of('create:flywheel',).toJson(),
-      Ingredient.of('allthetweaks:atm_star').toJson(),
-      Ingredient.of('createaddition:alternator',).toJson()
-    ],
-    energy: '2147483647',
-    result: Item.of('createaddition:creative_energy').toJson()
-  }).id(`kubejs:energizing/createaddition_creative_energy`)
-*/
 
   ///# Integrated Dynamics
   e.custom({
