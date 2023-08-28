@@ -1,5 +1,5 @@
 {
-	"displayName": "Quart Enriched Iron Chicken",
+	"displayName": "Quartz Enriched Iron Chicken",
 	"dropItem": "refinedstorage:quartz_enriched_iron",
 	"dropItemNBT": "",
 	"spawnNaturally": false,
@@ -17,5 +17,5 @@
 	"hasTrait": 0,
 	"parentA": "",
 	"parentB": "",
-	"enabled": true
+	"enabled": false
 }
