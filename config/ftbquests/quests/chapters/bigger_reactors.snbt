@@ -1010,7 +1010,7 @@
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"The &9Turbine&r has a minimum shape of 5x4x5, but can go up to 32x192x32 in size."
+				"The &9Turbine&r has a minimum shape of 5x4x5, but can go up to 31x192x31 in size."
 				""
 				"Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead."
 			]

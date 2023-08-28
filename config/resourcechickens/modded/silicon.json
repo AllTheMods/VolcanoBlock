@@ -1,6 +1,6 @@
 {
 	"displayName": "Silicon Chicken",
-	"dropItem": "",
+	"dropItem": "ae2:silicon",
 	"dropItemNBT": "",
 	"spawnNaturally": false,
 	"spawnType": 1,
