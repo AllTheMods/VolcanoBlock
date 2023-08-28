@@ -10,12 +10,12 @@
 	"baseHealth": 4,
 	"baseSpeed": 0.25,
 	"isFireImmune": false,
-	"conversion": 250,
-	"eggLayTime": 6000,
+	"conversion": 64,
+	"eggLayTime": 1500,
 	"eggColorBackground": "9496412",
 	"eggColorForeground": "5089098",
 	"hasTrait": 0,
-	"parentA": "",
-	"parentB": "",
+	"parentA": "resourcechickens:Elementium",
+	"parentB": "resourcechickens:manasteel",
 	"enabled": true
 }

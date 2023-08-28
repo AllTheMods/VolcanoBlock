@@ -10,12 +10,12 @@
 	"baseHealth": 4,
 	"baseSpeed": 0.25,
 	"isFireImmune": true,
-	"conversion": 250,
-	"eggLayTime": 6000,
+	"conversion": 64,
+	"eggLayTime": 1500,
 	"eggColorBackground": "9799294",
 	"eggColorForeground": "4267541",
 	"hasTrait": 0,
-	"parentA": "",
-	"parentB": "",
+	"parentA": "resourcechickens:diamond",
+	"parentB": "resourcechickens:emerald",
 	"enabled": true
 }

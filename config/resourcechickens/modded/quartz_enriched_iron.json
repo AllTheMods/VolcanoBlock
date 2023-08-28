@@ -11,7 +11,7 @@
 	"baseSpeed": 0.25,
 	"isFireImmune": false,
 	"conversion": 250,
-	"eggLayTime": 6000,
+	"eggLayTime": 1500,
 	"eggColorBackground": "14803164",
 	"eggColorForeground": "13553092",
 	"hasTrait": 0,
