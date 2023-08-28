@@ -403,10 +403,10 @@
 		{
 			dependencies: ["71A43C89EB13E9A0"]
 			description: [
-				"The Teleport Pad is used to teleport to 2 dimensions added by the ATM pack."
-				""
+				"The Teleport Pad is used to teleport to dimensions added by the ATM pack."
+        ""
 				"You can use it to get to the Other by placing it in the nether, then shift right clicking with an empty hand."
-				""
+        ""
 				"The mining dimension is disabled in this pack."
 			]
 			hide: true
