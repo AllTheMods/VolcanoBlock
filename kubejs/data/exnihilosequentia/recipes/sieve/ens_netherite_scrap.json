@@ -2,12 +2,12 @@
   "type": "exnihilosequentia:sieve",
   "rolls": [
     {
-      "chance": 0.004,
-      "mesh": "iron"
+      "chance": 0.006,
+      "mesh": "diamond"
     },
     {
       "chance": 0.008,
-      "mesh": "diamond"
+      "mesh": "emerald"
     },
     {
       "chance": 0.05,
