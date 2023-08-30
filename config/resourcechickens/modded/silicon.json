@@ -1,6 +1,6 @@
 {
 	"displayName": "Silicon Chicken",
-	"dropItem": "",
+	"dropItem": "ae2:silicon",
 	"dropItemNBT": "",
 	"spawnNaturally": false,
 	"spawnType": 1,
@@ -10,12 +10,12 @@
 	"baseHealth": 4,
 	"baseSpeed": 0.25,
 	"isFireImmune": false,
-	"conversion": 250,
-	"eggLayTime": 6000,
+	"conversion": 32,
+	"eggLayTime": 1500,
 	"eggColorBackground": "8421504",
 	"eggColorForeground": "8421504",
 	"hasTrait": 0,
-	"parentA": "",
-	"parentB": "",
+	"parentA": "resourcechickens:dust",
+	"parentB": "resourcechickens:ae_quartz",
 	"enabled": true
 }

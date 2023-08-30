@@ -106,6 +106,11 @@ ServerEvents.recipes(event => {
     sieve(`flint`, 0.2, '#minecraft:leaves', 'ars_nouveau:purple_archwood_sapling', null)
     sieve(`flint`, 0.2, '#minecraft:leaves', 'ars_nouveau:green_archwood_sapling', null)
     sieve(`flint`, 0.2, '#minecraft:leaves', 'ars_nouveau:red_archwood_sapling', null)
+
+    sieve(`flint`, 0.2, '#minecraft:leaves', 'hexerei:mahogany_sapling', null)
+    sieve('flint', 0.2, '#minecraft:leaves', 'hexerei:willow_sapling', null)
+    sieve('flint', 0.2, '#minecraft:leaves', 'hexerei:witch_hazel_sapling', null)
+    sieve(`flint`, 0.2, '#minecraft:leaves', 'ars_elemental:yellow_archwood_sapling', null)
     
     //Nether sieve
     sieve(`netherite`, 0.3, exRack, `mysticalagriculture:inferium_essence`, null)
@@ -126,6 +131,13 @@ ServerEvents.recipes(event => {
     hhammer(`allthecompressed:sand_block_1x`, exDust, 9)
     hhammer(`allthecompressed:netherrack_block_1x`, exRack, 9)
     hhammer(`allthecompressed:end_stone_block_1x`, exEnd, 9)
+
+    // Xychorium
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_blue', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_red', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_green', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_light', null)
+    sieve(`iron`, 0.5, 'exnihilosequentia:crushed_calcite', 'xycraft_world:xychorium_gem_dark', null)
 
     crushEm(exDust, `#minecraft:sand`)
     crushEm(exRack, `#forge:netherrack`)

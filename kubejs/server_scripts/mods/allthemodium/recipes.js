@@ -30,7 +30,7 @@ event.custom({
   ingredients: [
     Ingredient.of('thermal_extra:dragonsteel_ingot').toJson(),
     Ingredient.of('minecraft:wither_skeleton_skull').toJson(),
-    Ingredient.of('allthemodium:unobtainium_ingot').toJson()
+    Ingredient.of('allthemodium:vibranium_ingot').toJson()
   ],
   energy: '2500000',
   result: Item.of('allthemodium:unobtainium_ingot').toJson()
