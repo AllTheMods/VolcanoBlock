@@ -1,6 +1,6 @@
 {
 	"displayName": "Modium Chicken",
-	"dropItem": "allthemodium:modium_ingot",
+	"dropItem": "allthemodium:allthemodium_ingot",
 	"dropItemNBT": "",
 	"spawnNaturally": false,
 	"spawnType": 1,
