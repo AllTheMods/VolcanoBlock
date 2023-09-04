@@ -91,6 +91,7 @@ ServerEvents.recipes(event => {
     sieve(`diamond`, 0.2, `#minecraft:sand`, `mysticalagriculture:prosperity_shard`, null)
     sieve(`iron`, 0.25, `minecraft:sand`, `minecraft:ink_sac`, true)
     sieve(`emerald`, 0.05, `minecraft:dirt`, `integrateddynamics:menril_berries`, true)
+    sieve('iron', 0.08, 'minecraft:dirt', 'ars_elemental:flashpine_pod', false)
 
     sieve(`iron`, 0.1, `#forge:gravel`, 'thermal:apatite', null)
 
