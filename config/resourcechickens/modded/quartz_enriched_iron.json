@@ -1,5 +1,5 @@
 {
-	"displayName": "Quart Enriched Iron Chicken",
+	"displayName": "Quartz Enriched Iron Chicken",
 	"dropItem": "refinedstorage:quartz_enriched_iron",
 	"dropItemNBT": "",
 	"spawnNaturally": false,
@@ -11,11 +11,11 @@
 	"baseSpeed": 0.25,
 	"isFireImmune": false,
 	"conversion": 250,
-	"eggLayTime": 6000,
+	"eggLayTime": 1500,
 	"eggColorBackground": "14803164",
 	"eggColorForeground": "13553092",
 	"hasTrait": 0,
 	"parentA": "",
 	"parentB": "",
-	"enabled": true
+	"enabled": false
 }

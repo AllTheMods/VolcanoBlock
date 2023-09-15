@@ -54,7 +54,7 @@ ServerEvents.tags('block', event => {
   event.add('exnihilosequentia:mineable/hammer',['allthecompressed:cobblestone_block_1x','allthecompressed:gravel_block_1x','allthecompressed:sand_block_1x'])
   event.add('exnihilosequentia:sieves', /exnihilosequentia:.*_sieve/)
   event.add('carryon:block_blacklist', [/exnihilosequentia:.*_sieve/])
-  event.add('minecraft:animals_spawnable_on', 'minecraft:sand')
+  event.add('minecraft:animals_spawnable_on',['minecraft:sand', 'minecraft:stone', 'minecraft:grass_block', 'minecraft:dirt'])
 })
 
 ServerEvents.tags('entity_type', event => {
@@ -64,6 +64,7 @@ ServerEvents.tags('entity_type', event => {
   event.add('pneumaticcraft:vacuum_trap_blacklisted', '#kubejs:mob_blacklist')
   event.add('industrialforegoing:mob_duplicator_blacklist', '#kubejs:mob_blacklist')
   event.add('spirit:soul_cage_blacklisted', '#kubejs:mob_blacklist')
+  event.add('resourcechickens:chicken', '#forge:chicken')  
 })
 
 ServerEvents.tags('worldgen/biome', event => {

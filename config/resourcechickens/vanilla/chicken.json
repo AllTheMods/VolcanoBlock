@@ -11,11 +11,11 @@
 	"baseSpeed": 0.25,
 	"isFireImmune": false,
 	"conversion": 250,
-	"eggLayTime": 6000,
+	"eggLayTime": 1500,
 	"eggColorBackground": "10592673",
 	"eggColorForeground": "16711680",
 	"hasTrait": 0,
-	"parentA": "",
-	"parentB": "",
+	"parentA": "resourcechickens:cacti",
+	"parentB": "resourcechickens:cacti",
 	"enabled": true
 }
