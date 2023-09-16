@@ -1,5 +1,6 @@
 JEIEvents.hideItems(event => {
   event.hide('twilightforest:uncrafting_table')
+  event.hide(['aiotbotania:alfsteel_aiot', 'aiotbotania:alfsteel_shovel', 'aiotbotania:alfsteel_hoe'])
   event.hide(['angelring:leadstone_angel_ring', 'angelring:hardened_angel_ring', 'angelring:reinforced_angel_ring', 'angelring:resonant_angel_ring'])
   event.hide('spirit:compressed_soul_sand')
   event.hide('reliquary:rod_of_lyssa')
