@@ -1176,7 +1176,7 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					command: "/say Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
+					command: "/msg @p Hi, @p!/create ponder mekanismgenerators:fusion_reactor_frame"
 					icon: "ftbquests:barrier"
 					id: "7A58D77A4EDACC40"
 					player_command: false
