@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "thermal:charcoal_block",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "mekanism:dust_charcoal",
+				"count": 9
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

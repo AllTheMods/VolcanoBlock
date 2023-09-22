@@ -11,7 +11,7 @@
 		},
 		{
 			"input": {
-				"item": "ic2:charcoal_block",
+				"item": "thermal:charcoal_block",
 				"size": 1,
 				"type": "ic2:item"
 			},
