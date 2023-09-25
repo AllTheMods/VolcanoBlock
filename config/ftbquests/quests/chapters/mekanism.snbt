@@ -1705,8 +1705,6 @@
 				""
 				"There are several methods to increase the temperature of the plant, including building them in a desert!"
 				""
-				"The &aFuelwood Heater&r burns buckets of Lava, which can them be piped in using a pipe that transfers heat."
-				""
 				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
 			]
 			id: "027084AE2DF5EBA6"
